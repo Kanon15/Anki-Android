@@ -20,13 +20,20 @@ done
 tail -5 ci-out/sdkmanager.log
 export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH"
 
+export ANDROID_AVD_HOME="$HOME/.android/avd"
+mkdir -p "$ANDROID_AVD_HOME"
 echo no | "$AVDMANAGER" create avd --force -n notifystudy -k "$IMAGE" -d pixel_6
-printf 'hw.ramSize=3072\ndisk.dataPartition.size=6G\n' >> "$HOME/.android/avd/notifystudy.avd/config.ini"
+ls -la "$ANDROID_AVD_HOME"
+printf 'hw.ramSize=3072\ndisk.dataPartition.size=6G\nhw.keyboard=yes\n' >> "$ANDROID_AVD_HOME/notifystudy.avd/config.ini"
 
 emulator -avd notifystudy -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -no-snapshot \
   -camera-back none -camera-front none > ci-out/emulator-process.log 2>&1 &
 
-adb wait-for-device
+if ! timeout 600 adb wait-for-device; then
+  echo "emulator did not start"
+  tail -50 ci-out/emulator-process.log
+  exit 1
+fi
 booted=0
 for i in $(seq 1 180); do
   if [ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" = "1" ]; then booted=1; break; fi
