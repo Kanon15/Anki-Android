@@ -127,7 +127,10 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
         binding.answerRow.isVisible = answerShown
         val body = if (answerShown) card.answerHtml else card.questionHtml
         binding.cardView.loadDataWithBaseURL(
-            java.io.File(card.mediaDir).toUri().toString() + "/",
+            java.io
+                .File(card.mediaDir)
+                .toUri()
+                .toString() + "/",
             buildPage(card, body),
             "text/html",
             "utf-8",
