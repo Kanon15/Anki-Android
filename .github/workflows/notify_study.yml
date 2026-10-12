@@ -46,10 +46,17 @@ jobs:
           command: ./gradlew robolectricSdkDownload --daemon
 
       - name: Notification study unit tests
-        run: ./gradlew :AnkiDroid:testPlayDebugUnitTest --tests 'com.ichi2.anki.notifystudy.*' --daemon
+        shell: bash
+        run: |
+          mkdir -p ci-out
+          ./gradlew :AnkiDroid:testPlayDebugUnitTest --tests 'com.ichi2.anki.notifystudy.*' --daemon 2>&1 | tee ci-out/unit.log
+          exit ${PIPESTATUS[0]}
 
       - name: Lint & format check
-        run: ./gradlew :AnkiDroid:lintPlayRelease ktlintCheck --daemon
+        shell: bash
+        run: |
+          ./gradlew :AnkiDroid:lintPlayRelease ktlintCheck --daemon 2>&1 | tee ci-out/lint.log
+          exit ${PIPESTATUS[0]}
 
       - name: Upload test reports
         if: always()
@@ -60,6 +67,21 @@ jobs:
             AnkiDroid/build/reports/tests/
             AnkiDroid/build/reports/lint-results*.html
           if-no-files-found: ignore
+
+      - name: Publish logs (readable through git)
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ci-out
+          cp -r AnkiDroid/build/test-results/testPlayDebugUnitTest ci-out/test-results 2>/dev/null || true
+          cp AnkiDroid/build/reports/lint-results*.xml ci-out/ 2>/dev/null || true
+          cd ci-out
+          git init -q
+          git checkout -q -b logs
+          git add -A
+          git -c user.name=ci -c user.email=ci@example.com commit -q --allow-empty -m "unit logs for run ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}" HEAD:refs/heads/ci-logs/unit
 
   device:
     name: Emulator test (real notifications)
@@ -123,8 +145,11 @@ jobs:
             adb logcat '*:I' >> adb-log.txt &
             adb shell settings put global hide_error_dialogs 1
             adb shell rm -rf /sdcard/Download/notifystudy
-            ./gradlew :AnkiDroid:connectedPlayDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.ichi2.anki.notifystudy.NotifyStudyDeviceTest --daemon || (mkdir -p screenshots; adb pull /sdcard/Download/notifystudy screenshots/ || true; exit 1)
-            mkdir -p screenshots; adb pull /sdcard/Download/notifystudy screenshots/ || true
+            mkdir -p screenshots ci-out
+            ./gradlew :AnkiDroid:connectedPlayDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.ichi2.anki.notifystudy.NotifyStudyDeviceTest --daemon > ci-out/device.log 2>&1; echo $? > ci-out/exit_code
+            adb pull /sdcard/Download/notifystudy screenshots/ || true
+            tail -100 ci-out/device.log
+            exit $(cat ci-out/exit_code)
 
       - name: Upload screenshots
         if: always()
@@ -144,6 +169,22 @@ jobs:
             AnkiDroid/build/outputs/androidTest-results/
             adb-log.txt
           if-no-files-found: ignore
+
+      - name: Publish logs (readable through git)
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ci-out
+          cp -r screenshots ci-out/ 2>/dev/null || true
+          cp -r AnkiDroid/build/outputs/androidTest-results ci-out/ 2>/dev/null || true
+          grep -E "notify study|NotifyStudy|AndroidRuntime|FATAL|TestRunner" adb-log.txt | tail -3000 > ci-out/logcat.txt 2>/dev/null || true
+          cd ci-out
+          git init -q
+          git checkout -q -b logs
+          git add -A
+          git -c user.name=ci -c user.email=ci@example.com commit -q --allow-empty -m "device logs for run ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}" HEAD:refs/heads/ci-logs/device
 
   apk:
     name: Build APK
@@ -171,7 +212,7 @@ jobs:
           timeout_minutes: 40
           retry_wait_seconds: 60
           max_attempts: 2
-          command: ./gradlew :AnkiDroid:assembleFullRelease -Duniversal-apk=true --daemon
+          command: mkdir -p ci-out && ./gradlew :AnkiDroid:assembleFullRelease -Duniversal-apk=true --daemon > ci-out/apk.log 2>&1 || (tail -200 ci-out/apk.log; exit 1)
 
       - name: Collect APK
         run: |
@@ -184,6 +225,20 @@ jobs:
         with:
           name: AnkiDroid-notifystudy-apk
           path: dist/
+
+      - name: Publish logs (readable through git)
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p ci-out
+          cp dist/badging.txt ci-out/ 2>/dev/null || true
+          cd ci-out
+          git init -q
+          git checkout -q -b logs
+          git add -A
+          git -c user.name=ci -c user.email=ci@example.com commit -q --allow-empty -m "apk logs for run ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}" HEAD:refs/heads/ci-logs/apk
 
   release:
     name: Publish release
