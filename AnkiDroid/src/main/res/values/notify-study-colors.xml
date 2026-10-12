@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SPDX-License-Identifier: GPL-3.0-or-later
+  -->
+<resources>
+    <color name="notify_study_accent">#FFF57C00</color>
+    <color name="notify_study_again">#FFD32F2F</color>
+    <color name="notify_study_hard">#FF616161</color>
+    <color name="notify_study_good">#FF388E3C</color>
+    <color name="notify_study_easy">#FF1976D2</color>
+</resources>

@@ -222,16 +222,25 @@ android {
             signingConfig = signingConfigs.getByName("release")
 
             // syntax: assembleRelease -PcustomSuffix="suffix" -PcustomName="New name"
-            if (project.hasProperty("customSuffix")) {
+            // Notification study fork: release builds default to a separate application ID and name,
+            // so they can be installed side-by-side with the official AnkiDroid.
+            // Not applied to release test builds (TEST_RELEASE_BUILD), which expect the original ID.
+            val defaultSuffix = if (testReleaseBuild) null else "notifystudy"
+            val customSuffix = project.findProperty("customSuffix")?.toString() ?: defaultSuffix
+            if (customSuffix != null) {
                 // the suffix needs a '.' at the start
-                applicationIdSuffix = project.property("customSuffix").toString().replaceFirst(Regex("^\\.*"), ".")
+                applicationIdSuffix = customSuffix.replaceFirst(Regex("^\\.*"), ".")
+                versionNameSuffix = "-$customSuffix"
             }
-            if (project.hasProperty("customName")) {
-                resValue("string", "app_name", project.property("customName").toString())
+            val defaultName = if (testReleaseBuild) null else "AnkiDroid 알림학습"
+            val customName = project.findProperty("customName")?.toString() ?: defaultName
+            if (customName != null) {
+                resValue("string", "app_name", customName)
             }
 
-            resValue("color", "anki_foreground_icon_color_0", "#FF29B6F6")
-            resValue("color", "anki_foreground_icon_color_1", "#FF0288D1")
+            // orange icon, to tell the fork apart from the official (blue) AnkiDroid
+            resValue("color", "anki_foreground_icon_color_0", "#FFFFB74D")
+            resValue("color", "anki_foreground_icon_color_1", "#FFF57C00")
         }
 
         create("benchmark") {

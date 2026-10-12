@@ -407,6 +407,9 @@ open class AnkiDroidApp :
     private fun setupNotifications() =
         setup("setupNotifications") {
             setupNotificationChannels(applicationContext)
+            // fork feature: restore the notification study schedule, e.g. after a force stop
+            com.ichi2.anki.notifystudy.NotifyStudyAlarm
+                .ensureScheduled(applicationContext)
 
             val context = this.withAppLocale()
             // In the future, if more notifications are added to AnkiDroid, AlarmManagement.scheduleAllNotifications

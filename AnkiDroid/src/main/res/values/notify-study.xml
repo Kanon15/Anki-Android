@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SPDX-License-Identifier: GPL-3.0-or-later
+  -->
+<!-- Notification study (fork feature). Not part of the CrowdIn translation files. -->
+<resources>
+    <string name="notify_study_launcher_label" translatable="false">알림 학습</string>
+    <string name="notify_study_channel_name" translatable="false">알림 학습</string>
+    <string name="notify_study_channel_description" translatable="false">설정한 간격마다 공부할 카드를 알림으로 보여줍니다</string>
+
+    <string name="notify_study_title" translatable="false">%1$s · %2$d/%3$d</string>
+    <string name="notify_study_subtext" translatable="false">알림 학습</string>
+    <string name="notify_study_empty_card" translatable="false">(내용 없음 · 연습장에서 확인하세요)</string>
+    <string name="notify_study_show_answer" translatable="false">답 보기</string>
+    <string name="notify_study_practice_pad" translatable="false">연습장</string>
+    <string name="notify_study_skip" translatable="false">넘기기</string>
+    <string name="notify_study_again" translatable="false">다시</string>
+    <string name="notify_study_hard" translatable="false">어려움</string>
+    <string name="notify_study_good" translatable="false">알맞음</string>
+    <string name="notify_study_easy" translatable="false">쉬움</string>
+    <string name="notify_study_already_studied" translatable="false">이미 다른 곳에서 학습한 카드라서 기록하지 않았습니다</string>
+    <string name="notify_study_answer_failed" translatable="false">답을 기록하지 못했습니다. 잠시 후 다시 시도하세요</string>
+    <string name="notify_study_card_missing" translatable="false">카드를 찾을 수 없습니다</string>
+
+    <string name="notify_study_practice_title" translatable="false">연습장 · %s</string>
+    <string name="notify_study_close" translatable="false">닫기</string>
+    <string name="notify_study_skip_round" translatable="false">이번 학습 넘기기</string>
+
+    <string name="notify_study_settings_title" translatable="false">알림 학습</string>
+    <string name="notify_study_enabled" translatable="false">알림 학습 사용</string>
+    <string name="notify_study_interval" translatable="false">알림 간격</string>
+    <string name="notify_study_count" translatable="false">한 번에 보여줄 문제 수</string>
+    <string name="notify_study_count_value" translatable="false">%d개</string>
+    <string name="notify_study_deck" translatable="false">학습할 덱</string>
+    <string name="notify_study_deck_current" translatable="false">AnkiDroid에서 현재 선택한 덱</string>
+    <string name="notify_study_minutes" translatable="false">%d분마다</string>
+    <string name="notify_study_hours" translatable="false">%d시간마다</string>
+    <string name="notify_study_hours_minutes" translatable="false">%1$d시간 %2$d분마다</string>
+    <string name="notify_study_show_now" translatable="false">지금 한 번 띄우기</string>
+    <string name="notify_study_battery" translatable="false">배터리 최적화에서 제외하기 (권장)</string>
+    <string name="notify_study_notification_settings" translatable="false">알림 표시 방식 설정</string>
+    <string name="notify_study_status_off" translatable="false">꺼져 있음</string>
+    <string name="notify_study_status_on" translatable="false">켜져 있음</string>
+    <string name="notify_study_status_next" translatable="false">다음 알림: %s 무렵</string>
+    <string name="notify_study_shown" translatable="false">알림을 띄웠습니다</string>
+    <string name="notify_study_no_cards" translatable="false">지금 공부할 카드가 없습니다</string>
+    <string name="notify_study_permission_denied" translatable="false">알림 권한이 없어 알림을 띄울 수 없습니다</string>
+    <string name="notify_study_collection_unavailable" translatable="false">컬렉션을 열 수 없습니다. 먼저 앱을 열어 컬렉션을 준비하세요</string>
+    <string name="notify_study_help" translatable="false">• 설정한 간격마다 공부할 카드가 알림으로 뜹니다. 답 보기를 누르면 답과 다시·어려움·알맞음·쉬움 버튼이 나타나고, 누른 결과는 AnkiDroid 복습과 똑같이 기록됩니다.\n• 연습장을 누르면 펜으로 필기하며 풀 수 있습니다.\n• 넘기기를 누르면 이번 학습을 다음 알림으로 미룹니다.\n• 방해 금지 모드가 켜져 있으면 알림이 뜨지 않습니다.\n• 풀지 않은 문제는 다음 알림에 다시 나오며, 화면에 뜨는 문제 수는 항상 설정한 개수 이하로 유지되어 학습량이 쌓이지 않습니다.\n• \'모두 지우기\'로는 지워지지 않습니다. 안드로이드 14 이상에서 하나씩 밀어 지운 문제는 다음 알림에 다시 나옵니다.</string>
+</resources>

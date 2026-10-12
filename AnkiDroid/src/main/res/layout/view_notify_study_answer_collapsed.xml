@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SPDX-License-Identifier: GPL-3.0-or-later
+  -->
+<!-- Collapsed notification of a revealed card (notification study). Expand it to answer. -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notify_study_answer"
+    style="@style/TextAppearance.Compat.Notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:maxLines="2" />

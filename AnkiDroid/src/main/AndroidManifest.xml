@@ -728,6 +728,38 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/filepaths" />
         </provider>
+
+        <!-- Notification study (fork feature) -->
+        <activity
+            android:name="com.ichi2.anki.notifystudy.NotifyStudySettingsActivity"
+            android:exported="true"
+            android:label="@string/notify_study_launcher_label"
+            android:taskAffinity="${applicationId}.notifystudy"
+            android:excludeFromRecents="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ichi2.anki.notifystudy.PracticePadActivity"
+            android:exported="false"
+            android:label="@string/notify_study_practice_pad"
+            android:taskAffinity="${applicationId}.notifystudy.pad"
+            android:excludeFromRecents="true"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustResize" />
+        <receiver
+            android:name="com.ichi2.anki.notifystudy.NotifyStudyReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="com.ichi2.anki.notifystudy.NotifyStudyBootReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
