@@ -228,7 +228,9 @@ class NotifyStudyEngineTest : RobolectricTest() {
         runTest {
             addDeck("Deck", setAsSelected = true).withNotes(count = 3)
             NotifyStudyEngine.runRound(targetContext)
-            val cid = shownCards().first()
+            // studied in the reviewer, which always answers the card at the top of the queue
+            val cid = col.backend.getQueuedCards(fetchLimit = 1, intradayLearningOnly = false).cardsList.first().card.id
+            assertThat(shownCards(), hasItem(cid))
             col.sched.answerCard(col.getCard(cid), Rating.GOOD)
 
             assertThat(NotifyStudyEngine.answer(targetContext, cid, Rating.EASY), equalTo(AnswerResult.ALREADY_STUDIED))
