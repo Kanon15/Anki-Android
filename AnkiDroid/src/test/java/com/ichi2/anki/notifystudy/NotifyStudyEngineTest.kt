@@ -214,7 +214,11 @@ class NotifyStudyEngineTest : RobolectricTest() {
             val notification = notificationOf(cid)
             assertThat(notification, notNullValue())
             assertThat(notification!!.extras.getCharSequence(NotificationCompat.EXTRA_TEXT).toString(), equalTo("Answer text"))
-            assertThat(notification.bigContentView, notNullValue())
+            assertThat(
+                "custom view with the answer buttons",
+                notification.extras.getString(Notification.EXTRA_TEMPLATE),
+                equalTo("android.app.Notification\$DecoratedCustomViewStyle"),
+            )
             assertThat(notification.actions.map { it.title.toString() }, equalTo(listOf("연습장", "넘기기")))
             assertThat("still not clearable", notification.flags and Notification.FLAG_NO_CLEAR, not(equalTo(0)))
         }
