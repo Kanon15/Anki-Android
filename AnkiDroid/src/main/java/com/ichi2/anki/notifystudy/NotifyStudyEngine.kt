@@ -11,6 +11,7 @@ import anki.scheduler.CardAnswer.Rating
 import anki.scheduler.SchedulingStates
 import anki.scheduler.cardAnswer
 import com.ichi2.anki.CollectionManager.withCol
+import com.ichi2.anki.NOTIFICATION_MIN_DELAY
 import com.ichi2.anki.common.time.TimeManager
 import com.ichi2.anki.libanki.Card
 import com.ichi2.anki.libanki.CardId
@@ -19,6 +20,7 @@ import com.ichi2.anki.libanki.DeckId
 import com.ichi2.anki.libanki.Decks
 import com.ichi2.anki.observability.ChangeManager
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import timber.log.Timber
@@ -135,6 +137,8 @@ object NotifyStudyEngine {
                 }
 
             cards.forEachIndexed { index, card ->
+                // Android drops notifications posted faster than its rate limit
+                if (index > 0) delay(NOTIFICATION_MIN_DELAY)
                 NotifyStudyNotifications.showQuestion(context, card, index + 1, cards.size, alert = index == 0)
             }
             Timber.i("notify study: showing %d card(s)", cards.size)

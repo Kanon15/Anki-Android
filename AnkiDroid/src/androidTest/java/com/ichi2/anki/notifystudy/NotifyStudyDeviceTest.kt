@@ -85,7 +85,7 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
     @Test
     fun answerFromTheNotificationShade() {
         assertThat(runBlocking { NotifyStudyEngine.runRound(testContext) }, equalTo(RoundResult.SHOWN))
-        assertThat(ourNotifications(), hasSize(2))
+        waitUntil("two cards shown") { ourNotifications().size == 2 }
 
         device.openNotification()
         assertThat("question shown", device.wait(Until.hasObject(By.textStartsWith("Question-")), TIMEOUT), equalTo(true))
@@ -107,8 +107,8 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
     @Test
     fun clearAllDoesNotRemoveTheCards() {
         runBlocking { NotifyStudyEngine.runRound(testContext) }
+        waitUntil("two cards shown") { ourNotifications().size == 2 }
         val before = ourNotifications()
-        assertThat(before, hasSize(2))
         before.forEach { assertThat(it.notification.flags and Notification.FLAG_NO_CLEAR, not(equalTo(0))) }
 
         // "Clear all" is only displayed when a clearable notification exists: post one, as other apps would
@@ -149,12 +149,15 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
         shell("cmd notification set_dnd off")
         waitUntil("DND inactive") { !NotifyStudyEngine.isDoNotDisturbActive(testContext) }
         assertThat(runBlocking { NotifyStudyEngine.runRound(testContext) }, equalTo(RoundResult.SHOWN))
+        waitUntil("two cards shown") { ourNotifications().size == 2 }
+        Thread.sleep(1000)
         assertThat("no extra cards after the skipped round", ourNotifications(), hasSize(2))
     }
 
     @Test
     fun skipFromTheNotificationShowsTheSameCardsNextRound() {
         runBlocking { NotifyStudyEngine.runRound(testContext) }
+        waitUntil("two cards shown") { ourNotifications().size == 2 }
         val before = ourNotifications().map { it.tag }.sorted()
 
         device.openNotification()
@@ -164,7 +167,7 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
         waitUntil("round hidden") { ourNotifications().isEmpty() }
 
         runBlocking { NotifyStudyEngine.runRound(testContext) }
-        assertThat(ourNotifications().map { it.tag }.sorted(), equalTo(before))
+        waitUntil("the same cards are shown again") { ourNotifications().map { it.tag }.sorted() == before }
     }
 
     @Test
