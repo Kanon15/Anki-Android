@@ -32,7 +32,7 @@ class CardTextTest {
         val html = "<style>.card{color:red}</style><script>alert(1)</script>Hello<br>World<img src=\"a.png\">[anki:play:q:0]"
         assertThat(
             CardText.toPlainText(html),
-            equalTo("Hello\nWorld ${CardText.IMAGE_PLACEHOLDER}  ${CardText.AUDIO_PLACEHOLDER}"),
+            equalTo("Hello\nWorld ${CardText.IMAGE_PLACEHOLDER} ${CardText.AUDIO_PLACEHOLDER}"),
         )
     }
 

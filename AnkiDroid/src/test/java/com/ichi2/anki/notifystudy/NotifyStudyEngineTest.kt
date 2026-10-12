@@ -133,6 +133,41 @@ class NotifyStudyEngineTest : RobolectricTest() {
         }
 
     @Test
+    fun `cards can be answered in any order`() =
+        runTest {
+            addDeck("Deck", setAsSelected = true).withNotes(count = 3)
+            NotifyStudyEngine.runRound(targetContext)
+            val top =
+                col.backend
+                    .getQueuedCards(fetchLimit = 1, intradayLearningOnly = false)
+                    .cardsList
+                    .first()
+                    .card.id
+            val notTop = shownCards().first { it != top }
+
+            assertThat(NotifyStudyEngine.answer(targetContext, notTop, Rating.GOOD), equalTo(AnswerResult.ANSWERED))
+            assertThat(NotifyStudyEngine.answer(targetContext, top, Rating.GOOD), equalTo(AnswerResult.ANSWERED))
+            assertThat(col.db.queryScalar("select count() from revlog"), equalTo(2))
+        }
+
+    @Test
+    fun `answering the top card keeps the undo history`() =
+        runTest {
+            addDeck("Deck", setAsSelected = true).withNotes(count = 3)
+            NotifyStudyEngine.runRound(targetContext)
+            val top =
+                col.backend
+                    .getQueuedCards(fetchLimit = 1, intradayLearningOnly = false)
+                    .cardsList
+                    .first()
+                    .card.id
+
+            NotifyStudyEngine.answer(targetContext, top, Rating.GOOD)
+
+            assertThat("answer can be undone", col.undoStatus().undo, notNullValue())
+        }
+
+    @Test
     fun `easy answer graduates a new card`() =
         runTest {
             addDeck("Deck", setAsSelected = true).withNotes(count = 1)

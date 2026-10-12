@@ -193,6 +193,7 @@ object NotifyStudyEngine {
                         if (pending != null && card.reps != pending.reps) {
                             return@withCol AnswerResult.ALREADY_STUDIED
                         }
+                        ensureAnswerable(cardId)
                         val now = TimeManager.time.intTimeMS()
                         val taken = timeTakenMs ?: (now - (pending?.shownAtMs ?: now))
                         val states = backend.getSchedulingStates(cardId)
@@ -277,6 +278,28 @@ object NotifyStudyEngine {
     private fun Collection.isStillPending(pending: PendingCard): Boolean {
         val card = runCatching { getCard(pending.cardId) }.getOrNull() ?: return false
         return card.reps == pending.reps && card.queue.code >= 0
+    }
+
+    /**
+     * The backend only accepts answers for the card at the top of its cached study queue.
+     * Notification cards can be answered in any order (or belong to another deck), so if the card
+     * isn't at the top, the cached queue is discarded first. Without a cached queue, the backend
+     * accepts an answer for any card.
+     *
+     * A no-op write through the database proxy discards the cached queues. It also discards the
+     * undo history, so it is only done when needed.
+     */
+    private fun Collection.ensureAnswerable(cardId: CardId) {
+        val top =
+            backend
+                .getQueuedCards(fetchLimit = 1, intradayLearningOnly = false)
+                .cardsList
+                .firstOrNull()
+                ?.card
+                ?.id
+        if (top == cardId) return
+        Timber.d("notify study: card is not at the top of the queue, discarding cached queues")
+        db.execute("update cards set mod = mod where id = ?", cardId)
     }
 
     @VisibleForTesting
