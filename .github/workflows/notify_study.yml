@@ -87,8 +87,6 @@ jobs:
     name: Emulator test (real notifications)
     runs-on: ubuntu-latest
     timeout-minutes: 75
-    env:
-      EMULATOR_OPTIONS: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: insightsengineering/disk-space-reclaimer@dae9fabcb8febe09f6585471948acf9dc9a57489 # v1.1.2
@@ -131,32 +129,17 @@ jobs:
           command: ./gradlew :AnkiDroid:packagePlayDebug :AnkiDroid:packagePlayDebugAndroidTest --daemon
 
       - name: Run notification study on the emulator
-        uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d # v2.38.0
-        timeout-minutes: 40
-        with:
-          api-level: 35
-          target: google_apis
-          arch: x86_64
-          emulator-options: ${{ env.EMULATOR_OPTIONS }}
-          sdcard-path-or-size: 100M
-          disable-animations: true
-          script: |
-            touch adb-log.txt
-            adb logcat '*:I' >> adb-log.txt &
-            adb shell settings put global hide_error_dialogs 1
-            adb shell rm -rf /sdcard/Download/notifystudy
-            mkdir -p screenshots ci-out
-            ./gradlew :AnkiDroid:connectedPlayDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.ichi2.anki.notifystudy.NotifyStudyDeviceTest --daemon > ci-out/device.log 2>&1; echo $? > ci-out/exit_code
-            adb pull /sdcard/Download/notifystudy screenshots/ || true
-            tail -100 ci-out/device.log
-            exit $(cat ci-out/exit_code)
+        timeout-minutes: 45
+        env:
+          API_LEVEL: "35"
+        run: bash .github/notify-study/emulator-test.sh
 
       - name: Upload screenshots
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: emulator-screenshots
-          path: screenshots/
+          path: ci-out/screenshots/
           if-no-files-found: ignore
 
       - name: Upload emulator test report and logcat
@@ -167,7 +150,6 @@ jobs:
           path: |
             AnkiDroid/build/reports/androidTests/
             AnkiDroid/build/outputs/androidTest-results/
-            adb-log.txt
           if-no-files-found: ignore
 
       - name: Publish logs (readable through git)
@@ -176,9 +158,7 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p ci-out
-          cp -r screenshots ci-out/ 2>/dev/null || true
-          cp -r AnkiDroid/build/outputs/androidTest-results ci-out/ 2>/dev/null || true
-          grep -E "notify study|NotifyStudy|AndroidRuntime|FATAL|TestRunner" adb-log.txt | tail -3000 > ci-out/logcat.txt 2>/dev/null || true
+          true
           cd ci-out
           git init -q
           git checkout -q -b logs

@@ -5,9 +5,9 @@ package com.ichi2.anki.notifystudy
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.webkit.WebView
+import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
@@ -127,7 +127,7 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
         binding.answerRow.isVisible = answerShown
         val body = if (answerShown) card.answerHtml else card.questionHtml
         binding.cardView.loadDataWithBaseURL(
-            Uri.fromFile(java.io.File(card.mediaDir)).toString() + "/",
+            java.io.File(card.mediaDir).toUri().toString() + "/",
             buildPage(card, body),
             "text/html",
             "utf-8",
@@ -184,7 +184,7 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
             Intent(context, PracticePadActivity::class.java).apply {
                 putExtra(EXTRA_CARD_ID, cardId)
                 // one PendingIntent per card
-                data = Uri.parse("ankidroid-notify-study://practice/$cardId")
+                data = "ankidroid-notify-study://practice/$cardId".toUri()
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
             }
     }

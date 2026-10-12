@@ -4,7 +4,7 @@ package com.ichi2.anki.notifystudy
 
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
+import androidx.core.net.toUri
 import anki.scheduler.CardAnswer.Rating
 import com.ichi2.anki.R
 import com.ichi2.anki.common.android.AnkiBroadcastReceiver
@@ -53,7 +53,7 @@ class NotifyStudyReceiver : AnkiBroadcastReceiver() {
             Intent(context, NotifyStudyReceiver::class.java).apply {
                 this.action = action
                 // a distinct data URI makes each card/button combination a distinct PendingIntent
-                data = Uri.parse("ankidroid-notify-study://$action/${cardId ?: 0}/${rating?.number ?: 0}")
+                data = "ankidroid-notify-study://$action/${cardId ?: 0}/${rating?.number ?: 0}".toUri()
                 cardId?.let { putExtra(EXTRA_CARD_ID, it) }
                 rating?.let { putExtra(EXTRA_RATING, it.number) }
             }
