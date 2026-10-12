@@ -229,7 +229,12 @@ class NotifyStudyEngineTest : RobolectricTest() {
             addDeck("Deck", setAsSelected = true).withNotes(count = 3)
             NotifyStudyEngine.runRound(targetContext)
             // studied in the reviewer, which always answers the card at the top of the queue
-            val cid = col.backend.getQueuedCards(fetchLimit = 1, intradayLearningOnly = false).cardsList.first().card.id
+            val cid =
+                col.backend
+                    .getQueuedCards(fetchLimit = 1, intradayLearningOnly = false)
+                    .cardsList
+                    .first()
+                    .card.id
             assertThat(shownCards(), hasItem(cid))
             col.sched.answerCard(col.getCard(cid), Rating.GOOD)
 
