@@ -39,6 +39,10 @@ class NotifyStudyReceiver : AnkiBroadcastReceiver() {
         const val ACTION_ANSWER = "com.ichi2.anki.notifystudy.ANSWER"
         const val ACTION_SKIP = "com.ichi2.anki.notifystudy.SKIP"
 
+        /** delete intents: the user removed a notification which must stay */
+        const val ACTION_RESTORE_QUESTION = "com.ichi2.anki.notifystudy.RESTORE_QUESTION"
+        const val ACTION_RESTORE_ANSWER = "com.ichi2.anki.notifystudy.RESTORE_ANSWER"
+
         private const val EXTRA_CARD_ID = "card_id"
         private const val EXTRA_RATING = "rating"
         private const val NO_CARD = -1L
@@ -72,6 +76,8 @@ class NotifyStudyReceiver : AnkiBroadcastReceiver() {
                 }
                 ACTION_REVEAL -> if (cardId != NO_CARD) NotifyStudyEngine.reveal(context, cardId)
                 ACTION_SKIP -> NotifyStudyEngine.skipRound(context)
+                ACTION_RESTORE_QUESTION -> if (cardId != NO_CARD) NotifyStudyEngine.restore(context, cardId, revealed = false)
+                ACTION_RESTORE_ANSWER -> if (cardId != NO_CARD) NotifyStudyEngine.restore(context, cardId, revealed = true)
                 ACTION_ANSWER -> {
                     val rating = Rating.forNumber(ratingNumber)
                     if (cardId == NO_CARD || rating == null || rating == Rating.UNRECOGNIZED) {

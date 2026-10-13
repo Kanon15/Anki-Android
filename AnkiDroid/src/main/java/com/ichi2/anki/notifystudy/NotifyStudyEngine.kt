@@ -188,6 +188,64 @@ object NotifyStudyEngine {
     }
 
     /**
+     * Shows a card again after the user removed its notification ("Clear all" on devices which ignore
+     * the 'no clear' flag, or a swipe on Android 14+). Only answering or skipping removes a card.
+     *
+     * Nothing is shown if the card is no longer pending, e.g. it was studied elsewhere.
+     *
+     * @param revealed whether the notification showed the answer
+     */
+    suspend fun restore(
+        context: Context,
+        cardId: CardId,
+        revealed: Boolean,
+    ) {
+        val stillPending =
+            mutex.withLock {
+                val prefs = NotifyStudyPrefs(context)
+                val entry = prefs.pending.firstOrNull { it.cardId == cardId } ?: return@withLock false
+                val valid =
+                    try {
+                        withCol { isStillPending(entry) }
+                    } catch (e: CancellationException) {
+                        throw e
+                    } catch (e: Exception) {
+                        Timber.w(e, "notify study: failed to check card %d", cardId)
+                        false
+                    }
+                if (!valid) {
+                    prefs.removePending(cardId)
+                    return@withLock false
+                }
+                // "Clear all" removes every card at once: space the posts out, Android drops posts which are too fast
+                delay(NOTIFICATION_MIN_DELAY)
+                if (!revealed) showQuestionAgain(context, cardId, prefs)
+                true
+            }
+        if (stillPending && revealed) reveal(context, cardId)
+        Timber.i("notify study: card %d removed by the user, restored: %b", cardId, stillPending)
+    }
+
+    private suspend fun showQuestionAgain(
+        context: Context,
+        cardId: CardId,
+        prefs: NotifyStudyPrefs,
+    ) {
+        val pending = prefs.pending
+        val index = pending.indexOfFirst { it.cardId == cardId }
+        val card =
+            try {
+                withCol { studyCard(getCard(cardId)) }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Timber.w(e, "notify study: failed to restore card %d", cardId)
+                return
+            }
+        NotifyStudyNotifications.showQuestion(context, card, index + 1, pending.size, alert = false)
+    }
+
+    /**
      * Records an answer for a card, as if it was answered in the reviewer.
      *
      * @param timeTakenMs time spent on the card. If null, estimated from the time the notification was shown.

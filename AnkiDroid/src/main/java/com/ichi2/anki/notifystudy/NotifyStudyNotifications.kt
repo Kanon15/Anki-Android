@@ -20,9 +20,10 @@ import timber.log.Timber
 /**
  * Builds and posts the notifications of [NotifyStudyEngine].
  *
- * The notifications are ongoing and flagged 'no clear', so "Clear all" does not remove them.
- * On Android 14+ a user may still swipe a single one away; the card stays pending and is shown
- * again on the next round.
+ * The notifications are ongoing and flagged 'no clear', so "Clear all" does not remove them on
+ * stock Android. Some devices (e.g. Samsung) remove them anyway, and on Android 14+ a user may swipe
+ * one away: the system then sends the notification's delete intent, and the card is shown again
+ * (see [NotifyStudyEngine.restore]). Notifications cancelled by the app send no delete intent.
  */
 object NotifyStudyNotifications {
     const val CHANNEL_ID = "notify_study"
@@ -60,6 +61,8 @@ object NotifyStudyNotifications {
                 .setContentText(question)
                 .setStyle(NotificationCompat.BigTextStyle().bigText(question))
                 .setSilent(!alert)
+                // removed by the user ("Clear all" on some devices, swipe on Android 14+): show it again
+                .setDeleteIntent(broadcast(context, NotifyStudyReceiver.ACTION_RESTORE_QUESTION, card.cardId))
                 .addAction(
                     R.drawable.ic_star_notify,
                     context.getString(R.string.notify_study_show_answer),
@@ -116,6 +119,7 @@ object NotifyStudyNotifications {
                 .setCustomContentView(collapsed)
                 .setCustomBigContentView(expanded)
                 .setSilent(true)
+                .setDeleteIntent(broadcast(context, NotifyStudyReceiver.ACTION_RESTORE_ANSWER, card.cardId))
                 .addAction(
                     R.drawable.ic_draw_filled,
                     context.getString(R.string.notify_study_practice_pad),
