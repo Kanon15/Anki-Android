@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ichi2.anki.notifystudy.RoundPlannerTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-13T06:02:25.531Z" hostname="runnervmmprz5" time="0.386">
+  <properties/>
+  <testcase name="pending list of the first version is read with the current deck" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.305"/>
+  <testcase name="total - an exhausted deck leaves its share to the others" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.019"/>
+  <testcase name="empty queue and nothing pending" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.002"/>
+  <testcase name="deck list round trips without duplicates" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.005"/>
+  <testcase name="unanswered cards come first and are not duplicated" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.001"/>
+  <testcase name="corrupt pending list is reset" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.009"/>
+  <testcase name="a card found in two decks is shown once" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.001"/>
+  <testcase name="pending list round trips" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.0"/>
+  <testcase name="per deck - carried over cards count against their own deck" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.003"/>
+  <testcase name="per deck - a deck full of carried over cards does not take more" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.002"/>
+  <testcase name="total - carried over cards come first and count against the total" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.001"/>
+  <testcase name="round never exceeds the notification limit" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.007"/>
+  <testcase name="total - decks take turns" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.001"/>
+  <testcase name="per deck - each deck shows its count" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.002"/>
+  <testcase name="zero count" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.001"/>
+  <testcase name="carried over cards of a deck which is no longer selected are dropped" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.0"/>
+  <testcase name="unanswered cards never exceed the count - work does not pile up" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.0"/>
+  <testcase name="fills the round from the queue" classname="com.ichi2.anki.notifystudy.RoundPlannerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

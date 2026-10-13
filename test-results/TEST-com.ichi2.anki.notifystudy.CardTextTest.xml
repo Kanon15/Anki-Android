@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ichi2.anki.notifystudy.CardTextTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-13T06:02:26.075Z" hostname="runnervmmprz5" time="11.994">
+  <properties/>
+  <testcase name="styles scripts and media are not shown" classname="com.ichi2.anki.notifystudy.CardTextTest" time="9.7"/>
+  <testcase name="answer part is after the answer separator" classname="com.ichi2.anki.notifystudy.CardTextTest" time="0.635"/>
+  <testcase name="answer without separator is the whole answer" classname="com.ichi2.anki.notifystudy.CardTextTest" time="0.164"/>
+  <testcase name="answer with quoted separator" classname="com.ichi2.anki.notifystudy.CardTextTest" time="0.098"/>
+  <testcase name="entities are decoded" classname="com.ichi2.anki.notifystudy.CardTextTest" time="0.113"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

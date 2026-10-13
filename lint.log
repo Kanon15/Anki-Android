@@ -1,0 +1,771 @@
+Parallel Configuration Cache is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: :AnkiDroid:lintPlayRelease ktlintCheck
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :buildSrc:compilePluginsBlocks UP-TO-DATE
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :anki-common
+WARNING: The option setting 'android.experimental.enableTestFixturesKotlinSupport=true' is experimental.
+The current default is 'false'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Configure project :AnkiDroid
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+Add android.sync.suppressAgpWarnings=DEPRECATED_DSL to the gradle.properties file to suppress this warning.
+
+> Task :anki-common:preBuild UP-TO-DATE
+> Task :compat:preBuild UP-TO-DATE
+> Task :compat:preReleaseBuild UP-TO-DATE
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :common:processResources NO-SOURCE
+> Task :anki-common:preReleaseBuild UP-TO-DATE
+> Task :common:compileKotlin UP-TO-DATE
+> Task :common:compileJava NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar UP-TO-DATE
+> Task :anki-common:generateReleaseResources FROM-CACHE
+> Task :compat:processReleaseNavigationResources FROM-CACHE
+> Task :compat:generateReleaseResources FROM-CACHE
+> Task :anki-common:processReleaseNavigationResources FROM-CACHE
+> Task :libanki:preBuild UP-TO-DATE
+> Task :libanki:preReleaseBuild UP-TO-DATE
+> Task :compat:javaPreCompileRelease FROM-CACHE
+> Task :libanki:processReleaseNavigationResources FROM-CACHE
+> Task :libanki:javaPreCompileRelease FROM-CACHE
+> Task :libanki:generateReleaseResources FROM-CACHE
+> Task :common:android:preBuild UP-TO-DATE
+> Task :common:android:preReleaseBuild UP-TO-DATE
+> Task :common:android:generateReleaseResources FROM-CACHE
+> Task :compat:packageReleaseResources
+> Task :common:android:processReleaseNavigationResources FROM-CACHE
+> Task :compat:parseReleaseLocalResources FROM-CACHE
+> Task :compat:generateReleaseRFile FROM-CACHE
+> Task :libanki:packageReleaseResources
+> Task :anki-common:packageReleaseResources
+> Task :libanki:parseReleaseLocalResources FROM-CACHE
+> Task :anki-common:parseReleaseLocalResources FROM-CACHE
+> Task :libanki:generateReleaseRFile FROM-CACHE
+> Task :common:android:packageReleaseResources
+> Task :common:android:parseReleaseLocalResources FROM-CACHE
+> Task :anki-common:generateReleaseRFile FROM-CACHE
+> Task :common:android:javaPreCompileRelease FROM-CACHE
+> Task :common:android:generateReleaseRFile FROM-CACHE
+> Task :anki-common:javaPreCompileRelease FROM-CACHE
+> Task :anki-common:extractProguardFiles
+> Task :anki-common:processReleaseManifest FROM-CACHE
+> Task :common:generateJvmMainLintModel
+> Task :compat:extractProguardFiles
+> Task :compat:processReleaseManifest FROM-CACHE
+> Task :compat:prepareLintJarForPublish
+> Task :libanki:extractProguardFiles
+> Task :libanki:processReleaseManifest FROM-CACHE
+> Task :libanki:prepareLintJarForPublish
+> Task :common:android:extractProguardFiles
+> Task :common:android:processReleaseManifest FROM-CACHE
+> Task :common:android:prepareLintJarForPublish
+> Task :compat:writeReleaseAarMetadata
+> Task :libanki:writeReleaseAarMetadata
+> Task :common:android:writeReleaseAarMetadata
+> Task :anki-common:checkReleaseAarMetadata
+> Task :anki-common:extractDeepLinksForAarRelease
+> Task :anki-common:generateReleaseAssets UP-TO-DATE
+> Task :anki-common:mergeReleaseAssets
+> Task :anki-common:prepareLintJarForPublish
+> Task :anki-common:prepareReleaseArtProfile
+> Task :anki-common:writeReleaseAarMetadata
+> Task :common:android:checkReleaseAarMetadata
+> Task :common:android:extractDeepLinksForAarRelease FROM-CACHE
+> Task :common:android:compileReleaseKotlin
+> Task :common:android:compileReleaseJavaWithJavac NO-SOURCE
+> Task :common:android:bundleLibCompileToJarRelease
+> Task :common:android:bundleLibRuntimeToJarRelease
+> Task :common:android:processReleaseJavaRes
+> Task :common:android:createFullJarRelease
+> Task :compat:compileReleaseKotlin
+> Task :compat:compileReleaseJavaWithJavac NO-SOURCE
+> Task :compat:bundleLibCompileToJarRelease
+> Task :compat:bundleLibRuntimeToJarRelease
+> Task :compat:processReleaseJavaRes
+> Task :compat:createFullJarRelease
+> Task :compat:generateReleaseLintModel
+> Task :common:android:generateReleaseAssets UP-TO-DATE
+> Task :common:android:generateReleaseLintModel
+> Task :common:android:mergeReleaseGeneratedProguardFiles
+> Task :common:android:mergeReleaseAssets
+> Task :common:android:prepareReleaseArtProfile
+> Task :common:android:mergeReleaseConsumerProguardFiles
+> Task :libanki:checkReleaseAarMetadata
+> Task :libanki:extractDeepLinksForAarRelease FROM-CACHE
+> Task :common:android:mergeReleaseJavaResource
+> Task :libanki:generateReleaseAssets UP-TO-DATE
+> Task :libanki:mergeReleaseAssets
+> Task :libanki:prepareReleaseArtProfile
+> Task :compat:checkReleaseAarMetadata
+> Task :compat:extractDeepLinksForAarRelease FROM-CACHE
+> Task :common:android:extractReleaseAnnotations
+> Task :common:android:syncReleaseLibJars
+> Task :common:android:bundleReleaseLocalLintAar
+> Task :compat:generateReleaseAssets UP-TO-DATE
+> Task :compat:mergeReleaseAssets
+> Task :compat:mergeReleaseGeneratedProguardFiles
+> Task :compat:mergeReleaseConsumerProguardFiles
+> Task :compat:prepareReleaseArtProfile
+> Task :compat:mergeReleaseJavaResource
+> Task :anki-common:preReleaseTestFixturesBuild UP-TO-DATE
+> Task :anki-common:javaPreCompileReleaseTestFixtures FROM-CACHE
+> Task :anki-common:writeReleaseLintModelMetadata
+> Task :common:writeJvmLintModelMetadata
+> Task :compat:writeReleaseLintModelMetadata
+> Task :libanki:writeReleaseLintModelMetadata
+> Task :common:android:writeReleaseLintModelMetadata
+> Task :lint-rules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libanki:compileReleaseKotlin
+> Task :libanki:compileReleaseJavaWithJavac NO-SOURCE
+> Task :libanki:bundleLibCompileToJarRelease
+> Task :compat:extractReleaseAnnotations
+> Task :libanki:bundleLibRuntimeToJarRelease
+> Task :libanki:processReleaseJavaRes
+> Task :libanki:createFullJarRelease
+> Task :libanki:generateReleaseLintModel
+> Task :anki-common:extractReleaseAnnotations
+> Task :libanki:mergeReleaseGeneratedProguardFiles
+> Task :libanki:mergeReleaseConsumerProguardFiles
+> Task :libanki:mergeReleaseJavaResource
+> Task :lint-rules:compileKotlin
+> Task :lint-rules:compileJava NO-SOURCE
+> Task :lint-rules:processResources
+> Task :lint-rules:classes
+> Task :compat:syncReleaseLibJars
+> Task :compat:bundleReleaseLocalLintAar
+> Task :AnkiDroid:installGitHook UP-TO-DATE
+> Task :AnkiDroid:preBuild UP-TO-DATE
+> Task :AnkiDroid:prePlayReleaseBuild UP-TO-DATE
+> Task :lint-rules:jar
+> Task :anki-common:compileReleaseKotlin
+> Task :anki-common:compileReleaseJavaWithJavac NO-SOURCE
+> Task :AnkiDroid:compilePlayReleaseAidl FROM-CACHE
+> Task :anki-common:mergeReleaseGeneratedProguardFiles
+> Task :anki-common:mergeReleaseConsumerProguardFiles
+> Task :anki-common:processReleaseJavaRes
+> Task :anki-common:mergeReleaseJavaResource
+> Task :anki-common:syncReleaseLibJars
+> Task :anki-common:bundleReleaseLocalLintAar
+> Task :anki-common:bundleLibCompileToJarRelease
+> Task :anki-common:compileReleaseTestFixturesKotlin
+> Task :anki-common:compileReleaseTestFixturesJavaWithJavac NO-SOURCE
+> Task :anki-common:bundleLibRuntimeToJarRelease
+> Task :anki-common:createFullJarRelease
+> Task :AnkiDroid:dataBindingMergeDependencyArtifactsPlayRelease
+> Task :AnkiDroid:generatePlayReleaseResValues
+> Task :AnkiDroid:generatePlayReleaseResources FROM-CACHE
+> Task :api:preBuild UP-TO-DATE
+> Task :api:preReleaseBuild UP-TO-DATE
+> Task :api:generateReleaseResources FROM-CACHE
+> Task :api:packageReleaseResources
+> Task :vbpd:preBuild UP-TO-DATE
+> Task :vbpd:preReleaseBuild UP-TO-DATE
+> Task :vbpd:generateReleaseResources FROM-CACHE
+> Task :vbpd:packageReleaseResources
+> Task :widgets:preBuild UP-TO-DATE
+> Task :widgets:preReleaseBuild UP-TO-DATE
+> Task :widgets:generateReleaseResources FROM-CACHE
+> Task :widgets:packageReleaseResources
+> Task :anki-common:generateReleaseLintModel
+> Task :libanki:extractReleaseAnnotations
+> Task :libanki:syncReleaseLibJars
+> Task :libanki:bundleReleaseLocalLintAar
+> Task :anki-common:generateReleaseTestFixturesLintModel
+> Task :AnkiDroid:packagePlayReleaseResources
+> Task :api:processReleaseNavigationResources FROM-CACHE
+> Task :vbpd:processReleaseNavigationResources FROM-CACHE
+> Task :widgets:processReleaseNavigationResources FROM-CACHE
+> Task :AnkiDroid:processPlayReleaseNavigationResources
+> Task :AnkiDroid:parsePlayReleaseLocalResources
+> Task :api:parseReleaseLocalResources FROM-CACHE
+> Task :api:generateReleaseRFile FROM-CACHE
+> Task :vbpd:dataBindingMergeDependencyArtifactsRelease
+> Task :vbpd:parseReleaseLocalResources FROM-CACHE
+> Task :vbpd:dataBindingGenBaseClassesRelease FROM-CACHE
+> Task :vbpd:generateReleaseRFile FROM-CACHE
+> Task :widgets:dataBindingMergeDependencyArtifactsRelease
+> Task :widgets:parseReleaseLocalResources FROM-CACHE
+> Task :widgets:dataBindingGenBaseClassesRelease
+> Task :widgets:generateReleaseRFile FROM-CACHE
+> Task :AnkiDroid:generatePlayReleaseBuildConfig
+> Task :AnkiDroid:generatePlayReleaseRFile FROM-CACHE
+> Task :api:generateReleaseBuildConfig
+> Task :anki-common:lintAnalyzeReleaseTestFixtures
+> Task :api:javaPreCompileRelease FROM-CACHE
+> Task :vbpd:compileReleaseKotlin
+> Task :vbpd:javaPreCompileRelease FROM-CACHE
+> Task :vbpd:compileReleaseJavaWithJavac NO-SOURCE
+> Task :vbpd:bundleLibCompileToJarRelease
+> Task :api:compileReleaseKotlin
+> Task :api:compileReleaseJavaWithJavac
+> Task :api:bundleLibCompileToJarRelease
+> Task :widgets:javaPreCompileRelease FROM-CACHE
+> Task :AnkiDroid:javaPreCompilePlayRelease FROM-CACHE
+> Task :AnkiDroid:extractProguardFiles
+> Task :anki-common:extractDeepLinksRelease FROM-CACHE
+> Task :AnkiDroid:extractDeepLinksPlayRelease
+> Task :api:extractDeepLinksRelease FROM-CACHE
+> Task :api:processReleaseManifest
+> Task :compat:extractDeepLinksRelease FROM-CACHE
+> Task :libanki:extractDeepLinksRelease FROM-CACHE
+> Task :vbpd:extractDeepLinksRelease FROM-CACHE
+> Task :vbpd:processReleaseManifest FROM-CACHE
+> Task :widgets:extractDeepLinksRelease FROM-CACHE
+> Task :widgets:processReleaseManifest FROM-CACHE
+> Task :common:android:extractDeepLinksRelease FROM-CACHE
+
+> Task :AnkiDroid:processPlayReleaseMainManifest
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/src/play/AndroidManifest.xml Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :widgets:compileReleaseKotlin
+> Task :api:bundleLibRuntimeToJarRelease
+> Task :widgets:compileReleaseJavaWithJavac FROM-CACHE
+> Task :api:processReleaseJavaRes
+> Task :api:createFullJarRelease
+> Task :widgets:bundleLibCompileToJarRelease
+> Task :api:prepareLintJarForPublish
+> Task :api:extractProguardFiles
+> Task :vbpd:bundleLibRuntimeToJarRelease
+> Task :vbpd:processReleaseJavaRes
+> Task :vbpd:createFullJarRelease
+> Task :vbpd:extractProguardFiles
+> Task :api:generateReleaseLintModel
+> Task :vbpd:prepareLintJarForPublish
+> Task :vbpd:generateReleaseLintModel
+> Task :widgets:bundleLibRuntimeToJarRelease
+> Task :widgets:processReleaseJavaRes
+> Task :widgets:extractProguardFiles
+> Task :widgets:createFullJarRelease
+> Task :widgets:prepareLintJarForPublish
+> Task :api:checkReleaseAarMetadata
+> Task :api:extractDeepLinksForAarRelease FROM-CACHE
+> Task :api:extractReleaseAnnotations
+> Task :api:generateReleaseAssets UP-TO-DATE
+> Task :api:mergeReleaseAssets
+> Task :api:mergeReleaseGeneratedProguardFiles
+> Task :api:mergeReleaseConsumerProguardFiles
+> Task :api:prepareReleaseArtProfile
+> Task :api:mergeReleaseJavaResource
+> Task :api:syncReleaseLibJars
+> Task :api:writeReleaseAarMetadata
+> Task :api:bundleReleaseLocalLintAar
+> Task :widgets:generateReleaseLintModel
+> Task :anki-common:mapReleaseSourceSetPaths
+> Task :vbpd:writeReleaseAarMetadata
+> Task :widgets:writeReleaseAarMetadata
+> Task :anki-common:compileReleaseLibraryResources
+> Task :AnkiDroid:mapPlayReleaseSourceSetPaths
+> Task :AnkiDroid:checkPlayReleaseAarMetadata
+> Task :AnkiDroid:compilePlayReleaseNavigationResources FROM-CACHE
+> Task :AnkiDroid:createPlayReleaseCompatibleScreenManifests
+> Task :api:mapReleaseSourceSetPaths
+> Task :api:compileReleaseLibraryResources
+> Task :compat:mapReleaseSourceSetPaths
+> Task :compat:compileReleaseLibraryResources
+> Task :libanki:mapReleaseSourceSetPaths
+> Task :libanki:compileReleaseLibraryResources FROM-CACHE
+> Task :vbpd:mapReleaseSourceSetPaths
+> Task :vbpd:compileReleaseLibraryResources FROM-CACHE
+> Task :widgets:mapReleaseSourceSetPaths
+> Task :widgets:compileReleaseLibraryResources
+> Task :common:android:mapReleaseSourceSetPaths
+> Task :common:android:compileReleaseLibraryResources
+> Task :AnkiDroid:prePlayReleaseTestFixturesBuild UP-TO-DATE
+> Task :AnkiDroid:javaPreCompilePlayReleaseTestFixtures FROM-CACHE
+> Task :api:writeReleaseLintModelMetadata
+> Task :widgets:checkReleaseAarMetadata
+> Task :widgets:extractDeepLinksForAarRelease FROM-CACHE
+> Task :AnkiDroid:processPlayReleaseManifest
+> Task :widgets:extractReleaseAnnotations
+> Task :widgets:generateReleaseAssets UP-TO-DATE
+> Task :widgets:mergeReleaseAssets
+> Task :widgets:mergeReleaseGeneratedProguardFiles
+> Task :AnkiDroid:processPlayReleaseManifestForPackage
+> Task :widgets:mergeReleaseConsumerProguardFiles
+> Task :widgets:prepareReleaseArtProfile
+> Task :widgets:mergeReleaseJavaResource
+> Task :vbpd:checkReleaseAarMetadata
+> Task :vbpd:extractDeepLinksForAarRelease FROM-CACHE
+> Task :widgets:syncReleaseLibJars
+> Task :widgets:bundleReleaseLocalLintAar
+> Task :vbpd:extractReleaseAnnotations
+> Task :vbpd:generateReleaseAssets UP-TO-DATE
+> Task :vbpd:mergeReleaseAssets
+> Task :vbpd:prepareReleaseArtProfile
+> Task :vbpd:mergeReleaseGeneratedProguardFiles
+> Task :vbpd:mergeReleaseConsumerProguardFiles
+> Task :vbpd:mergeReleaseJavaResource
+> Task :vbpd:syncReleaseLibJars
+> Task :vbpd:bundleReleaseLocalLintAar
+> Task :AnkiDroid:mergePlayReleaseResources
+> Task :AnkiDroid:dataBindingGenBaseClassesPlayRelease
+> Task :common:lintAnalyzeJvmMain
+> Task :vbpd:lintAnalyzeRelease
+> Task :api:lintAnalyzeRelease
+> Task :compat:lintAnalyzeRelease
+> Task :common:android:lintAnalyzeRelease
+> Task :vbpd:writeReleaseLintModelMetadata
+> Task :widgets:writeReleaseLintModelMetadata
+> Task :common:compileTestFixturesKotlin UP-TO-DATE
+> Task :common:compileTestFixturesJava NO-SOURCE
+> Task :common:processTestFixturesResources NO-SOURCE
+> Task :common:testFixturesClasses UP-TO-DATE
+> Task :common:testFixturesJar UP-TO-DATE
+> Task :common:generateJvmTestLintModel
+> Task :AnkiDroid:processPlayReleaseResources
+> Task :compat:preReleaseTestFixturesBuild UP-TO-DATE
+> Task :compat:compileReleaseTestFixturesKotlin
+> Task :compat:javaPreCompileReleaseTestFixtures FROM-CACHE
+> Task :compat:compileReleaseTestFixturesJavaWithJavac NO-SOURCE
+> Task :compat:generateReleaseTestFixturesLintModel
+> Task :common:lintAnalyzeJvmTest
+> Task :libanki:preReleaseTestFixturesBuild UP-TO-DATE
+> Task :AnkiDroid:compilePlayReleaseKotlin
+> Task :compat:lintAnalyzeReleaseTestFixtures
+> Task :libanki:javaPreCompileReleaseTestFixtures FROM-CACHE
+> Task :common:android:preReleaseTestFixturesBuild UP-TO-DATE
+> Task :libanki:compileReleaseTestFixturesKotlin
+> Task :libanki:compileReleaseTestFixturesJavaWithJavac NO-SOURCE
+> Task :libanki:generateReleaseTestFixturesLintModel
+> Task :common:android:compileReleaseTestFixturesKotlin
+> Task :common:android:javaPreCompileReleaseTestFixtures FROM-CACHE
+> Task :common:android:compileReleaseTestFixturesJavaWithJavac NO-SOURCE
+> Task :common:android:generateReleaseTestFixturesLintModel
+> Task :libanki:lintAnalyzeRelease
+> Task :common:android:lintAnalyzeReleaseTestFixtures
+> Task :libanki:lintAnalyzeReleaseTestFixtures
+> Task :AnkiDroid:loadKtlintReporters
+> Task :anki-common:loadKtlintReporters
+> Task :anki-common:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :anki-common:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :anki-common:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :anki-common:ktlintDebugSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :anki-common:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverKotlinScripts
+> Task :anki-common:ktlintKotlinScriptCheck
+> Task :anki-common:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :anki-common:ktlintReleaseSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :anki-common:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :anki-common:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :anki-common:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverTestFixturesSourceSet
+> Task :anki-common:ktlintTestFixturesSourceSetCheck
+> Task :anki-common:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :anki-common:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverTestSourceSet
+> Task :anki-common:ktlintTestSourceSetCheck
+> Task :AnkiDroid:runKtlintCheckOverAmazonBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAmazonBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAmazonDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAmazonNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAmazonReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAmazonSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAmazonSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestAmazonDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestAmazonDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestAmazonSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestAmazonSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestFullDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestFullDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestFullSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestFullSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestPlayDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestPlayDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestPlaySourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestPlaySourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :anki-common:runKtlintCheckOverMainSourceSet
+> Task :anki-common:ktlintMainSourceSetCheck
+> Task :anki-common:ktlintCheck
+> Task :AnkiDroid:runKtlintCheckOverBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverFullSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintFullSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverKotlinScripts
+> Task :AnkiDroid:ktlintKotlinScriptCheck
+> Task :AnkiDroid:runKtlintCheckOverAndroidTestSourceSet
+> Task :AnkiDroid:ktlintAndroidTestSourceSetCheck
+> Task :AnkiDroid:runKtlintCheckOverNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlayBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlayBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlayBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlayBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlayDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlayDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlayNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlayNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlayReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlayReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverPlaySourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintPlaySourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestAmazonDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestAmazonDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestAmazonSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestAmazonSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesAmazonSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesAmazonSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesFullSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesFullSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlayBenchmarkReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlayBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlayBenchmarkSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlayBenchmarkSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlayDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlayDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlayNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlayNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlayReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlayReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesPlaySourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesPlaySourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFixturesSourceSet
+> Task :AnkiDroid:ktlintTestFixturesSourceSetCheck
+> Task :AnkiDroid:runKtlintCheckOverTestFullDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFullDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestFullSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestFullSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestPlayDebugSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestPlayDebugSourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestPlaySourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestPlaySourceSetCheck SKIPPED
+> Task :AnkiDroid:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :AnkiDroid:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :anki-common:lintAnalyzeRelease
+> Task :widgets:lintAnalyzeRelease
+> Task :api:loadKtlintReporters FROM-CACHE
+> Task :api:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :api:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :api:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :api:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :api:ktlintDebugSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverKotlinScripts
+> Task :api:ktlintKotlinScriptCheck
+> Task :api:runKtlintCheckOverMainSourceSet
+> Task :api:ktlintMainSourceSetCheck
+> Task :api:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :api:ktlintReleaseSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :api:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :api:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :api:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestFixturesSourceSet NO-SOURCE
+> Task :api:ktlintTestFixturesSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :api:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :api:runKtlintCheckOverTestSourceSet
+> Task :api:ktlintTestSourceSetCheck
+> Task :api:ktlintCheck
+> Task :baselineprofile:loadKtlintReporters FROM-CACHE
+> Task :baselineprofile:runKtlintCheckOverBenchmarkBenchmarkSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintBenchmarkBenchmarkSourceSetCheck SKIPPED
+> Task :baselineprofile:runKtlintCheckOverBenchmarkReleaseSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintBenchmarkReleaseSourceSetCheck SKIPPED
+> Task :baselineprofile:runKtlintCheckOverBenchmarkSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintBenchmarkSourceSetCheck SKIPPED
+> Task :baselineprofile:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintDebugSourceSetCheck SKIPPED
+> Task :baselineprofile:runKtlintCheckOverKotlinScripts
+> Task :baselineprofile:ktlintKotlinScriptCheck
+> Task :baselineprofile:runKtlintCheckOverMainSourceSet
+> Task :baselineprofile:ktlintMainSourceSetCheck
+> Task :baselineprofile:runKtlintCheckOverNonMinifiedBenchmarkSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintNonMinifiedBenchmarkSourceSetCheck SKIPPED
+> Task :baselineprofile:runKtlintCheckOverNonMinifiedReleaseSourceSet NO-SOURCE
+> Task :baselineprofile:ktlintNonMinifiedReleaseSourceSetCheck SKIPPED
+> Task :baselineprofile:ktlintCheck
+> Task :common:loadKtlintReporters FROM-CACHE
+> Task :common:runKtlintCheckOverKotlinScripts
+> Task :common:ktlintKotlinScriptCheck
+> Task :common:runKtlintCheckOverMainSourceSet
+> Task :common:ktlintMainSourceSetCheck
+> Task :common:runKtlintCheckOverTestFixturesSourceSet
+> Task :common:ktlintTestFixturesSourceSetCheck
+> Task :common:runKtlintCheckOverTestSourceSet
+> Task :common:ktlintTestSourceSetCheck
+> Task :common:ktlintCheck
+> Task :compat:loadKtlintReporters FROM-CACHE
+> Task :compat:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :compat:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :compat:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :compat:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :compat:ktlintDebugSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverKotlinScripts
+> Task :compat:ktlintKotlinScriptCheck
+> Task :compat:runKtlintCheckOverMainSourceSet
+> Task :compat:ktlintMainSourceSetCheck
+> Task :compat:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :compat:ktlintReleaseSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :compat:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :compat:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :compat:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverTestFixturesSourceSet
+> Task :compat:ktlintTestFixturesSourceSetCheck
+> Task :compat:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :compat:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :compat:runKtlintCheckOverTestSourceSet
+> Task :compat:ktlintTestSourceSetCheck
+> Task :compat:ktlintCheck
+> Task :libanki:loadKtlintReporters FROM-CACHE
+> Task :libanki:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :libanki:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :libanki:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :libanki:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :libanki:ktlintDebugSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverKotlinScripts
+> Task :libanki:ktlintKotlinScriptCheck
+> Task :libanki:runKtlintCheckOverMainSourceSet
+> Task :libanki:ktlintMainSourceSetCheck
+> Task :libanki:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :libanki:ktlintReleaseSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :libanki:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :libanki:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :libanki:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverTestFixturesSourceSet
+> Task :libanki:ktlintTestFixturesSourceSetCheck
+> Task :libanki:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :libanki:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :libanki:runKtlintCheckOverTestSourceSet
+> Task :libanki:ktlintTestSourceSetCheck
+> Task :libanki:ktlintCheck
+> Task :lint-rules:loadKtlintReporters FROM-CACHE
+> Task :lint-rules:runKtlintCheckOverKotlinScripts
+> Task :lint-rules:ktlintKotlinScriptCheck
+> Task :AnkiDroid:runKtlintCheckOverTestSourceSet
+> Task :AnkiDroid:ktlintTestSourceSetCheck
+> Task :lint-rules:runKtlintCheckOverMainSourceSet
+> Task :AnkiDroid:runKtlintCheckOverMainSourceSet
+> Task :lint-rules:ktlintMainSourceSetCheck
+> Task :vbpd:loadKtlintReporters FROM-CACHE
+> Task :vbpd:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :vbpd:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :vbpd:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :vbpd:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :vbpd:ktlintDebugSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverKotlinScripts
+> Task :vbpd:ktlintKotlinScriptCheck
+> Task :vbpd:runKtlintCheckOverMainSourceSet
+> Task :vbpd:ktlintMainSourceSetCheck
+> Task :vbpd:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :vbpd:ktlintReleaseSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestFixturesSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestFixturesSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :vbpd:runKtlintCheckOverTestSourceSet NO-SOURCE
+> Task :vbpd:ktlintTestSourceSetCheck SKIPPED
+> Task :vbpd:ktlintCheck
+> Task :lint-rules:runKtlintCheckOverTestSourceSet
+> Task :widgets:loadKtlintReporters FROM-CACHE
+> Task :widgets:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :widgets:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :widgets:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :widgets:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :widgets:ktlintDebugSourceSetCheck SKIPPED
+> Task :lint-rules:ktlintTestSourceSetCheck
+> Task :lint-rules:ktlintCheck
+> Task :widgets:runKtlintCheckOverKotlinScripts
+> Task :widgets:ktlintKotlinScriptCheck
+> Task :widgets:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :widgets:ktlintReleaseSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :widgets:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :widgets:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :widgets:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestFixturesSourceSet NO-SOURCE
+> Task :widgets:ktlintTestFixturesSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :widgets:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverTestSourceSet NO-SOURCE
+> Task :widgets:ktlintTestSourceSetCheck SKIPPED
+> Task :widgets:runKtlintCheckOverMainSourceSet
+> Task :common:android:loadKtlintReporters FROM-CACHE
+> Task :common:android:runKtlintCheckOverAndroidTestDebugSourceSet NO-SOURCE
+> Task :common:android:ktlintAndroidTestDebugSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverAndroidTestReleaseSourceSet NO-SOURCE
+> Task :common:android:ktlintAndroidTestReleaseSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverAndroidTestSourceSet NO-SOURCE
+> Task :common:android:ktlintAndroidTestSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverDebugSourceSet NO-SOURCE
+> Task :common:android:ktlintDebugSourceSetCheck SKIPPED
+> Task :widgets:ktlintMainSourceSetCheck
+> Task :widgets:ktlintCheck
+> Task :common:android:runKtlintCheckOverKotlinScripts
+> Task :common:android:ktlintKotlinScriptCheck
+> Task :common:android:runKtlintCheckOverReleaseSourceSet NO-SOURCE
+> Task :common:android:ktlintReleaseSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverTestDebugSourceSet NO-SOURCE
+> Task :common:android:ktlintTestDebugSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverTestFixturesDebugSourceSet NO-SOURCE
+> Task :common:android:ktlintTestFixturesDebugSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverTestFixturesReleaseSourceSet NO-SOURCE
+> Task :common:android:ktlintTestFixturesReleaseSourceSetCheck SKIPPED
+> Task :common:android:runKtlintCheckOverMainSourceSet
+> Task :common:android:runKtlintCheckOverTestFixturesSourceSet
+> Task :common:android:ktlintMainSourceSetCheck
+> Task :common:android:runKtlintCheckOverTestReleaseSourceSet NO-SOURCE
+> Task :common:android:ktlintTestReleaseSourceSetCheck SKIPPED
+> Task :common:android:ktlintTestFixturesSourceSetCheck
+> Task :common:android:runKtlintCheckOverTestSourceSet
+> Task :common:android:ktlintTestSourceSetCheck
+> Task :common:android:ktlintCheck
+> Task :AnkiDroid:ktlintMainSourceSetCheck
+> Task :AnkiDroid:ktlintCheck
+
+> Task :AnkiDroid:compilePlayReleaseJavaWithJavac
+Note: /home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/generated/aidl_source_output_dir/playRelease/out/android/content/pm/IPackageStatsObserver.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :AnkiDroid:bundlePlayReleaseClassesToCompileJar
+> Task :AnkiDroid:generatePlayReleaseLintReportModel
+> Task :AnkiDroid:compilePlayReleaseTestFixturesKotlin
+> Task :AnkiDroid:compilePlayReleaseTestFixturesJavaWithJavac NO-SOURCE
+> Task :AnkiDroid:generatePlayReleaseTestFixturesLintModel
+> Task :AnkiDroid:lintAnalyzePlayReleaseTestFixtures
+> Task :AnkiDroid:lintAnalyzePlayRelease
+> Task :AnkiDroid:lintReportPlayRelease
+> Task :AnkiDroid:lintPlayRelease
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_2-1791871363351.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Anki-Android/Anki-Android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 39s
+380 actionable tasks: 289 executed, 77 from cache, 14 up-to-date
+Configuration cache entry stored.

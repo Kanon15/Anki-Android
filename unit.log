@@ -1,0 +1,305 @@
+Parallel Configuration Cache is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: :AnkiDroid:testPlayDebugUnitTest --tests com.ichi2.anki.notifystudy.*
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders UP-TO-DATE
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins UP-TO-DATE
+> Task :buildSrc:compilePluginsBlocks UP-TO-DATE
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors UP-TO-DATE
+> Task :buildSrc:generateScriptPluginAdapters UP-TO-DATE
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+
+> Configure project :anki-common
+WARNING: The option setting 'android.experimental.enableTestFixturesKotlinSupport=true' is experimental.
+The current default is 'false'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Configure project :AnkiDroid
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+Add android.sync.suppressAgpWarnings=DEPRECATED_DSL to the gradle.properties file to suppress this warning.
+
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :anki-common:preBuild UP-TO-DATE
+> Task :anki-common:preDebugBuild UP-TO-DATE
+> Task :common:processTestFixturesResources NO-SOURCE
+> Task :common:processResources NO-SOURCE
+> Task :compat:preBuild UP-TO-DATE
+> Task :compat:preDebugBuild UP-TO-DATE
+> Task :compat:generateDebugResources
+> Task :anki-common:generateDebugResources
+> Task :anki-common:processDebugNavigationResources
+> Task :compat:processDebugNavigationResources
+> Task :compat:packageDebugResources
+> Task :compat:javaPreCompileDebug
+> Task :libanki:preBuild UP-TO-DATE
+> Task :libanki:preDebugBuild UP-TO-DATE
+> Task :libanki:generateDebugResources FROM-CACHE
+> Task :anki-common:packageDebugResources
+> Task :libanki:packageDebugResources
+> Task :libanki:processDebugNavigationResources FROM-CACHE
+> Task :compat:parseDebugLocalResources
+> Task :libanki:parseDebugLocalResources
+> Task :anki-common:parseDebugLocalResources
+> Task :anki-common:generateDebugRFile
+> Task :libanki:generateDebugRFile
+> Task :common:android:preBuild UP-TO-DATE
+> Task :common:android:preDebugBuild UP-TO-DATE
+> Task :compat:generateDebugRFile
+> Task :libanki:javaPreCompileDebug FROM-CACHE
+> Task :common:android:generateDebugResources
+> Task :common:android:processDebugNavigationResources
+> Task :common:android:javaPreCompileDebug FROM-CACHE
+> Task :anki-common:preDebugTestFixturesBuild UP-TO-DATE
+> Task :anki-common:javaPreCompileDebugTestFixtures FROM-CACHE
+> Task :anki-common:javaPreCompileDebug FROM-CACHE
+> Task :api:preBuild UP-TO-DATE
+> Task :api:preDebugBuild UP-TO-DATE
+> Task :api:generateDebugResources
+> Task :AnkiDroid:installGitHook
+> Task :AnkiDroid:preBuild
+> Task :AnkiDroid:prePlayDebugBuild
+> Task :api:packageDebugResources
+> Task :common:android:packageDebugResources
+> Task :common:android:parseDebugLocalResources
+> Task :common:android:generateDebugRFile
+> Task :AnkiDroid:generatePlayDebugResValues
+> Task :AnkiDroid:generatePlayDebugResources
+> Task :vbpd:preBuild UP-TO-DATE
+> Task :vbpd:preDebugBuild UP-TO-DATE
+> Task :vbpd:generateDebugResources FROM-CACHE
+> Task :vbpd:packageDebugResources
+> Task :widgets:preBuild UP-TO-DATE
+> Task :widgets:preDebugBuild UP-TO-DATE
+> Task :widgets:generateDebugResources
+> Task :widgets:packageDebugResources
+> Task :AnkiDroid:compilePlayDebugAidl
+> Task :AnkiDroid:dataBindingMergeDependencyArtifactsPlayDebug
+> Task :api:processDebugNavigationResources
+> Task :vbpd:processDebugNavigationResources FROM-CACHE
+> Task :widgets:processDebugNavigationResources
+> Task :AnkiDroid:processPlayDebugNavigationResources
+> Task :api:parseDebugLocalResources
+> Task :api:generateDebugRFile
+> Task :vbpd:dataBindingMergeDependencyArtifactsDebug
+> Task :vbpd:parseDebugLocalResources FROM-CACHE
+> Task :vbpd:dataBindingGenBaseClassesDebug
+> Task :vbpd:generateDebugRFile
+> Task :widgets:dataBindingMergeDependencyArtifactsDebug
+> Task :widgets:parseDebugLocalResources
+> Task :widgets:dataBindingGenBaseClassesDebug
+> Task :widgets:generateDebugRFile
+> Task :AnkiDroid:generatePlayDebugBuildConfig
+> Task :api:generateDebugBuildConfig
+> Task :AnkiDroid:packagePlayDebugResources
+> Task :AnkiDroid:parsePlayDebugLocalResources
+> Task :AnkiDroid:generatePlayDebugRFile
+> Task :api:javaPreCompileDebug FROM-CACHE
+> Task :api:compileDebugKotlin
+> Task :common:compileKotlin
+> Task :common:compileJava NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar
+> Task :AnkiDroid:mergePlayDebugResources
+> Task :common:compileTestFixturesKotlin
+> Task :common:compileTestFixturesJava NO-SOURCE
+> Task :common:testFixturesClasses UP-TO-DATE
+> Task :common:testFixturesJar
+> Task :vbpd:compileDebugKotlin
+> Task :api:compileDebugJavaWithJavac
+> Task :AnkiDroid:dataBindingGenBaseClassesPlayDebug
+> Task :api:bundleLibCompileToJarDebug
+> Task :vbpd:javaPreCompileDebug FROM-CACHE
+> Task :vbpd:compileDebugJavaWithJavac NO-SOURCE
+> Task :vbpd:bundleLibCompileToJarDebug
+> Task :widgets:javaPreCompileDebug FROM-CACHE
+> Task :AnkiDroid:javaPreCompilePlayDebug
+> Task :anki-common:mapDebugSourceSetPaths
+> Task :anki-common:compileDebugLibraryResources
+> Task :anki-common:writeDebugAarMetadata
+> Task :api:writeDebugAarMetadata
+> Task :compat:writeDebugAarMetadata
+> Task :libanki:writeDebugAarMetadata
+> Task :vbpd:writeDebugAarMetadata
+> Task :widgets:writeDebugAarMetadata
+> Task :common:android:writeDebugAarMetadata
+> Task :AnkiDroid:checkPlayDebugAarMetadata
+> Task :AnkiDroid:mapPlayDebugSourceSetPaths
+> Task :AnkiDroid:compilePlayDebugNavigationResources
+> Task :AnkiDroid:createPlayDebugCompatibleScreenManifests
+> Task :anki-common:extractDeepLinksDebug
+> Task :anki-common:processDebugManifest
+> Task :AnkiDroid:extractDeepLinksPlayDebug
+> Task :api:extractDeepLinksDebug FROM-CACHE
+> Task :api:processDebugManifest
+> Task :compat:extractDeepLinksDebug FROM-CACHE
+> Task :compat:processDebugManifest
+> Task :libanki:extractDeepLinksDebug FROM-CACHE
+> Task :libanki:processDebugManifest
+> Task :vbpd:extractDeepLinksDebug FROM-CACHE
+> Task :vbpd:processDebugManifest
+> Task :widgets:extractDeepLinksDebug FROM-CACHE
+> Task :widgets:processDebugManifest
+> Task :common:android:extractDeepLinksDebug FROM-CACHE
+> Task :common:android:processDebugManifest
+> Task :compat:compileDebugKotlin
+> Task :compat:compileDebugJavaWithJavac NO-SOURCE
+> Task :compat:bundleLibCompileToJarDebug
+> Task :api:mapDebugSourceSetPaths
+> Task :api:compileDebugLibraryResources
+> Task :compat:mapDebugSourceSetPaths
+> Task :compat:compileDebugLibraryResources
+> Task :common:android:compileDebugKotlin
+> Task :common:android:compileDebugJavaWithJavac NO-SOURCE
+> Task :libanki:mapDebugSourceSetPaths
+> Task :libanki:compileDebugLibraryResources FROM-CACHE
+> Task :common:android:bundleLibCompileToJarDebug
+> Task :vbpd:mapDebugSourceSetPaths
+> Task :widgets:mapDebugSourceSetPaths
+> Task :vbpd:compileDebugLibraryResources FROM-CACHE
+> Task :common:android:mapDebugSourceSetPaths
+> Task :widgets:compileDebugLibraryResources
+> Task :AnkiDroid:prePlayDebugTestFixturesBuild
+> Task :AnkiDroid:javaPreCompilePlayDebugTestFixtures FROM-CACHE
+> Task :common:android:compileDebugLibraryResources
+> Task :AnkiDroid:prePlayDebugUnitTestBuild
+> Task :compat:preDebugTestFixturesBuild UP-TO-DATE
+> Task :libanki:preDebugTestFixturesBuild UP-TO-DATE
+> Task :compat:javaPreCompileDebugTestFixtures FROM-CACHE
+> Task :libanki:javaPreCompileDebugTestFixtures FROM-CACHE
+> Task :common:android:preDebugTestFixturesBuild UP-TO-DATE
+
+> Task :AnkiDroid:processPlayDebugMainManifest
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/src/play/AndroidManifest.xml Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :AnkiDroid:processPlayDebugManifest
+> Task :AnkiDroid:processPlayDebugManifestForPackage
+> Task :compat:compileDebugTestFixturesKotlin
+> Task :compat:compileDebugTestFixturesJavaWithJavac NO-SOURCE
+> Task :compat:bundleLibCompileToJarDebugTestFixtures
+> Task :common:android:javaPreCompileDebugTestFixtures FROM-CACHE
+> Task :AnkiDroid:javaPreCompilePlayDebugUnitTest FROM-CACHE
+> Task :anki-common:generateDebugAssets UP-TO-DATE
+> Task :anki-common:mergeDebugAssets
+> Task :AnkiDroid:generatePlayDebugAssets UP-TO-DATE
+> Task :api:generateDebugAssets UP-TO-DATE
+> Task :api:mergeDebugAssets
+> Task :compat:generateDebugAssets UP-TO-DATE
+> Task :compat:mergeDebugAssets
+> Task :libanki:generateDebugAssets UP-TO-DATE
+> Task :libanki:mergeDebugAssets
+> Task :vbpd:generateDebugAssets UP-TO-DATE
+> Task :vbpd:mergeDebugAssets
+> Task :widgets:generateDebugAssets UP-TO-DATE
+> Task :widgets:mergeDebugAssets
+> Task :common:android:generateDebugAssets UP-TO-DATE
+> Task :common:android:mergeDebugAssets
+> Task :common:android:compileDebugTestFixturesKotlin
+> Task :common:android:compileDebugTestFixturesJavaWithJavac NO-SOURCE
+> Task :common:android:bundleLibCompileToJarDebugTestFixtures
+> Task :anki-common:processDebugTestFixturesManifest
+> Task :AnkiDroid:processPlayDebugTestFixturesManifest
+> Task :compat:processDebugTestFixturesManifest
+> Task :libanki:processDebugTestFixturesManifest
+> Task :common:android:processDebugTestFixturesManifest
+> Task :AnkiDroid:mergePlayDebugAssets
+> Task :AnkiDroid:generatePlayDebugJacocoPropertiesFile
+> Task :AnkiDroid:robolectricSdkDownload UP-TO-DATE
+> Task :api:bundleLibRuntimeToJarDebug
+> Task :api:processDebugJavaRes
+> Task :compat:bundleLibRuntimeToJarDebug
+> Task :compat:bundleLibRuntimeToJarDebugTestFixtures
+> Task :compat:processDebugJavaRes
+> Task :compat:processDebugTestFixturesJavaRes
+> Task :vbpd:bundleLibRuntimeToJarDebug
+> Task :vbpd:processDebugJavaRes
+> Task :common:android:bundleLibRuntimeToJarDebug
+> Task :common:android:bundleLibRuntimeToJarDebugTestFixtures
+> Task :common:android:processDebugJavaRes
+> Task :common:android:processDebugTestFixturesJavaRes
+
+> Task :AnkiDroid:mergePlayDebugUnitTestManifest
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/intermediates/tmp/manifest/test/play/debug/tempFile2ProcessTestManifest14531409590795432496.xml:14:5-17:31 Warning:
+	uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE was tagged at tempFile2ProcessTestManifest14531409590795432496.xml:14 to remove other declarations but no other declaration present
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/intermediates/tmp/manifest/test/play/debug/tempFile2ProcessTestManifest14531409590795432496.xml:23:5-25:31 Warning:
+	uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS was tagged at tempFile2ProcessTestManifest14531409590795432496.xml:23 to remove other declarations but no other declaration present
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/intermediates/tmp/manifest/test/play/debug/tempFile2ProcessTestManifest14531409590795432496.xml Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at tempFile2ProcessTestManifest14531409590795432496.xml:0 to replace other declarations but no other declaration present
+
+> Task :AnkiDroid:processPlayDebugUnitTestManifest
+> Task :libanki:compileDebugKotlin
+> Task :libanki:compileDebugJavaWithJavac NO-SOURCE
+> Task :libanki:processDebugJavaRes
+> Task :libanki:bundleLibCompileToJarDebug
+> Task :libanki:bundleLibRuntimeToJarDebug
+> Task :AnkiDroid:processPlayDebugResources
+> Task :AnkiDroid:packagePlayDebugUnitTestForUnitTest
+> Task :AnkiDroid:generatePlayDebugUnitTestConfig
+> Task :libanki:compileDebugTestFixturesKotlin
+> Task :libanki:compileDebugTestFixturesJavaWithJavac NO-SOURCE
+> Task :libanki:processDebugTestFixturesJavaRes
+> Task :libanki:bundleLibRuntimeToJarDebugTestFixtures
+> Task :libanki:bundleLibCompileToJarDebugTestFixtures
+> Task :anki-common:compileDebugKotlin
+> Task :anki-common:compileDebugJavaWithJavac NO-SOURCE
+> Task :anki-common:processDebugJavaRes
+> Task :anki-common:bundleLibRuntimeToJarDebug
+> Task :anki-common:bundleLibCompileToJarDebug
+> Task :anki-common:compileDebugTestFixturesKotlin
+> Task :anki-common:compileDebugTestFixturesJavaWithJavac NO-SOURCE
+> Task :anki-common:bundleLibCompileToJarDebugTestFixtures
+> Task :anki-common:processDebugTestFixturesJavaRes
+> Task :anki-common:bundleLibRuntimeToJarDebugTestFixtures
+> Task :widgets:compileDebugKotlin
+> Task :widgets:processDebugJavaRes
+> Task :widgets:compileDebugJavaWithJavac
+> Task :widgets:bundleLibCompileToJarDebug
+> Task :widgets:bundleLibRuntimeToJarDebug
+> Task :AnkiDroid:compilePlayDebugKotlin
+
+> Task :AnkiDroid:compilePlayDebugJavaWithJavac
+Note: /home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/generated/aidl_source_output_dir/playDebug/out/android/content/pm/IPackageStatsObserver.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :AnkiDroid:processPlayDebugJavaRes
+> Task :AnkiDroid:bundlePlayDebugClassesToCompileJar
+> Task :AnkiDroid:bundlePlayDebugClassesToRuntimeJar
+> Task :AnkiDroid:compilePlayDebugTestFixturesKotlin
+> Task :AnkiDroid:compilePlayDebugTestFixturesJavaWithJavac NO-SOURCE
+> Task :AnkiDroid:bundleLibCompileToJarPlayDebugTestFixtures
+> Task :AnkiDroid:bundleLibRuntimeToJarPlayDebugTestFixtures
+> Task :AnkiDroid:processPlayDebugTestFixturesJavaRes
+> Task :AnkiDroid:compilePlayDebugUnitTestKotlin
+> Task :AnkiDroid:compilePlayDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :AnkiDroid:processPlayDebugUnitTestJavaRes
+> Task :AnkiDroid:testPlayDebugUnitTest
+> Task :AnkiDroid:finalizeTestRoborazziPlayDebug SKIPPED
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run-1791871138603.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Anki-Android/Anki-Android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3m 44s
+200 actionable tasks: 165 executed, 25 from cache, 10 up-to-date
+Configuration cache entry stored.

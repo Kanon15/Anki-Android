@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2026-10-13T06:02:26.002Z" hostname="runnervmmprz5" time="15.66">
+  <properties/>
+  <testcase name="unanswered cards are shown again, topped up to the limit" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="11.4"/>
+  <testcase name="no cards to study" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.165"/>
+  <testcase name="manual round ignores do not disturb and the enabled setting" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.151"/>
+  <testcase name="clearing all notifications removes no card" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.153"/>
+  <testcase name="a card answered elsewhere is not shown again when removed" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.137"/>
+  <testcase name="answering records a review and removes the notification" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.117"/>
+  <testcase name="a deleted deck falls back to the current deck" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.116"/>
+  <testcase name="several decks - unanswered cards are carried over per deck without piling up" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.142"/>
+  <testcase name="reveal shows the answer with four answer buttons" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.157"/>
+  <testcase name="receiver answer action records the answer" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.108"/>
+  <testcase name="suspended pending card is dropped" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.112"/>
+  <testcase name="skipping hides the round and shows the same cards on the next round" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.096"/>
+  <testcase name="cards can be answered in any order" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.095"/>
+  <testcase name="round uses the configured deck without changing the selected deck" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.096"/>
+  <testcase name="a revealed answer removed by the user is shown again as the answer" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.095"/>
+  <testcase name="a swiped away card comes back on the next round" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.09"/>
+  <testcase name="no round in do not disturb mode, and nothing piles up afterwards" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.087"/>
+  <testcase name="easy answer graduates a new card" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.087"/>
+  <testcase name="several decks - total count shared between the decks" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.094"/>
+  <testcase name="answering the top card keeps the undo history" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.095"/>
+  <testcase name="round shows the configured number of cards as ongoing notifications" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.082"/>
+  <testcase name="card studied elsewhere is not answered twice" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.079"/>
+  <testcase name="several decks - per deck count" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.089"/>
+  <testcase name="a question removed by the user is shown again immediately" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.087"/>
+  <testcase name="no round when disabled" classname="com.ichi2.anki.notifystudy.NotifyStudyEngineTest" time="0.08"/>
+  <system-out><![CDATA[-- executing test "unanswered cards are shown again, topped up to the limit"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: answer EASY -> ANSWERED
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "unanswered cards are shown again, topped up to the limit"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@35e03868)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 558.692us
+D/AnkiDroidApp: executed makeBackendUsable in 2.778us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 3.329899ms
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 8.579120ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 58.861us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.766us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 13.979257ms
+D/AnkiDroidApp: executed setupAnkiBackend in 160.6us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_no_cards_to_study581278190973208263/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 3.385346ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 788.468us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.88us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 385.527us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 79.864us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "no cards to study"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 0 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "no cards to study"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@5b57427f)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 487.478us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 442.748us
+D/AnkiDroidApp: executed makeBackendUsable in 2.875us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 5.105360ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 67.864us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.547us
+D/AnkiDroidApp: executed setupAnkiBackend in 121.045us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_manual_round_ignores_do_not_disturb_and_the_enabled_setting8501045533803219655/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 16.046501ms
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 4.488437ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 576.399us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.743us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 151.481us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 22.58us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "manual round ignores do not disturb and the enabled setting"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "manual round ignores do not disturb and the enabled setting"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@6f4f37f8)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 568.288us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 369.891us
+D/AnkiDroidApp: executed makeBackendUsable in 2.261us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 4.130111ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 53.268us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.416us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 10.111608ms
+D/AnkiDroidApp: executed setupAnkiBackend in 130.306us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_clearing_all_notifications_removes_no_card16254192691870062776/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.372984ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 423.716us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.021us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 89.541us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.984us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "clearing all notifications removes no card"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: card 1791871359469 removed by the user, restored: true
+I/NotifyStudyEngine: notify study: card 1791871359470 removed by the user, restored: true
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "clearing all notifications removes no card"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@28059b62)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 413.722us
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 357.256us
+D/AnkiDroidApp: executed makeBackendUsable in 2.572us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 4.326513ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 53.272us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.643us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 9.313435ms
+D/AnkiDroidApp: executed setupAnkiBackend in 115.989us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_a_card_answered_elsewhere_is_not_shown_again_when_removed17099397949719509745/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 4.034552ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 493.627us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.392us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 107.961us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 10.229us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "a card answered elsewhere is not shown again when removed"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: card 1791871359621 removed by the user, restored: false
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "a card answered elsewhere is not shown again when removed"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@38042b65)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 423.592us
+D/AnkiDroidApp: executed setupContextMenus in 264.814us
+D/AnkiDroidApp: executed makeBackendUsable in 3.133us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 2.847279ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 52.581us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.476us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 7.150889ms
+D/AnkiDroidApp: executed setupAnkiBackend in 90.431us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_answering_records_a_review_and_removes_the_notification7113459731122575930/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.399793ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 472.218us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.39us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 104.469us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 30.518us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "answering records a review and removes the notification"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "answering records a review and removes the notification"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@581a505c)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 417.574us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 1.486102ms
+D/AnkiDroidApp: executed makeBackendUsable in 4.387us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 7.775279ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 4.094632ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 56.175us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.346us
+D/AnkiDroidApp: executed setupAnkiBackend in 101.968us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_a_deleted_deck_falls_back_to_the_current_deck13948039619136292598/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.508399ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 533.768us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.19us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 81.279us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.758us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "a deleted deck falls back to the current deck"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "a deleted deck falls back to the current deck"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@2ea00221)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 433.448us
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 325.283us
+D/AnkiDroidApp: executed makeBackendUsable in 2.424us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.750596ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 52.936us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.255us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 7.535171ms
+D/AnkiDroidApp: executed setupAnkiBackend in 140.745us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_several_decks_-_unanswered_cards_are_carried_over_per_deck_without_piling_up9389431546118859298/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.200757ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 368.523us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.283us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 75.421us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.476us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "several decks - unanswered cards are carried over per deck without piling up"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 4 card(s)
+D/NotifyStudyEngine: notify study: card is not at the top of the queue, discarding cached queues
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: answer EASY -> ANSWERED
+I/NotifyStudyEngine: notify study: showing 4 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "several decks - unanswered cards are carried over per deck without piling up"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@5b4e8b43)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 263.073us
+D/AnkiDroidApp: executed makeBackendUsable in 2.249us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 381.41us
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 6.687075ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 3.292288ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 58.199us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.366us
+D/AnkiDroidApp: executed setupAnkiBackend in 160.979us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_reveal_shows_the_answer_with_four_answer_buttons10144931396141293395/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.251786ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 428.354us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.847us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 85.339us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.344us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "reveal shows the answer with four answer buttons"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 1 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "reveal shows the answer with four answer buttons"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@6a3c153f)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 397.217us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 274.655us
+D/AnkiDroidApp: executed makeBackendUsable in 2.592us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 5.435794ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 51.663us
+D/AnkiDroidApp: executed setupBackendChangeManager in 5.875us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 8.580818ms
+D/AnkiDroidApp: executed setupAnkiBackend in 86.144us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_receiver_answer_action_records_the_answer15263384652351256779/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.241149ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 350.652us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.643us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 62.399us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.777us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "receiver answer action records the answer"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: answer HARD -> ANSWERED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "receiver answer action records the answer"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@50233a93)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 368.578us
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 276.679us
+D/AnkiDroidApp: executed makeBackendUsable in 2.258us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 3.872501ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 54.687us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.064us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 6.475300ms
+D/AnkiDroidApp: executed setupAnkiBackend in 109.378us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_suspended_pending_card_is_dropped10080944605671437656/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.150803ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 342.559us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.294us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 57.109us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 7.195us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "suspended pending card is dropped"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/Scheduler: suspending 1 card(s)
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "suspended pending card is dropped"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@797e52f7)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 247.387us
+D/AnkiDroidApp: executed makeBackendUsable in 2.578us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 379.97us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.926777ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 58.097us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.567us
+D/AnkiDroidApp: executed setupAnkiBackend in 94.866us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_skipping_hides_the_round_and_shows_the_same_cards_on_the_next_round2199485249105647115/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 7.224210ms
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 3.084453ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 308.675us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.839us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 50.863us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.948us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "skipping hides the round and shows the same cards on the next round"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: round skipped
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "skipping hides the round and shows the same cards on the next round"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@2d863fd3)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 436.214us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 196.617us
+D/AnkiDroidApp: executed makeBackendUsable in 2.868us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.591878ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 52.633us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.205us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.864632ms
+D/AnkiDroidApp: executed setupAnkiBackend in 90.202us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_cards_can_be_answered_in_any_order16489186479137045915/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.670534ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 489.569us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.985us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 55.399us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.164us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "cards can be answered in any order"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+D/NotifyStudyEngine: notify study: card is not at the top of the queue, discarding cached queues
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+I/NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "cards can be answered in any order"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@38562951)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 198.383us
+D/AnkiDroidApp: executed makeBackendUsable in 2.286us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 419.324us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.336387ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 2.776057ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 58.19us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.52us
+D/AnkiDroidApp: executed setupAnkiBackend in 106.291us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_round_uses_the_configured_deck_without_changing_the_selected_deck2778013292290361015/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.222763ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 383.531us
+D/AnkiDroidApp: executed setupLifecycleLogging in 6.105us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 53.942us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.435us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "round uses the configured deck without changing the selected deck"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "round uses the configured deck without changing the selected deck"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@60157ccb)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 247.142us
+D/AnkiDroidApp: executed makeBackendUsable in 2.412us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 322.325us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 3.776420ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 49.902us
+D/AnkiDroidApp: executed setupBackendChangeManager in 5.675us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 4.490298ms
+D/AnkiDroidApp: executed setupAnkiBackend in 81.387us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_a_revealed_answer_removed_by_the_user_is_shown_again_as_the_answer7293209701766971232/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.015740ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 248.671us
+D/AnkiDroidApp: executed setupLifecycleLogging in 4.836us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 45.807us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 7.732us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "a revealed answer removed by the user is shown again as the answer"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 1 card(s)
+I/NotifyStudyEngine: notify study: card 1791871360764 removed by the user, restored: true
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "a revealed answer removed by the user is shown again as the answer"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@31785188)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 226.023us
+D/AnkiDroidApp: executed makeBackendUsable in 2.193us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 348.003us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.793907ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 49.001us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.929us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 4.344467ms
+D/AnkiDroidApp: executed setupAnkiBackend in 78.512us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_a_swiped_away_card_comes_back_on_the_next_round3585966374882365342/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 1.872885ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 259.894us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.233us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 46.438us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.621us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "a swiped away card comes back on the next round"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "a swiped away card comes back on the next round"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@7404fb4a)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 254.061us
+D/AnkiDroidApp: executed makeBackendUsable in 2.077us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 387.055us
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 3.769528ms
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 3.006242ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 50.259us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.058us
+D/AnkiDroidApp: executed setupAnkiBackend in 79.148us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_no_round_in_do_not_disturb_mode__and_nothing_piles_up_afterwards13366698677530253657/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.059795ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 291.829us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.495us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 49.496us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.68us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "no round in do not disturb mode, and nothing piles up afterwards"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: do not disturb is active, skipping round
+I/NotifyStudyEngine: notify study: do not disturb is active, skipping round
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "no round in do not disturb mode, and nothing piles up afterwards"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@3edb2aa3)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 238.457us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 405.052us
+D/AnkiDroidApp: executed makeBackendUsable in 2.5us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.415396ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 5.034956ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 54.535us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.532us
+D/AnkiDroidApp: executed setupAnkiBackend in 74.54us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_easy_answer_graduates_a_new_card9124510806812822002/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.105894ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 288.659us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.292us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 42.766us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.522us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "easy answer graduates a new card"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 1 card(s)
+I/NotifyStudyEngine: notify study: answer EASY -> ANSWERED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "easy answer graduates a new card"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@69603623)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 201.103us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 369.128us
+D/AnkiDroidApp: executed makeBackendUsable in 2.551us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.671946ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 69.166us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.996us
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.775491ms
+D/AnkiDroidApp: executed setupAnkiBackend in 73.793us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_several_decks_-_total_count_shared_between_the_decks5510854031481733006/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.071712ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 399.291us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.156us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 47.719us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 10.243us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "several decks - total count shared between the decks"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 3 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "several decks - total count shared between the decks"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@cbc3ac7)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 369.122us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 169.074us
+D/AnkiDroidApp: executed makeBackendUsable in 2.521us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.338344ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 54.19us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.797us
+D/AnkiDroidApp: executed setupAnkiBackend in 86.074us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_answering_the_top_card_keeps_the_undo_history17436203459309902209/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 5.400469ms
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 3.243513ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 268.083us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.668us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 61.642us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.369us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "answering the top card keeps the undo history"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "answering the top card keeps the undo history"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@19461e4b)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 402.083us
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 171.438us
+D/AnkiDroidApp: executed makeBackendUsable in 1.623us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.874295ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 3.487534ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 46.467us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.359us
+D/AnkiDroidApp: executed setupAnkiBackend in 66.259us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_round_shows_the_configured_number_of_cards_as_ongoing_notifications3300152336643180917/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 1.729392ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 353.084us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.916us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 48.72us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 9.109us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "round shows the configured number of cards as ongoing notifications"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "round shows the configured number of cards as ongoing notifications"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@622ee19f)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 410.859us
+D/AnkiDroidApp: executed setupContextMenus in 382.447us
+D/AnkiDroidApp: executed makeBackendUsable in 3.046us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 2.324173ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.984896ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 82.14us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.764us
+D/AnkiDroidApp: executed setupAnkiBackend in 86.297us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_card_studied_elsewhere_is_not_answered_twice9456711573730291916/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.145549ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 403.525us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.627us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 57.663us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 7.857us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "card studied elsewhere is not answered twice"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: answer EASY -> ALREADY_STUDIED
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "card studied elsewhere is not answered twice"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@518b2a8a)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 190.127us
+D/AnkiDroidApp: executed makeBackendUsable in 2.403us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 353.112us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 1.930703ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 78.469us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.814us
+D/AnkiDroidApp: executed setupAnkiBackend in 82.677us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_several_decks_-_per_deck_count9744304680541652269/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 4.765265ms
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.177181ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 284.493us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.138us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 52.486us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.837us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "several decks - per deck count"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 5 card(s)
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "several decks - per deck count"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@3f288f45)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp: executed setupContextMenus in 261.27us
+D/AnkiDroidApp: executed makeBackendUsable in 2.806us
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 430.397us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 3.185068ms
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 4.806464ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 57.59us
+D/AnkiDroidApp: executed setupBackendChangeManager in 6.908us
+D/AnkiDroidApp: executed setupAnkiBackend in 61.927us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_a_question_removed_by_the_user_is_shown_again_immediately13850084252406264228/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 1.893583ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 286.968us
+D/AnkiDroidApp: executed setupLifecycleLogging in 5.942us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 39.479us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.905us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "a question removed by the user is shown again immediately"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: showing 2 card(s)
+I/NotifyStudyEngine: notify study: card 1791871361564 removed by the user, restored: true
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "a question removed by the user is shown again immediately"
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/OverlayConfig: partition_order.xml does not exist.
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+V/Configuration: Updating configuration, locales updated from [] to [en_US]
+W/ACRA: ACRA#init called more than once. This might have unexpected side effects. Doing this outside of tests is discouraged.
+I/ACRA: ACRA is enabled for com.ichi2.anki.debug, initializing...
+D/AnkiDroid: Startup - Application Start
+I/AnkiDroidApp: Timber config: ROBOLECTRIC
+I/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initialize()
+D/AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics:: initializing pref keys
+D/AnalyticsExceptionHandler$Companion: AnalyticsExceptionHandler installed.
+I/ThrowableFilterService: initialize()
+D/ThrowableFilterService: Chaining to uncaughtExceptionHandler (com.ichi2.anki.analytics.AnalyticsExceptionHandler@781e99a9)
+I/AnkiDroidApp$onCreate: AnkiDroidApp: listing debug info
+D/TestUtils: isRunningAsUnitTest: true
+D/SystemContextMenu: Modifying Context Menu Status: Preference was true
+D/AnkiDroidApp$launchCacheCleanup: executed cacheCleanup in 362.784us
+D/AnkiDroidApp: executed setupContextMenus in 185.469us
+D/AnkiDroidApp: executed makeBackendUsable in 2.941us
+I/NotificationChannelKt: Creating notification channel with id/name: General Notifications/AnkiDroid
+I/NotificationChannelKt: Creating notification channel with id/name: Synchronization/Synchronization
+I/NotificationChannelKt: Creating notification channel with id/name: Review Reminders/Review reminders
+I/AnkiDroidApp: AnkiDroidApp: Starting Services
+D/AnkiDroidApp: executed setupNotifications in 2.620289ms
+D/PreviousAnrReporterKt$launchPreviousAnrReporting: executed reportPreviousAnr in 3.568337ms
+D/AnkiDroidApp: executed setupAppLifecycleObserver in 64.704us
+D/AnkiDroidApp: executed setupBackendChangeManager in 7.482us
+D/AnkiDroidApp: executed setupAnkiBackend in 80.1us
+I/SetupStorageKt: collection path set to default
+D/SetupStorageKt: default collection path: /tmp/robolectric-NotifyStudyEngineTest_no_round_when_disabled4882366668837608228/external-files/Android/data/com.ichi2.anki.debug/AnkiDroid
+D/AnkiDroidApp: executed initializeAnkiDroidDirectory in 2.098100ms
+D/DayRolloverHandler: listening for rollover events
+D/AnkiDroidApp: executed setupDayRollover in 331.884us
+D/AnkiDroidApp: executed setupLifecycleLogging in 7.461us
+D/TtsVoices: job already started
+D/AnkiDroidApp: executed setupTextToSpeech in 49.379us
+D/AnkiDroidApp: executed setupCustomFieldFilters in 8.423us
+V/FailOnUnhandledExceptionRule: test: applying exception handler override
+-- executing test "no round when disabled"
+D/ChangeManager: clearing 1 subscribers
+I/PermissionUtilsKt: granting permissions: [android.permission.INTERNET]
+D/Backend: Opening rust backend with lang=[en-US]
+I/Collection: (Re)opening Database: InMemory
+I/DB: clearing undo and study queues
+I/NotifyStudyEngine: notify study: disabled, skipping round
+I/RobolectricTest: closeCollection: RobolectricTest: End
+I/Collection: Collection closed
+-- completed test "no round when disabled"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
