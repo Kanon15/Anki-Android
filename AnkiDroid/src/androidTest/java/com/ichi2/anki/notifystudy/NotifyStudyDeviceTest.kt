@@ -13,6 +13,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.By
+import androidx.test.uiautomator.Direction
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.Until
 import com.ichi2.anki.R
@@ -137,6 +138,28 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
         waitUntil("clearable notification removed") { notificationManager.activeNotifications.none { it.tag == CLEARABLE_TAG } }
         screenshot("04_after_clear_all")
         assertThat("cards survive 'Clear all'", ourNotifications().map { it.tag }.sorted(), equalTo(before.map { it.tag }.sorted()))
+    }
+
+    /**
+     * On Android 14+ a user can swipe away an ongoing notification, and some devices (e.g. Samsung)
+     * also remove them with "Clear all". The card must come back.
+     */
+    @Test
+    fun swipedAwayCardComesBackImmediately() {
+        runBlocking { NotifyStudyEngine.runRound(testContext) }
+        waitUntil("two cards shown") { ourNotifications().size == 2 }
+        val before = ourNotifications().map { it.tag }.sorted()
+
+        device.openNotification()
+        val question = device.wait(Until.findObject(By.textStartsWith("Question-")), TIMEOUT)
+        checkNotNull(question) { "question not shown" }
+        val removedText = question.text
+        question.swipe(Direction.RIGHT, 1.0f)
+        Thread.sleep(1500)
+        screenshot("08_after_swipe")
+
+        waitUntil("swiped card shown again") { ourNotifications().map { it.tag }.sorted() == before }
+        assertThat("swiped card is back in the shade", device.wait(Until.hasObject(By.text(removedText)), TIMEOUT), equalTo(true))
     }
 
     @Test

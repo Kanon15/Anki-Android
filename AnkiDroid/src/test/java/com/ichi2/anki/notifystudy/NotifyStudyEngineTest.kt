@@ -224,6 +224,80 @@ class NotifyStudyEngineTest : RobolectricTest() {
             assertThat(shownCards(), containsInAnyOrder(*first.toTypedArray()))
         }
 
+    /**
+     * Simulates the user removing a notification ("Clear all" on some devices, or a swipe on Android 14+):
+     * the system removes it, then sends its delete intent.
+     */
+    private suspend fun dismissAsUser(cardId: CardId) {
+        val notification = notificationOf(cardId)!!
+        assertThat("a dismissed notification must notify the app", notification.deleteIntent, notNullValue())
+        val intent = shadowOf(notification.deleteIntent).savedIntent
+        notificationManager.cancel(NotifyStudyNotifications.tag(cardId), 4501)
+        NotifyStudyReceiver.handle(targetContext, intent.action!!, intent.getLongExtra("card_id", -1), intent.getIntExtra("rating", -1))
+    }
+
+    @Test
+    fun `a question removed by the user is shown again immediately`() =
+        runTest {
+            addDeck("Deck", setAsSelected = true).withNotes(count = 3)
+            NotifyStudyEngine.runRound(targetContext)
+            val shown = shownCards()
+
+            dismissAsUser(shown.first())
+
+            assertThat("all cards are back", shownCards(), containsInAnyOrder(*shown.toTypedArray()))
+            val restored = notificationOf(shown.first())!!
+            assertThat(restored.actions.map { it.title.toString() }, equalTo(listOf("답 보기", "연습장", "넘기기")))
+            assertThat("still not clearable", restored.flags and Notification.FLAG_NO_CLEAR, not(equalTo(0)))
+            assertThat("cards stay pending", prefs.pending.map { it.cardId }, containsInAnyOrder(*shown.toTypedArray()))
+        }
+
+    @Test
+    fun `a revealed answer removed by the user is shown again as the answer`() =
+        runTest {
+            val deckId = addDeck("Deck", setAsSelected = true)
+            addBasicNote("Question text", "Answer text").firstCard().update { did = deckId }
+            NotifyStudyEngine.runRound(targetContext)
+            val cid = shownCards().single()
+            NotifyStudyEngine.reveal(targetContext, cid)
+
+            dismissAsUser(cid)
+
+            val restored = notificationOf(cid)
+            assertThat(restored, notNullValue())
+            assertThat(restored!!.extras.getCharSequence(NotificationCompat.EXTRA_TEXT).toString(), equalTo("Answer text"))
+        }
+
+    @Test
+    fun `clearing all notifications removes no card`() =
+        runTest {
+            addDeck("Deck", setAsSelected = true).withNotes(count = 5)
+            NotifyStudyEngine.runRound(targetContext)
+            val shown = shownCards()
+
+            for (cid in shown) dismissAsUser(cid)
+
+            assertThat(shownCards(), containsInAnyOrder(*shown.toTypedArray()))
+        }
+
+    @Test
+    fun `a card answered elsewhere is not shown again when removed`() =
+        runTest {
+            addDeck("Deck", setAsSelected = true).withNotes(count = 3)
+            NotifyStudyEngine.runRound(targetContext)
+            val cid =
+                col.backend
+                    .getQueuedCards(fetchLimit = 1, intradayLearningOnly = false)
+                    .cardsList
+                    .first()
+                    .card.id
+            col.sched.answerCard(col.getCard(cid), Rating.GOOD)
+
+            dismissAsUser(cid)
+
+            assertThat(notificationOf(cid), nullValue())
+        }
+
     @Test
     fun `card studied elsewhere is not answered twice`() =
         runTest {
