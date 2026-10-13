@@ -57,7 +57,7 @@ adb logcat -c
 adb logcat '*:I' > ci-out/logcat-full.txt 2>&1 &
 
 ./gradlew :AnkiDroid:connectedPlayDebugAndroidTest \
-  -Pandroid.testInstrumentationRunnerArguments.class=com.ichi2.anki.notifystudy.NotifyStudyDeviceTest \
+  -Pandroid.testInstrumentationRunnerArguments.package=com.ichi2.anki.notifystudy \
   --daemon > ci-out/device.log 2>&1
 code=$?
 echo "test exit code: $code"
