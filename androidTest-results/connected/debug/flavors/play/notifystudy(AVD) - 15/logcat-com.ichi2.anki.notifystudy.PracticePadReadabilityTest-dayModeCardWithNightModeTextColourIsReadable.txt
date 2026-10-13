@@ -1,0 +1,315 @@
+10-13 06:07:46.457  4210  4236 I TestRunner: started: dayModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:46.464  1211  1211 D SsBaseTemplateCard: No text view can be set up
+10-13 06:07:46.464  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:46.464  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:46.464  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:46.464  1211  1211 I SsBaseTemplateCard: Secondary card pane is null
+10-13 06:07:46.465  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=12
+10-13 06:07:46.465  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=12
+10-13 06:07:46.475  1502  1502 I A       : (REDACTED) Created gRPC endpoint for service %s
+10-13 06:07:46.480  4210  4236 D UiObject: Waiting 0ms for UiSelector[CONTAINS_TEXT=Wait].
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.496   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.497  1211  1211 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+10-13 06:07:46.497  1211  1211 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:22)
+10-13 06:07:46.497  1211  1211 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:11)
+10-13 06:07:46.497  1211  1211 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:735)
+10-13 06:07:46.515  1211  1529 D EGL_emulation: app_time_stats: avg=2108.14ms min=107.27ms max=4109.01ms count=2
+10-13 06:07:46.523   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:46.524   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:46.524  4386  4386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1cddd43
+10-13 06:07:46.524   576  1007 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:46.534   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:43b20e1a: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-13 06:07:46.534   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:43b20e1a: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:46.597  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:46.601  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:46.601  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:46.615  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:46.618  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:46.677  1211  1211 D SearchTargetUtil: query= size=15
+10-13 06:07:46.681  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=pokémon pokopia quality of life changes,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=pokémon pokopia quality of life changes searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: ba81aaf7-3bcb-4056-a2c0-4c35579a9012
+10-13 06:07:46.681  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=cyber attack french supermarkets,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=cyber attack french supermarkets searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 2ae1bf98-8bfd-491f-a805-62bfb63dfa0c
+10-13 06:07:46.681  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=florida eastern diamondback rattlesnake gulf cove,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=florida eastern diamondback rattlesnake gulf cove searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 03fcbb19-0881-4a37-8acc-caf86a3de95a
+10-13 06:07:46.681  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=birkenstock utti lace leather variants,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=birkenstock utti lace leather variants searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 3aa60dbc-78b1-4bc2-bfbd-06ee66d1decf
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/png;base64,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
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,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,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=other mommy horror movie,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=other mommy horror movie searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 3dd71a81-f0f8-4603-950d-dc975d87138f
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=7up shirley temple,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=7up shirley temple searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 0d768afb-85f9-43f8-b85c-d7468fb8af8f
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=democratic presidential candidates 2028,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=democratic presidential candidates 2028 searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 4b0fd964-a172-4ae4-ae79-7d8d82a76ac3
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=fast radio burst,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=fast radio burst searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: bf678358-2279-44a4-96c9-3acd76c7d3e7
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=tropical storm rachel flooding las vegas,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=tropical storm rachel flooding las vegas searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 8ccf6a55-f73e-46a7-8d55-144477a9bda2
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=daniel johnson storage unit burglary,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=daniel johnson storage unit burglary searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 6cf05060-67ce-4204-ac19-15cbf9b9d158
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=apple iphone duo,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=apple iphone duo searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 7fca6bcc-e8de-47b3-8e2c-ee4029acb1e9
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=below netflix rotten tomatoes,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=below netflix rotten tomatoes searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 8ac1f072-2318-4916-870e-aded829fb410
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=amazon dewalt tool discounts,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=amazon dewalt tool discounts searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 882b5f1e-efc9-447b-ac67-763a199ac6c4
+10-13 06:07:46.682  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=tiger attack yorkshire wildlife park,input_query=android.app.search.Query@5de2353,group_id=web183967,response_id=04ee93b4-e856-4cf1-a0ed-40950fcdaf6a,support_query_builder=false,} searchAction=tiger attack yorkshire wildlife park searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 7881f2f2-584f-41e7-8ddd-26863d67c53f
+10-13 06:07:46.690   576  1007 W InputManager-JNI: Input channel object 'c07e475 com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+10-13 06:07:46.701  1545  1545 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-13 06:07:46.704  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=13
+10-13 06:07:46.704  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=13
+10-13 06:07:46.941   498  4500 D BufferPoolAccessor2.0: bufferpool2 0x7eef3bb98ea8 : 0(0 size) total buffers - 0(0 size) used buffers - 80/88 (recycle/alloc) - 8/174 (fetch/transfer)
+10-13 06:07:46.942   498  4500 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+10-13 06:07:46.942   508   918 D BufferPoolAccessor2.0: bufferpool2 0x7034a4fce2d8 : 0(0 size) total buffers - 0(0 size) used buffers - 81/85 (recycle/alloc) - 4/84 (fetch/transfer)
+10-13 06:07:46.942   508   918 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 1
+10-13 06:07:47.219   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:47.219   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:47.219   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10140} in 1ms
+10-13 06:07:47.220   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:47.220   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:47.220   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20140} in 0ms
+10-13 06:07:47.471  4210  4239 D Backend : Opening rust backend with lang=[en-US]
+10-13 06:07:47.475  4210  4239 V Media   : dir /storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.media
+10-13 06:07:47.475  4210  4239 I Collection: (Re)opening Database: Path(path=/storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.anki2)
+10-13 06:07:47.483  4210  4236 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-13 06:07:47.485   576  1262 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10209, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:47.489   921  1033 D SplashScreenView: Build android.window.SplashScreenView{8a60e7c V.E...... ......ID 0,0-0,0}
+10-13 06:07:47.489   921  1033 D SplashScreenView: Icon: view: null drawable: null size: 0
+10-13 06:07:47.489   921  1033 D SplashScreenView: Branding: view: android.view.View{7062305 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-13 06:07:47.490  1211  1211 W SplitSelectStateCtor: Missing session instanceIds
+10-13 06:07:47.490  1211  1211 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-13 06:07:47.494  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=14, baseIntent=Intent { dat=ankidroid-notify-study://practice/... flg=0x14808000 cmp=com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity }
+10-13 06:07:47.499   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:47.499   488   552 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:47.502  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: PRE_ON_CREATE
+10-13 06:07:47.502  4210  4210 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-13 06:07:47.504  4210  4210 I ActivityLaunchLoggerKt: PracticePadActivity::onCreate, savedInstanceState: null, launch: {action=null, categories=null, flags=0x14808000, extraKeys={known=[], unknownCount=1}, startedWithShortcut=absent, taskId=14, isTaskRoot=true, caller=self}
+10-13 06:07:47.515   378   378 I netd    : tetherGetStats() -> {[]} <0.32ms>
+10-13 06:07:47.534  4210  4210 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-13 06:07:47.546  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onAttach
+10-13 06:07:47.547  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onCreate
+10-13 06:07:47.549  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: CREATED
+10-13 06:07:47.549  4210  4210 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@b132f17
+10-13 06:07:47.551  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onStart
+10-13 06:07:47.569  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onViewCreated
+10-13 06:07:47.569  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onStart
+10-13 06:07:47.575  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: STARTED
+10-13 06:07:47.575  4210  4210 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@b132f17
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext: content card = 
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:  <div id="qa"><style>.card {
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     font-family: arial;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     font-size: 20px;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     line-height: 1.5;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     text-align: center;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     color: black;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext:     background-color: white;
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext: }
+10-13 06:07:47.586  4210  4239 V AndroidCardRenderContext: </style><style>.nightMode, .night_mode { color: #cccccc; }</style><span style="font-size:56px">가나다 ABC</span></div>
+10-13 06:07:47.589  4210  4239 V AndroidCardRenderContext: ::style:: / BODY {font-family: 'OpenSans';font-weight: normal;font-style: normal;font-stretch: normal;}
+10-13 06:07:47.590  4210  4239 D TypeAnswer: correct answer = null
+10-13 06:07:47.590  4210  4239 D TypeAnswer: user answer = 
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: content card = 
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:  <div id="qa"><style>.card {
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     font-family: arial;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     font-size: 20px;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     line-height: 1.5;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     text-align: center;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     color: black;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext:     background-color: white;
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: }
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: </style><style>.nightMode, .night_mode { color: #cccccc; }</style><span style="font-size:56px">가나다 ABC</span>
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: 
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: <hr id=answer>
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: 
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: Back</div>
+10-13 06:07:47.591  4210  4239 V AndroidCardRenderContext: ::style:: / BODY {font-family: 'OpenSans';font-weight: normal;font-style: normal;font-stretch: normal;}
+10-13 06:07:47.618  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onResume
+10-13 06:07:47.618  4210  4210 D AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics: screenView(PracticePadActivity)
+10-13 06:07:47.651  1211  1529 D EGL_emulation: app_time_stats: avg=194.91ms min=24.82ms max=753.54ms count=6
+10-13 06:07:47.652  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: RESUMED
+10-13 06:07:47.652  4210  4210 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@b132f17
+10-13 06:07:47.652  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onResume
+10-13 06:07:47.809  1211  1529 D EGL_emulation: app_time_stats: avg=646.91ms min=367.93ms max=925.88ms count=2
+10-13 06:07:47.817   921  1060 D EGL_emulation: app_time_stats: avg=393.55ms min=35.28ms max=934.28ms count=4
+10-13 06:07:47.845  1211  1211 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-13 06:07:47.850  1211  1211 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+10-13 06:07:48.077   576   595 W ziparchive: Unable to open '/data/app/~~dIOjmjEPbAI8YwU0b6VmAA==/com.ichi2.anki.debug-f6xGzXZ6k8hWdK6WNcCMYg==/base.dm': No such file or directory
+10-13 06:07:48.078   576   595 I ActivityTaskManager: Displayed com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity for user 0: +592ms
+10-13 06:07:48.126   576  1007 W InputManager-JNI: Input channel object '6a36ea5 Splash Screen com.ichi2.anki.debug (client)' was disposed without first being removed with the input manager!
+10-13 06:07:48.132  1211  1211 D BaseDepthController: setSurface:
+10-13 06:07:48.132  1211  1211 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-13 06:07:48.132  1211  1211 D BaseDepthController: 	mSurface: null
+10-13 06:07:48.133  1211  1211 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+10-13 06:07:48.134  1211  1211 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+10-13 06:07:48.134  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+10-13 06:07:48.134  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+10-13 06:07:48.134  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+10-13 06:07:48.134  1211  1211 D StatsLog: LAUNCHER_ONSTOP
+10-13 06:07:48.134   488   552 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.158  1211  1211 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+10-13 06:07:48.159  1211  1914 D OneSearchSuggestProvider: Shut down the binder channel
+10-13 06:07:48.178  1211  3449 I IPCThreadState: oneway function results for code 2 on binder at 0x7a189ddc5a70 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-13 06:07:48.206   576   694 I ImeTracker: com.ichi2.anki.debug:879ef8dc: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-13 06:07:48.206   576   694 I ImeTracker: com.ichi2.anki.debug:879ef8dc: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:48.223  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:48.234  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:48.235  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.ichi2.anki.debug, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:48.243  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:48.244  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:48.319  4210  4210 I chromium: [INFO:CONSOLE(5)] "Uncaught ReferenceError: AnkiDroidKeyboard is not defined", source: file:///android_asset/scripts/type-answer.js (5)
+10-13 06:07:48.388  4210  4236 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+10-13 06:07:48.392  4210  4236 D UiDevice: Waiting 10000ms for SearchCondition[hasObject=BySelector [RES='\Qcom.ichi2.anki.debug:id/show_answer\E']].
+10-13 06:07:48.393  4210  4236 D UiDevice: Searching for node with selector: BySelector [RES='\Qcom.ichi2.anki.debug:id/show_answer\E'].
+10-13 06:07:48.486  3490  3529 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=55 ]
+10-13 06:07:48.531  3247  3247 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+10-13 06:07:48.532  3490  3565 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[4a0a0139-4dbc]>Handler" thread_id=64 ]
+10-13 06:07:48.544  1178  2299 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-13 06:07:48.544  1178  2299 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+10-13 06:07:48.697   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.698   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.698   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.699   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.699   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.701   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.701   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.701   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.701   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.701   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:48.703   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:48.703   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:48.705   576  1044 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:49.196  4210  4320 D rsdroid : rsdroid::logging: STDOUT: [INFO:CONSOLE(5)] "Uncaught ReferenceError: AnkiDroidKeyboard is not defined", source: file:///android_asset/scripts/type-answer.js (5)
+10-13 06:07:49.283   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:49.283   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:49.283   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 1ms
+10-13 06:07:49.320  4210  4346 D EGL_emulation: app_time_stats: avg=250.42ms min=55.49ms max=789.97ms count=5
+10-13 06:07:50.346   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:50.346   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:50.346   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10208} in 0ms
+10-13 06:07:50.766  1583  1583 V ContactsProvider: Scheduled notifyChange started.
+10-13 06:07:50.778  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:9 exec_start_elapsed_seconds: 188 [CONTEXT service_id=218 ]
+10-13 06:07:50.780  1178  4777 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:9 result: 1 elapsed_millis: 4 uptime_millis: 4 exec_start_elapsed_seconds: 188 [CONTEXT service_id=218 ]
+10-13 06:07:50.786   378   378 I netd    : tetherGetStats() -> {[]} <0.31ms>
+10-13 06:07:51.259  1435  1756 W MediaProvider: isAppCloneUserPair for user 0: false
+10-13 06:07:51.278   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:51.281   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:51.283   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10146} in 5ms
+10-13 06:07:51.285   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:51.286   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:51.286   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20146} in 3ms
+10-13 06:07:51.286  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 188 [CONTEXT service_id=218 ]
+10-13 06:07:51.290  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 12 uptime_millis: 12 exec_start_elapsed_seconds: 188 [CONTEXT service_id=218 ]
+10-13 06:07:51.484   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:51.484   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:51.484   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10210} in 0ms
+10-13 06:07:51.485   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:51.485   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:51.485   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20210} in 1ms
+10-13 06:07:51.556  4210  4236 I PracticePadReadabilityTest: practice pad contrast [day_nightmode_css]: 21.00
+10-13 06:07:51.559   576   662 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10210, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:51.564   921  1033 D SplashScreenView: Build android.window.SplashScreenView{5a246e3 V.E...... ......ID 0,0-0,0}
+10-13 06:07:51.564   921  1033 D SplashScreenView: Icon: view: null drawable: null size: 0
+10-13 06:07:51.564   921  1033 D SplashScreenView: Branding: view: android.view.View{e4388e0 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-13 06:07:51.565  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=15, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+10-13 06:07:51.566   488   488 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:51.572  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onPause
+10-13 06:07:51.573  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onPause
+10-13 06:07:51.573  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: PAUSED
+10-13 06:07:51.573  4210  4210 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@b132f17
+10-13 06:07:51.584   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:51.597  4210  4210 I AnkiActivity: finishWithAnimation DEFAULT
+10-13 06:07:51.628  4386  4402 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-13 06:07:51.629  4386  4402 I EGL_emulation: Opening libGLESv2_emulation.so
+10-13 06:07:51.683   414  4410 I RanchuHwc: logCompositionFallbackIfChanged: layer 55 CompositionType fallback from 3 to 1
+10-13 06:07:51.691   921  1060 D EGL_emulation: app_time_stats: avg=966.59ms min=64.93ms max=3302.75ms count=4
+10-13 06:07:51.694  4210  4346 D EGL_emulation: app_time_stats: avg=180.18ms min=13.31ms max=2045.99ms count=13
+10-13 06:07:51.721  4386  4402 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-13 06:07:51.749  4210  4210 D VRI[PracticePadActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-13 06:07:51.914   576   595 W ziparchive: Unable to open '/data/app/~~LOn6LFGyfpHn5dcR4PVRCw==/com.ichi2.anki.tests-z56ML2uXIozuR8r0QaKNog==/base.dm': No such file or directory
+10-13 06:07:51.928   921  1030 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@aa86e3f
+10-13 06:07:51.930   576  1044 W InputManager-JNI: Input channel object '6aad61c Splash Screen com.ichi2.anki.tests (client)' was disposed without first being removed with the input manager!
+10-13 06:07:51.930   488   488 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:51.933   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:51.935  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+10-13 06:07:51.943  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onStop
+10-13 06:07:51.946   378   378 I netd    : tetherGetStats() -> {[]} <0.81ms>
+10-13 06:07:51.954  1211  1211 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+10-13 06:07:51.955   576   595 I ActivityTaskManager: Displayed com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +351ms
+10-13 06:07:51.965  1211  1211 D BaseDepthController: setSurface:
+10-13 06:07:51.965  1211  1211 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-13 06:07:51.965  1211  1211 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xa31a31e
+10-13 06:07:51.971  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onStop
+10-13 06:07:51.988  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: STOPPED
+10-13 06:07:51.989  4210  4210 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@b132f17
+10-13 06:07:51.990  1211  1211 D StatsLog: LAUNCHER_ONRESUME
+10-13 06:07:52.007   576  1469 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+10-13 06:07:52.009  1211  1254 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+10-13 06:07:52.015  1211  1914 D OneSearchSuggestProvider: 	... 8 more
+10-13 06:07:52.016  1211  1914 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=21, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@4b3f1c6
+10-13 06:07:52.024  1211  1529 D EGL_emulation: app_time_stats: avg=2104.68ms min=205.26ms max=4004.10ms count=2
+10-13 06:07:52.031  1211  1211 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+10-13 06:07:52.031  1211  1211 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.prepareToAnimate(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:22)
+10-13 06:07:52.031  1211  1211 D StateManager: 	at com.android.quickstep.util.WorkspaceRevealAnim.<init>(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:11)
+10-13 06:07:52.031  1211  1211 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:735)
+10-13 06:07:52.032  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onDestroy
+10-13 06:07:52.032  4210  4210 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@8e1d5fa
+10-13 06:07:52.035  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onViewDestroyed
+10-13 06:07:52.036  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onDestroy
+10-13 06:07:52.036  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onDetach
+10-13 06:07:52.036  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@b132f17 in: DESTROYED
+10-13 06:07:52.036  4210  4210 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+10-13 06:07:52.059  1502  1502 I A       : (REDACTED) Created gRPC endpoint for service %s
+10-13 06:07:52.060  4386  4386 D VRI[InstrumentationActivityInvoker$EmptyActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-13 06:07:52.073  1414  1764 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+10-13 06:07:52.074  1414  1764 I AiAiEcho: EchoTargets: 
+10-13 06:07:52.074  1414  1764 I AiAiEcho: Filtered by AiAi flag check: 
+10-13 06:07:52.074  1414  1764 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:52.074  1414  1764 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:52.074  1414  1764 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+10-13 06:07:52.098  1414  1764 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-13 06:07:52.108  4210  4236 I InstrumentedTest: closeCollection: InstrumentedTest: End
+10-13 06:07:52.109   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:1dcf6b4c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-13 06:07:52.109   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:1dcf6b4c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:52.113  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:52.115  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:52.115  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:52.126  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:52.126  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:52.137  1211  1216 W s.nexuslauncher: Suspending all threads took: 27.262ms
+10-13 06:07:52.147  1211  1216 I s.nexuslauncher: NativeAlloc concurrent mark compact GC freed 4906KB AllocSpace bytes, 72(1608KB) LOS objects, 49% free, 6402KB/12MB, paused 27.800ms,803us total 138.169ms
+10-13 06:07:52.168  4386  4386 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@2add98f
+10-13 06:07:52.174   576  1262 W InputManager-JNI: Input channel object '921323 com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+10-13 06:07:52.180  1211  1211 D SsBaseTemplateCard: No text view can be set up
+10-13 06:07:52.180  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:52.180  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:52.180  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:52.180  1211  1211 I SsBaseTemplateCard: Secondary card pane is null
+10-13 06:07:52.198  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:52.198  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:52.199  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:52.250   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:52.251   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:52.251   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10140} in 33ms
+10-13 06:07:52.286   576  1175 W InputManager-JNI: Input channel object '692e259 com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity (client)' was disposed without first being removed with the input manager!
+10-13 06:07:52.316  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=15
+10-13 06:07:52.316  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=15
+10-13 06:07:52.318  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=14
+10-13 06:07:52.318  1211  1211 I TopTaskTracker: onTaskRemoved: taskId=14
+10-13 06:07:52.374  4210  4235 I Collection: Collection closed
+10-13 06:07:52.378  4210  4235 D Backend : Closing rust backend
+10-13 06:07:52.390  4210  4236 I TestRunner: finished: dayModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)

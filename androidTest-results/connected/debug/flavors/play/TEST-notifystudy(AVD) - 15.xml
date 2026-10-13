@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="11" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-10-13T06:08:03" hostname="localhost">
+  <testsuite name="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" tests="7" failures="0" errors="0" skipped="0" time="49.122" timestamp="2026-10-13T06:08:03" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="settingsScreen" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="8.193" />
+    <testcase name="answerFromTheNotificationShade" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="7.519" />
+    <testcase name="clearAllDoesNotRemoveTheCards" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="6.197" />
+    <testcase name="skipFromTheNotificationShowsTheSameCardsNextRound" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="5.327" />
+    <testcase name="swipedAwayCardComesBackImmediately" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="5.279" />
+    <testcase name="practicePadDrawAndAnswer" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="13.630" />
+    <testcase name="doNotDisturbSkipsTheRound" classname="com.ichi2.anki.notifystudy.NotifyStudyDeviceTest" time="2.977" />
+  </testsuite>
+  <testsuite name="com.ichi2.anki.notifystudy.PracticePadReadabilityTest" tests="4" failures="0" errors="0" skipped="0" time="21.646" timestamp="2026-10-13T06:08:03" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="dayModeStockCardIsReadable" classname="com.ichi2.anki.notifystudy.PracticePadReadabilityTest" time="5.177" />
+    <testcase name="dayModeCardWithNightModeTextColourIsReadable" classname="com.ichi2.anki.notifystudy.PracticePadReadabilityTest" time="5.948" />
+    <testcase name="nightModeStockCardIsReadable" classname="com.ichi2.anki.notifystudy.PracticePadReadabilityTest" time="5.284" />
+    <testcase name="nightModeCardWithNightModeTextColourIsReadable" classname="com.ichi2.anki.notifystudy.PracticePadReadabilityTest" time="5.237" />
+  </testsuite>
+</testsuites>

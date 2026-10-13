@@ -1,0 +1,53 @@
+10-13 06:06:47.628  4196  4196 I AndroidRuntime: Using default boot image
+10-13 06:06:47.631  4196  4196 I AndroidRuntime: Leaving lock profiling enabled
+10-13 06:06:51.819  4210  4210 I NotifyStudyBootReceiver: notify study: restoring schedule after android.intent.action.BOOT_COMPLETED
+10-13 06:06:51.910  4210  4236 I TestRunner: run started: 11 tests
+10-13 06:06:51.910  4210  4236 I TestRunner: started: settingsScreen(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:06:52.830   576  1007 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.ichi2.anki.debug/com.ichi2.anki.notifystudy.NotifyStudySettingsActivity} with LAUNCH_MULTIPLE from uid 10209 (BAL_ALLOW_PERMISSION) result code=0
+10-13 06:06:52.874  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=8, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.ichi2.anki.debug/com.ichi2.anki.notifystudy.NotifyStudySettingsActivity }
+10-13 06:06:53.386  4210  4210 I ActivityLaunchLoggerKt: NotifyStudySettingsActivity::onCreate, savedInstanceState: null, launch: {action=android.intent.action.MAIN, categories={known=[android.intent.category.LAUNCHER], unknownCount=0}, flags=0x10008000, extraKeys=null, startedWithShortcut=absent, taskId=8, isTaskRoot=true, caller=self}
+10-13 06:06:53.980  4210  4210 I AnkiDroidApp$setupLifecycleLogging: NotifyStudySettingsActivity::onStart
+10-13 06:06:53.992  4210  4210 I AnkiDroidApp$setupLifecycleLogging: NotifyStudySettingsActivity::onResume
+10-13 06:06:54.805   576   595 I ActivityTaskManager: Displayed com.ichi2.anki.debug/com.ichi2.anki.notifystudy.NotifyStudySettingsActivity for user 0: +1s994ms
+10-13 06:06:56.163  4210  4210 I NotifyStudyAlarm: notify study: next round in 60 minutes
+10-13 06:06:57.507  4210  4210 I AnkiDroidApp$setupLifecycleLogging: NotifyStudySettingsActivity::onPause
+10-13 06:06:58.263  4210  4210 I AnkiDroidApp$setupLifecycleLogging: NotifyStudySettingsActivity::onStop
+10-13 06:06:58.294  4210  4210 I AnkiDroidApp$setupLifecycleLogging: NotifyStudySettingsActivity::onDestroy
+10-13 06:06:58.322   576  1995 W InputManager-JNI: Input channel object '87f6f82 com.ichi2.anki.debug/com.ichi2.anki.notifystudy.NotifyStudySettingsActivity (client)' was disposed without first being removed with the input manager!
+10-13 06:07:00.194  4210  4236 I TestRunner: finished: settingsScreen(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:00.200  4210  4236 I TestRunner: started: answerFromTheNotificationShade(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:01.427  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:04.552  4210  4210 I NotifyStudyReceiver: notify study: received com.ichi2.anki.notifystudy.REVEAL for card 1791871612699
+10-13 06:07:06.041  4210  4210 I NotifyStudyReceiver: notify study: received com.ichi2.anki.notifystudy.ANSWER for card 1791871612699
+10-13 06:07:06.075  4210  4210 I NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+10-13 06:07:07.727  4210  4236 I TestRunner: finished: answerFromTheNotificationShade(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:07.728  4210  4236 I TestRunner: started: clearAllDoesNotRemoveTheCards(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:08.599  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:13.828  4210  4236 I TestRunner: finished: clearAllDoesNotRemoveTheCards(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:13.926  4210  4236 I TestRunner: started: skipFromTheNotificationShowsTheSameCardsNextRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:15.050  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:17.142  4210  4210 I NotifyStudyReceiver: notify study: received com.ichi2.anki.notifystudy.SKIP for card 1791871612723
+10-13 06:07:17.148  4210  4210 I NotifyStudyEngine: notify study: round skipped
+10-13 06:07:17.649  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:19.328  4210  4236 I TestRunner: finished: skipFromTheNotificationShowsTheSameCardsNextRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:19.331  4210  4236 I TestRunner: started: swipedAwayCardComesBackImmediately(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:20.190  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:24.637  4210  4236 I TestRunner: finished: swipedAwayCardComesBackImmediately(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:24.645  4210  4236 I TestRunner: started: practicePadDrawAndAnswer(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:25.895  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:35.056  4210  4210 I NotifyStudyEngine: notify study: answer GOOD -> ANSWERED
+10-13 06:07:38.291  4210  4236 I TestRunner: finished: practicePadDrawAndAnswer(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:38.292  4210  4236 I TestRunner: started: doNotDisturbSkipsTheRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:38.954  4210  4236 I NotifyStudyEngine: notify study: do not disturb is active, skipping round
+10-13 06:07:39.246  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:41.217  4210  4236 I TestRunner: finished: doNotDisturbSkipsTheRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:41.267  4210  4236 I TestRunner: started: dayModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:46.448  4210  4236 I TestRunner: finished: dayModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:46.457  4210  4236 I TestRunner: started: dayModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:52.390  4210  4236 I TestRunner: finished: dayModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:52.406  4210  4236 I TestRunner: started: nightModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:57.696  4210  4236 I TestRunner: finished: nightModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:57.703  4210  4236 I TestRunner: started: nightModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:08:02.940  4210  4236 I TestRunner: finished: nightModeCardWithNightModeTextColourIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:08:02.948  4210  4236 I TestRunner: run finished: 11 tests, 0 failed, 0 ignored
+10-13 06:08:03.643  4196  4196 I AndroidRuntime: VM exiting with result code 0.

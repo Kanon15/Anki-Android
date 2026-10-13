@@ -1,0 +1,542 @@
+10-13 06:07:41.267  4210  4236 I TestRunner: started: dayModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)
+10-13 06:07:41.267   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:41.268  1178  4699 I UsageReportingOptionsSt: Updating global setting to unknown [CONTEXT service_id=41 ]
+10-13 06:07:41.270   576  1796 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:41.277   488   488 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:41.280   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:41.284  4210  4236 D UiObject: Waiting 0ms for UiSelector[CONTAINS_TEXT=Wait].
+10-13 06:07:41.296   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:41.296   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:41.296   576  1796 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:41.297   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:41.297   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:41.297   576  1175 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:41.298   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:41.298   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:41.298   576  1796 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:41.299   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:41.299   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:41.299   576  1796 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:41.315   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@f4e4f2a
+10-13 06:07:41.318   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@4f2b11b
+10-13 06:07:41.321   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@32dd2b8
+10-13 06:07:41.328   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@306f891
+10-13 06:07:41.329   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@ada33f6
+10-13 06:07:41.329   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:41.329   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:41.329   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:41.329   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@10143f7
+10-13 06:07:41.390   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:41.390  1178  1183 W .gms.persistent: Suspending all threads took: 100.416ms
+10-13 06:07:41.399   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:41.401   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:41.407   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10210} in 10ms
+10-13 06:07:41.408   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:41.408   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:41.408   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20210} in 1ms
+10-13 06:07:41.415  1545  3608 I PeopleGalProvider: Gal directories started.
+10-13 06:07:41.415  1545  3608 I PeopleGalProvider: Method 1 completed.
+10-13 06:07:41.418  1545  3608 I PeopleGalProvider: Method 1 finished successfully.
+10-13 06:07:41.445  3247  3388 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@51c6020
+10-13 06:07:41.462  1545  4813 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/com.google.android.gms.update.storage.xml: [<1: 3, <2: 15, <4: 11, <8: 16, <16: 10, <32: 3, <64: 1, <128: 0, <256: 0, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+10-13 06:07:41.569  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:7 result: 1 elapsed_millis: 68 uptime_millis: 68 exec_start_elapsed_seconds: 178 [CONTEXT service_id=218 ]
+10-13 06:07:41.575  1545  1550 I gle.android.gms: Background concurrent mark compact GC freed 11MB AllocSpace bytes, 124(6116KB) LOS objects, 49% free, 16MB/33MB, paused 2.533ms,6.511ms total 464.431ms
+10-13 06:07:41.580  1545  4787 I Wear_Controller: Wearable module requires a companion app to be installed.
+10-13 06:07:41.581  1545  4787 I Wear_Controller: onStartup - Wear is not available on this device.
+10-13 06:07:41.590  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk' with 1 weak references
+10-13 06:07:41.591  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Camera2/Camera2.apk' with 1 weak references
+10-13 06:07:41.591  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~m2HVzvtY8ThnR9erGUk9yg==/com.android.chrome-Gt0MRNvJ74sDSfw8AyE-Bg==/Chrome.apk' with 1 weak references
+10-13 06:07:41.591  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~qEtN29dXd_2d5YpHsrAfYg==/com.google.android.trichromelibrary_636771938-vnnJpLYnJr0rVHEEJi8t-g==/TrichromeLibrary.apk' with 1 weak references
+10-13 06:07:41.591  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk' with 1 weak references
+10-13 06:07:41.591  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '/product/overlay/SettingsGoogle__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Maps/Maps.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltBugle/PrebuiltBugle.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Photos/Photos.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk' with 1 weak references
+10-13 06:07:41.592  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+10-13 06:07:41.593  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleContacts/GoogleContacts.apk' with 1 weak references
+10-13 06:07:41.593  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/GoogleDialer/GoogleDialer.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/YouTube/YouTube.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /system/app/Stk/Stk.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk' with 1 weak references
+10-13 06:07:41.594  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+10-13 06:07:41.595  1545  1552 W gle.android.gms: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~dIOjmjEPbAI8YwU0b6VmAA==/com.ichi2.anki.debug-f6xGzXZ6k8hWdK6WNcCMYg==/base.apk' with 1 weak references
+10-13 06:07:41.604  1545  1545 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-13 06:07:41.604  1545  1545 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsApiService }
+10-13 06:07:41.611  1545  4778 I SystemUpdate: [Execution,InstallationEventIntentOperation] Handling event of type 1.
+10-13 06:07:41.615  1545  4778 I SystemUpdate: [Execution,InstallationIntentOperation] Received intent: Intent { act=com.google.android.gms.update.INSTALL_UPDATE cat=[targeted_intent_op_prefix:.update.execution.InstallationIntentOperation] cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+10-13 06:07:41.616  1545  4778 I SystemUpdate: [Execution,ExecutionManager] Action finished-execution executed for 0.00 seconds.
+10-13 06:07:41.623  1178  4812 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+10-13 06:07:41.623  1178  4812 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddhd.<init>(:com.google.android.gms@242335041@24.23.35 (190800-646585959):16)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddov.j(:com.google.android.gms@242335041@24.23.35 (190800-646585959):18)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddov.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):184)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddov.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at com.google.android.gms.semanticlocation.service.SemanticLocationChimeraService.m(:com.google.android.gms@242335041@24.23.35 (190800-646585959):91)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at com.google.android.gms.semanticlocation.service.SemanticLocationChimeraService.p(:com.google.android.gms@242335041@24.23.35 (190800-646585959):248)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at com.google.android.gms.semanticlocation.service.SemanticLocationChimeraService.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):15)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at ddnv.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):743)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-13 06:07:41.623  1178  4812 W SemanticLocation: 	... 23 more
+10-13 06:07:41.651  1545  4813 I ChimeraConfigurator: Starting update, reason: 4 urgentFeatures: tflite_dynamite:-1
+10-13 06:07:41.651  1178  1183 I .gms.persistent: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 28(1144KB) LOS objects, 50% free, 17MB/35MB, paused 128.560ms,48.027ms total 770.946ms
+10-13 06:07:41.657  1178  4632 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-13 06:07:41.659  1178  4632 I PersonalSafety: start auto-detection [CONTEXT service_id=310 ]
+10-13 06:07:41.660  1178  4632 I PersonalSafety: AutoD Start settings: true true false false [CONTEXT service_id=310 ]
+10-13 06:07:41.660  1178  4829 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+10-13 06:07:41.673  1545  4813 I ChimeraConfigurator: Detected pending changes for urgent request: [tflite_dynamite]. Pending module sets: container:2423359190800,tflite_dynamite:2627305025100800+tflite_dynamite
+10-13 06:07:41.679  1545  4813 I GmsDebugLogger: [73] 1801
+10-13 06:07:41.680  1545  4813 W ZappDownloader: No successful Zapp module downloads for requested modules [TfliteDynamiteDynamite.integ:262730502100800:permitMetered].
+10-13 06:07:41.680  1545  4813 I GmsDebugLogger: [30] [TfliteDynamiteDynamite.integ:262730502100800]
+10-13 06:07:41.682  1545  4813 W ChimeraConfigService: Retry attempt was throttled. [CONTEXT service_id=264 ]
+10-13 06:07:41.682  1545  4813 I GmsDebugLogger: [83] 1 [tflite_dynamite]
+10-13 06:07:41.685  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService started execution. cause:5 exec_start_elapsed_seconds: 178 [CONTEXT service_id=218 ]
+10-13 06:07:41.686  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.icing.proxy.IcingInternalCorporaUpdateService finished executing. cause:5 result: 1 elapsed_millis: 262 uptime_millis: 262 exec_start_elapsed_seconds: 178 [CONTEXT service_id=218 ]
+10-13 06:07:41.716  1545  4787 E WorkSourceUtil: Could not find package: com.google.android.gms.westworld
+10-13 06:07:41.733  1545  4787 I NewModuleComplete: Received com.google.android.chimera.IntentOperation.NEW_MODULE(com.google.android.gms.chimera.GmsIntentOperationService,1,true)
+10-13 06:07:41.735  1545  4778 I NewModuleHelper: Received com.google.android.chimera.container.NEW_MODULE_FINALIZE(1/0): com.google.android.gms.chimera.GmsIntentOperationService,1,true
+10-13 06:07:41.736  1545  4778 I NewModuleHelper: Completed all new module init intents for all processes.
+10-13 06:07:41.771  1178  4777 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.772  1178  4777 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.778  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 75 uptime_millis: 75 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.779  1178  4699 W ChimeraUtils: Module com.google.android.gms.location__nonwearable missing resource location_module_display_name(0)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: [MDD] ModelBundleMetadata: File not found: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory) [CONTEXT service_id=173 ]
+10-13 06:07:41.781  1178  4812 W SemanticLocation: java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at java.io.FileInputStream.<init>(FileInputStream.java:179)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:774)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at android.content.ContextWrapper.openFileInput(ContextWrapper.java:251)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at ddho.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):5)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at ddhd.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):65)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at ddon.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):20)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.Linux.open(Native Method)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8591)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-13 06:07:41.781  1178  4812 W SemanticLocation: 	... 14 more
+10-13 06:07:41.786  1178  4815 I GCoreUlr: Unbound from all signal providers.
+10-13 06:07:41.789  1178  1178 I GCoreUlr: Unbound from all signal providers.
+10-13 06:07:41.789  1178  1178 I GCoreUlr: Stopping handler for UlrDispSvcFast
+10-13 06:07:41.792  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 115 uptime_millis: 115 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.800  1178  2154 W SystemServiceRegistry: No service published for: wifirtt
+10-13 06:07:41.814  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.821  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.822  1545  4630 W Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+10-13 06:07:41.823  1545  4630 W Pay     : No account found on the task or the device. Notification task will not be rescheduled. [CONTEXT service_id=198 ]
+10-13 06:07:41.826  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 20 uptime_millis: 20 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.828  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:5 result: 2 elapsed_millis: 8 uptime_millis: 8 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.835  1545  4805 W Pay     : Active account was null, notification task will be cancelled. [CONTEXT service_id=198 ]
+10-13 06:07:41.837  1545  1545 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-13 06:07:41.837  1545  1545 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+10-13 06:07:41.838  1545  4805 I Pay     : [SeTosMigration] walletJpEligibility is not enabled [CONTEXT service_id=198 ]
+10-13 06:07:41.839  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.839  1545  4805 I Pay     : Wallet install state NOT_INSTALLED [CONTEXT service_id=198 ]
+10-13 06:07:41.840  1545  4805 I Pay     : Migration flag not enabled. [CONTEXT service_id=198 ]
+10-13 06:07:41.848  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService started execution. cause:5 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.850  1178  4804 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.pay.gcmtask.PayGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 17 uptime_millis: 17 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.855  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService finished executing. cause:5 result: 1 elapsed_millis: 11 uptime_millis: 11 exec_start_elapsed_seconds: 179 [CONTEXT service_id=218 ]
+10-13 06:07:41.919  4210  4239 D Backend : Opening rust backend with lang=[en-US]
+10-13 06:07:41.922  4210  4239 V Media   : dir /storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.media
+10-13 06:07:41.922  4210  4239 I Collection: (Re)opening Database: Path(path=/storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.anki2)
+10-13 06:07:41.931  4210  4236 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-13 06:07:41.934   576  1175 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10209, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:41.939   921  1033 D SplashScreenView: Build android.window.SplashScreenView{7a107f4 V.E...... ......ID 0,0-0,0}
+10-13 06:07:41.939   921  1033 D SplashScreenView: Icon: view: null drawable: null size: 0
+10-13 06:07:41.939   921  1033 D SplashScreenView: Branding: view: android.view.View{ab4eb1d G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-13 06:07:41.941   488   488 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:41.942  1211  1211 W SplitSelectStateCtor: Missing session instanceIds
+10-13 06:07:41.942  1211  1211 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-13 06:07:41.948  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=12, baseIntent=Intent { dat=ankidroid-notify-study://practice/... flg=0x14808000 cmp=com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity }
+10-13 06:07:41.967   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:41.968   378   378 I netd    : tetherGetStats() -> {[]} <0.33ms>
+10-13 06:07:42.010   576   662 W JobInfo : Job 'com.google.android.settings.intelligence/.modules.routines.impl.RoutinesJobIntentService#1728' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+10-13 06:07:42.075  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: PRE_ON_CREATE
+10-13 06:07:42.075  4210  4210 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-13 06:07:42.107  4210  4210 I ActivityLaunchLoggerKt: PracticePadActivity::onCreate, savedInstanceState: null, launch: {action=null, categories=null, flags=0x14808000, extraKeys={known=[], unknownCount=1}, startedWithShortcut=absent, taskId=12, isTaskRoot=true, caller=self}
+10-13 06:07:42.114  1211  1529 D EGL_emulation: app_time_stats: avg=500.43ms min=269.92ms max=836.12ms count=3
+10-13 06:07:42.126   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:42.126   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:42.165  4210  4210 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+10-13 06:07:42.179  1083  1083 D CarrierSvcBindHelper: onPackageModified: com.google.android.gms
+10-13 06:07:42.200  1083  1083 D CarrierSvcBindHelper: No carrier app for: 0
+10-13 06:07:42.228   922  1109 I PermissionControllerServiceImpl: Updating user sensitive for uid 10143
+10-13 06:07:42.231   921   921 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 0
+10-13 06:07:42.251  1083  1083 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+10-13 06:07:42.276   921  1060 D EGL_emulation: app_time_stats: avg=362.21ms min=87.96ms max=748.89ms count=3
+10-13 06:07:42.294  1083  1083 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+10-13 06:07:42.299  1211  1529 D EGL_emulation: app_time_stats: avg=1923.60ms min=162.59ms max=5055.90ms count=3
+10-13 06:07:42.305  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onAttach
+10-13 06:07:42.308  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onCreate
+10-13 06:07:42.311  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: CREATED
+10-13 06:07:42.311  4210  4210 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@d307a91
+10-13 06:07:42.312   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.312   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.313  1414  1414 I AiAiEcho: AppFetcherImpl onPackageChanged com.google.android.gms.
+10-13 06:07:42.314  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onStart
+10-13 06:07:42.318   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.318   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.318   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.318  1211  1211 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-13 06:07:42.319   576   679 I RoleService: Granting default roles...
+10-13 06:07:42.323  1083  1291 D ImsResolver: maybeAddedImsService, packageName: com.google.android.gms
+10-13 06:07:42.329  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onViewCreated
+10-13 06:07:42.330  1211  1254 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[com.google.android.gms]
+10-13 06:07:42.335  1414  2248 I AiAiEcho: AppIndexer Package:[com.google.android.gms] UserProfile:[0] Enabled:[true].
+10-13 06:07:42.335  1414  2248 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.google.android.gms], userId:[0], reason:[package is updated.].
+10-13 06:07:42.337  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onStart
+10-13 06:07:42.337  1211  1211 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+10-13 06:07:42.346  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: STARTED
+10-13 06:07:42.347  4210  4210 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@d307a91
+10-13 06:07:42.348  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onResume
+10-13 06:07:42.349  4210  4210 D AnkiDroidUsageAnalytics: AnkiDroidUsageAnalytics: screenView(PracticePadActivity)
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext: content card = 
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:  <div id="qa"><style>.card {
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     font-family: arial;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     font-size: 20px;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     line-height: 1.5;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     text-align: center;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     color: black;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext:     background-color: white;
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext: }
+10-13 06:07:42.350  4210  4239 V AndroidCardRenderContext: </style><span style="font-size:56px">가나다 ABC</span></div>
+10-13 06:07:42.351  1211  1254 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=com.google.android.gms
+10-13 06:07:42.351  4210  4239 V AndroidCardRenderContext: ::style:: / BODY {font-family: 'OpenSans';font-weight: normal;font-style: normal;font-stretch: normal;}
+10-13 06:07:42.352  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: RESUMED
+10-13 06:07:42.352  4210  4210 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@d307a91
+10-13 06:07:42.352  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onResume
+10-13 06:07:42.357  4210  4239 D TypeAnswer: correct answer = null
+10-13 06:07:42.357  4210  4239 D TypeAnswer: user answer = 
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: content card = 
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:  <div id="qa"><style>.card {
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     font-family: arial;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     font-size: 20px;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     line-height: 1.5;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     text-align: center;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     color: black;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext:     background-color: white;
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: }
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: </style><span style="font-size:56px">가나다 ABC</span>
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: 
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: <hr id=answer>
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: 
+10-13 06:07:42.358  4210  4239 V AndroidCardRenderContext: Back</div>
+10-13 06:07:42.359  4210  4239 V AndroidCardRenderContext: ::style:: / BODY {font-family: 'OpenSans';font-weight: normal;font-style: normal;font-stretch: normal;}
+10-13 06:07:42.377   576  1035 W Role    : Default holder doesn't have required signing certificate: com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80
+10-13 06:07:42.385   576  1035 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+10-13 06:07:42.387   576  1035 W Role    : Default holder doesn't have required signing certificate: com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+10-13 06:07:42.414   576  1035 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.WALLET
+10-13 06:07:42.424   576  1035 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+10-13 06:07:42.480  3247  3247 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+10-13 06:07:42.504   576   595 W ziparchive: Unable to open '/data/app/~~dIOjmjEPbAI8YwU0b6VmAA==/com.ichi2.anki.debug-f6xGzXZ6k8hWdK6WNcCMYg==/base.dm': No such file or directory
+10-13 06:07:42.507   576   595 I ActivityTaskManager: Displayed com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity for user 0: +559ms
+10-13 06:07:42.509  3490  3565 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[4a0a0139-4dbc]>Handler" thread_id=64 ]
+10-13 06:07:42.512  3490  3529 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=55 ]
+10-13 06:07:42.513   576  1175 W InputManager-JNI: Input channel object 'ad89a4e Splash Screen com.ichi2.anki.debug (client)' was disposed without first being removed with the input manager!
+10-13 06:07:42.516  1178  2333 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-13 06:07:42.516  1178  2333 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+10-13 06:07:42.517  1211  1211 D BaseDepthController: setSurface:
+10-13 06:07:42.517  1211  1211 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-13 06:07:42.517  1211  1211 D BaseDepthController: 	mSurface: null
+10-13 06:07:42.517  1211  1211 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+10-13 06:07:42.518  1211  1211 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+10-13 06:07:42.518  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:4)
+10-13 06:07:42.518  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:1)
+10-13 06:07:42.518  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:34)
+10-13 06:07:42.518  1211  1211 D StatsLog: LAUNCHER_ONSTOP
+10-13 06:07:42.519  1211  1211 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+10-13 06:07:42.521  1211  1914 D OneSearchSuggestProvider: Shut down the binder channel
+10-13 06:07:42.521  1211  1826 I IPCThreadState: oneway function results for code 2 on binder at 0x7a189ddea4c0 will be dropped but finished with status UNKNOWN_TRANSACTION
+10-13 06:07:42.530   488   488 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.619  3247  3388 I Bugle   : BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of buoi@51c6020
+10-13 06:07:42.626  1545  3607 I PeopleGalProvider: Gal directories started.
+10-13 06:07:42.626  1545  3607 I PeopleGalProvider: Method 1 completed.
+10-13 06:07:42.626  1545  3607 I PeopleGalProvider: Method 1 finished successfully.
+10-13 06:07:42.628  4210  4210 I chromium: [INFO:CONSOLE(5)] "Uncaught ReferenceError: AnkiDroidKeyboard is not defined", source: file:///android_asset/scripts/type-answer.js (5)
+10-13 06:07:42.643   576   694 I ImeTracker: com.ichi2.anki.debug:93deed3c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-13 06:07:42.648   576   694 I ImeTracker: com.ichi2.anki.debug:93deed3c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:42.659  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:42.664   576  1796 D WifiNl80211Manager: Scan result ready event
+10-13 06:07:42.664   576  1796 D WifiNative: Scan result ready event
+10-13 06:07:42.664  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:42.664  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.ichi2.anki.debug, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:42.664  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:42.665  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:42.692   576   831 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+10-13 06:07:42.791  4210  4236 W SurfaceComposerClient: Sync transaction timed out waiting for commit callback.
+10-13 06:07:42.792  4210  4236 D UiDevice: Waiting 10000ms for SearchCondition[hasObject=BySelector [RES='\Qcom.ichi2.anki.debug:id/show_answer\E']].
+10-13 06:07:42.792  4210  4236 D UiDevice: Searching for node with selector: BySelector [RES='\Qcom.ichi2.anki.debug:id/show_answer\E'].
+10-13 06:07:42.795   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.796   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.796   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.797   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.797   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.798   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.798   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.798   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.798   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.798   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:42.799  1178  4804 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+10-13 06:07:42.803   922  1177 D AccessibilitySourceService: enabled a11y services count 0
+10-13 06:07:42.806   922  1177 D AccessibilitySourceService: a11y source sending 0 issue to sc
+10-13 06:07:42.811   576  1262 D SafetySourceDataValidat: No cert check requested for package com.google.android.permissioncontroller
+10-13 06:07:42.877   576  1175 D FileUtils: Rounded bytes from 3121676288 to 4000000000
+10-13 06:07:42.885   378  4841 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+10-13 06:07:42.885  2294  2319 D TrafficStats: tagSocket(129) with statsTag=0x1809, statsUid=-1
+10-13 06:07:42.896  2294  2319 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-13 06:07:42.896  2294  2319 W libc    : Access denied finding property "service.adb.tls.port"
+10-13 06:07:42.892  2294  2294 W binder:2294_3: type=1400 audit(0.0:71): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=318 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-13 06:07:42.922  1178  4804 W GmsUrlRequestImpl: Content-Type header is overwritten.
+10-13 06:07:42.892  2294  2294 W binder:2294_3: type=1400 audit(0.0:72): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=63 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-13 06:07:42.925   576   587 I system_server: Background concurrent mark compact GC freed 23MB AllocSpace bytes, 46(1492KB) LOS objects, 47% free, 26MB/50MB, paused 482us,949us total 268.848ms
+10-13 06:07:42.932   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+10-13 06:07:42.933   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:42.933   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:42.934   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+10-13 06:07:42.935   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk' with 1 weak references
+10-13 06:07:42.937   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '/product/overlay/AccessibilityMenu__sdk_gphone64_x86_64__auto_generated_rro_product.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/talkback/talkback.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/EmulatorTalkBackOverlay/EmulatorTalkBackOverlay.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Velvet/Velvet.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/PrebuiltGmail/PrebuiltGmail.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/Drive/Drive.apk' with 1 weak references
+10-13 06:07:42.938   576   589 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk' with 1 weak references
+10-13 06:07:43.015  1178  4804 W GLSUser : [AppCertManager] Exception while requesting key: 
+10-13 06:07:43.015  1178  4804 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at etvr.s(:com.google.android.gms@242335041@24.23.35 (190800-646585959):21)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at etvr.get(:com.google.android.gms@242335041@24.23.35 (190800-646585959):10)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at yfw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):477)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at yfu.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):70)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at yfq.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at yfs.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):58)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at yfs.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):21)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at anaw.m(:com.google.android.gms@242335041@24.23.35 (190800-646585959):13)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at anbi.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):11)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at efkz.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at efkr.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):274)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at ehaz.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1026)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:43.015  1178  4804 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):80)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at bpgb.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):17)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at bpgp.onSucceeded(:com.google.android.gms@242335041@24.23.35 (190800-646585959):7)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at m.mw.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):3)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at m.lt.run(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):25)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	... 6 more
+10-13 06:07:43.015  1178  4804 W GLSUser : Caused by: fkhe: Protocol message contained an invalid tag (zero).
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkea.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkid.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):309)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkid.i(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkgi.fe(:com.google.android.gms@242335041@24.23.35 (190800-646585959):25)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkgc.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkdw.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkdw.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at fkdw.p(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at bpdw.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):68)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):11)
+10-13 06:07:43.015  1178  4804 W GLSUser : 	... 10 more
+10-13 06:07:43.016  1178  4804 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+10-13 06:07:43.037   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.038   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: Voilatile gRPC failure INVALID_ARGUMENT: Application credential header not valid. Please fix the client to pass a valid application credential header. [CONTEXT service_id=6 ]
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: gbzz: INVALID_ARGUMENT: Application credential header not valid. Please fix the client to pass a valid application credential header.
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at gbzy.h(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at anbi.u(:com.google.android.gms@242335041@24.23.35 (190800-646585959):29)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at anbi.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):97)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at efkz.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at efkr.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):274)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at ehaz.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1026)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:43.064  1178  4804 W GlsClientGrpc: 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:43.067  1178  2154 W AlarmManager: alarm window unlikely to be respected [CONTEXT service_id=231 ]
+10-13 06:07:43.067  1178  2154 W AlarmManager: java.lang.IllegalArgumentException: alarm "NetworkLocationLocator" has short window length
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at boaw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):52)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at ehbk.f(:com.google.android.gms@242335041@24.23.35 (190800-646585959):119)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at egxu.q(:com.google.android.gms@242335041@24.23.35 (190800-646585959):107)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at egxu.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):27)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at egxq.apply(:com.google.android.gms@242335041@24.23.35 (190800-646585959):19)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at etvw.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at etvx.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):42)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at android.os.Handler.handleCallback(Handler.java:959)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at bphk.nR(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at bphk.dispatchMessage(:com.google.android.gms@242335041@24.23.35 (190800-646585959):138)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at android.os.Looper.loop(Looper.java:317)
+10-13 06:07:43.067  1178  2154 W AlarmManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-13 06:07:43.141   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.141   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.143  4210  4320 D rsdroid : rsdroid::logging: STDOUT: [INFO:CONSOLE(5)] "Uncaught ReferenceError: AnkiDroidKeyboard is not defined", source: file:///android_asset/scripts/type-answer.js (5)
+10-13 06:07:43.245   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.245   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.349   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.349   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.453   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.453   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.557   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.557   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.661   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.661   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.765   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.765   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.869   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.869   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.973   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:43.973   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:43.987  4210  4346 D EGL_emulation: app_time_stats: avg=297.24ms min=35.84ms max=963.04ms count=5
+10-13 06:07:44.080   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:44.080   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:44.141   387  4383 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1708160
+10-13 06:07:44.181   387  4773 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:44.181   387  4773 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:44.294   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:44.299   576   838 D InetDiagMessage: Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:44.299   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 5ms
+10-13 06:07:44.299   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:44.301   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:44.301   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 2ms
+10-13 06:07:44.925   498  4500 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-13 06:07:45.347   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:45.347   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:45.347   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10208} in 1ms
+10-13 06:07:45.348   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:45.348   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:45.349   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={20208} in 1ms
+10-13 06:07:45.479  3247  3247 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+10-13 06:07:45.482  3490  3529 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=55 ]
+10-13 06:07:45.483  1178  2333 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-13 06:07:45.483  1178  2333 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+10-13 06:07:45.483  3490  3565 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[4a0a0139-4dbc]>Handler" thread_id=64 ]
+10-13 06:07:45.698  1435  1756 W MediaProvider: isAppCloneUserPair for user 0: false
+10-13 06:07:45.730  1178  4815 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+10-13 06:07:45.735  1178  4777 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 183 [CONTEXT service_id=218 ]
+10-13 06:07:45.929   508   918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-13 06:07:46.022  4210  4236 I PracticePadReadabilityTest: practice pad contrast [day_stock]: 21.00
+10-13 06:07:46.025   576  1796 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10210, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:46.030   921  1033 D SplashScreenView: Build android.window.SplashScreenView{5c2709f V.E...... ......ID 0,0-0,0}
+10-13 06:07:46.030   921  1033 D SplashScreenView: Icon: view: null drawable: null size: 0
+10-13 06:07:46.030   921  1033 D SplashScreenView: Branding: view: android.view.View{c1495ec G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+10-13 06:07:46.032   488   552 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.042  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onPause
+10-13 06:07:46.042  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onPause
+10-13 06:07:46.048  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=13, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }
+10-13 06:07:46.049  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: PAUSED
+10-13 06:07:46.049  4210  4210 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@d307a91
+10-13 06:07:46.049   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:46.050   378   378 I netd    : tetherGetStats() -> {[]} <0.43ms>
+10-13 06:07:46.117   414  4410 I RanchuHwc: logCompositionFallbackIfChanged: layer 32 CompositionType fallback from 2 to 1
+10-13 06:07:46.117   414  4410 I RanchuHwc: logCompositionFallbackIfChanged: layer 48 CompositionType fallback from 3 to 1
+10-13 06:07:46.152  4210  4346 D EGL_emulation: app_time_stats: avg=163.82ms min=10.46ms max=1819.31ms count=13
+10-13 06:07:46.173  4386  4402 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-13 06:07:46.173  4386  4402 I EGL_emulation: Opening libGLESv2_emulation.so
+10-13 06:07:46.195  4210  4210 D VRI[PracticePadActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-13 06:07:46.203  4386  4402 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-13 06:07:46.236  4210  4210 I AnkiActivity: finishWithAnimation DEFAULT
+10-13 06:07:46.243   921  1060 D EGL_emulation: app_time_stats: avg=991.72ms min=21.98ms max=3603.94ms count=4
+10-13 06:07:46.262  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onStop
+10-13 06:07:46.268  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onStop
+10-13 06:07:46.274  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: STOPPED
+10-13 06:07:46.275  4210  4210 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.ichi2.anki.notifystudy.PracticePadActivity@d307a91
+10-13 06:07:46.277  4210  4210 I AnkiDroidApp$setupLifecycleLogging: PracticePadActivity::onDestroy
+10-13 06:07:46.278  4210  4210 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@50cd7dd
+10-13 06:07:46.293  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onViewDestroyed
+10-13 06:07:46.298  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onDestroy
+10-13 06:07:46.298  4210  4210 I FragmentLifecycleLogger: PracticePadActivity::WhiteboardFragment::onDetach
+10-13 06:07:46.299  4210  4210 D LifecycleMonitor: Lifecycle status change: com.ichi2.anki.notifystudy.PracticePadActivity@d307a91 in: DESTROYED
+10-13 06:07:46.299  4210  4210 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+10-13 06:07:46.383   488   552 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:46.387   576   595 W ziparchive: Unable to open '/data/app/~~LOn6LFGyfpHn5dcR4PVRCw==/com.ichi2.anki.tests-z56ML2uXIozuR8r0QaKNog==/base.dm': No such file or directory
+10-13 06:07:46.390   576   595 I ActivityTaskManager: Displayed com.ichi2.anki.tests/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +355ms
+10-13 06:07:46.391   921  1030 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@3e777bb
+10-13 06:07:46.393  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=7, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+10-13 06:07:46.396   576  1262 W InputManager-JNI: Input channel object '7e2e85a Splash Screen com.ichi2.anki.tests (client)' was disposed without first being removed with the input manager!
+10-13 06:07:46.397  1211  1211 D StatsLog: LAUNCHER_ONRESUME
+10-13 06:07:46.398   576   662 W InputManager-JNI: Input channel object 'baf0b32 com.ichi2.anki.debug/com.ichi2.anki.notifystudy.PracticePadActivity (client)' was disposed without first being removed with the input manager!
+10-13 06:07:46.401   449   472 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:46.406  1211  1211 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+10-13 06:07:46.410   576  1469 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+10-13 06:07:46.411  1211  1914 D OneSearchSuggestProvider: 	... 8 more
+10-13 06:07:46.414  4210  4236 I InstrumentedTest: closeCollection: InstrumentedTest: End
+10-13 06:07:46.421  1211  1254 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+10-13 06:07:46.422  1211  1211 D BaseDepthController: setSurface:
+10-13 06:07:46.422  1211  1211 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+10-13 06:07:46.422  1211  1211 D BaseDepthController: 	mSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xa31a31e
+10-13 06:07:46.423  1211  1914 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=i1{delegate=f{logId=17, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=l2.Z@6d0edef
+10-13 06:07:46.434  1414  1764 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+10-13 06:07:46.434  1414  1764 I AiAiEcho: EchoTargets: 
+10-13 06:07:46.434  1414  1764 I AiAiEcho: Filtered by AiAi flag check: 
+10-13 06:07:46.434  1414  1764 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:46.434  1414  1764 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:46.434  1414  1764 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+10-13 06:07:46.434  1414  1764 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-13 06:07:46.440  4210  4239 I Collection: Collection closed
+10-13 06:07:46.446  4210  4239 D Backend : Closing rust backend
+10-13 06:07:46.448  4210  4236 I TestRunner: finished: dayModeStockCardIsReadable(com.ichi2.anki.notifystudy.PracticePadReadabilityTest)

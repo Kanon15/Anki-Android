@@ -1,0 +1,443 @@
+10-13 06:07:19.331  4210  4236 I TestRunner: started: swipedAwayCardComesBackImmediately(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:19.333  4210  4236 I UiAutomationPermGranter: Permission: android.permission.POST_NOTIFICATIONS is already granted!
+10-13 06:07:19.334  4210  4236 D UiObject: Waiting 0ms for UiSelector[CONTAINS_TEXT=Wait].
+10-13 06:07:19.362   921  4607 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+10-13 06:07:19.363   921  4607 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+10-13 06:07:19.363   498  2265 D NuPlayerDriver: reset(0x7eedfbb95090) at state 8
+10-13 06:07:19.388   498  4604 D CCodecBuffers: [c2.android.vorbis.decoder#16:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+10-13 06:07:19.388   498  4604 D CCodecBuffers: [c2.android.vorbis.decoder#16:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+10-13 06:07:19.388   498  4604 D CCodecBuffers: [c2.android.vorbis.decoder#16:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+10-13 06:07:19.394   508   919 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:19.394   508   919 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:19.394   508   919 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7034a4fc9688 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+10-13 06:07:19.394   498  4604 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:19.397   921  1060 D EGL_emulation: app_time_stats: avg=398.79ms min=71.70ms max=1075.94ms count=4
+10-13 06:07:19.398   498  4587 D NuPlayerDriver: notifyResetComplete(0x7eedfbb95090)
+10-13 06:07:19.399   498  2265 W AMessage: failed to post message as target looper for handler 0 is gone.
+10-13 06:07:19.402   576  1796 I MediaFocusControl: abandonAudioFocus() from uid/pid 10181/921 clientId=android.media.AudioManager@c6f880e
+10-13 06:07:19.460   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:19.473   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:19.928   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.928   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.929   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.929   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.929   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.929   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.930   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.931   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.931   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.931   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.931   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.931   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:19.939  4210  4236 D UiDevice: Executing shell command: cmd notification set_dnd off
+10-13 06:07:19.946   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.946   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.946   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.946   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.947   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.948   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.948  4210  4239 D Backend : Opening rust backend with lang=[en-US]
+10-13 06:07:19.948   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.948   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.948   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.948   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:19.951  4210  4239 V Media   : dir /storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.media
+10-13 06:07:19.951  4210  4239 I Collection: (Re)opening Database: Path(path=/storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.anki2)
+10-13 06:07:20.187   576   576 D FlashNotifController: requestStartFlashNotification
+10-13 06:07:20.187   576   576 I FlashNotifController: startFlashNotification: type=1, tag=android
+10-13 06:07:20.187   576   576 D FlashNotifController: Flash notification is disabled
+10-13 06:07:20.190  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:20.192  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:20.194  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:20.195   498  2251 D NuPlayerDriver: NuPlayerDriver(0x7eedfbb940d0) created, clientPid(921)
+10-13 06:07:20.195   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+10-13 06:07:20.195   498  2251 D MediaPlayerService: OMX service is not available
+10-13 06:07:20.198   498  4619 D GenericSource: FileSource remote
+10-13 06:07:20.205  1211  1529 D EGL_emulation: app_time_stats: avg=426.61ms min=35.95ms max=835.98ms count=3
+10-13 06:07:20.213   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:20.214   576  1995 I MediaFocusControl: requestAudioFocus() from uid/pid 10181/921 AA=USAGE_NOTIFICATION/CONTENT_TYPE_SONIFICATION clientId=android.media.AudioManager@63cc471 callingPack=com.android.systemui req=3 flags=0x0 sdk=35
+10-13 06:07:20.218   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:20.228   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:20.234   921   921 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+10-13 06:07:20.235   921   921 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-13 06:07:20.235   921   921 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-13 06:07:20.258   378   378 I netd    : tetherGetStats() -> {[]} <0.31ms>
+10-13 06:07:20.487   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:20.487   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:20.498   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@3477ddd
+10-13 06:07:20.498   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@3b81d52
+10-13 06:07:20.498   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@dbfa823
+10-13 06:07:20.498   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@de77120
+10-13 06:07:20.498   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@ec31ad9
+10-13 06:07:20.499   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@816bc9e
+10-13 06:07:20.499   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.504   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.505   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.505   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.505   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.505   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:20.512  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:20.513  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:20.520   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.523   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.523   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.523   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.523   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.523   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:20.553   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:20.562   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:20.630   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:20.632   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:20.633   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:20.633   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:20.633   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:20.633   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:20.716   498  4618 I GenericSource: start
+10-13 06:07:20.717   921   921 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:20.717   921   921 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:20.725   498  4625 D CCodec  : allocate(c2.android.vorbis.decoder)
+10-13 06:07:20.725   498  4625 I CCodec  : setting up 'default' as default (vendor) store
+10-13 06:07:20.736   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:20.736   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:20.738   498  4625 I CCodec  : Created component [c2.android.vorbis.decoder]
+10-13 06:07:20.738   498  4625 D CCodecConfig: read media type: audio/vorbis
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-13 06:07:20.743   498  4625 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-13 06:07:20.750   498  4625 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:20.750   498  4625 D CCodecConfig: c2 config diff is Dict {
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-13 06:07:20.750   498  4625 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-13 06:07:20.750   498  4625 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-13 06:07:20.750   498  4625 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-13 06:07:20.750   498  4625 D CCodecConfig: }
+10-13 06:07:20.753   498  4625 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+10-13 06:07:20.753   498  4625 D CCodecConfig: no c2 equivalents for durationUs
+10-13 06:07:20.753   498  4625 D CCodecConfig: no c2 equivalents for csd-1
+10-13 06:07:20.753   498  4625 D CCodecConfig: no c2 equivalents for flags
+10-13 06:07:20.753   498  4625 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+10-13 06:07:20.755   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:20.755   498  4625 W Codec2Client: query -- param skipped: index = 1107298332.
+10-13 06:07:20.755   498  4625 D CCodec  : encoding statistics level = 0
+10-13 06:07:20.755   498  4625 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t bitrate = 70000
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t max-input-size = 32768
+10-13 06:07:20.755   498  4625 D CCodec  :   string mime = "audio/vorbis"
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:20.755   498  4625 D CCodec  : }
+10-13 06:07:20.755   498  4625 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:20.755   498  4625 D CCodec  :   string mime = "audio/raw"
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t channel-mask = 1
+10-13 06:07:20.755   498  4625 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-13 06:07:20.755   498  4625 D CCodec  : }
+10-13 06:07:20.755   498  4625 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:20.755   498  4625 I MediaCodec: MediaCodec will operate in async mode
+10-13 06:07:20.755   498  4624 D MediaCodec: keep callback message for reclaim
+10-13 06:07:20.756   498  4625 W Codec2Client: query -- param skipped: index = 1342179345.
+10-13 06:07:20.756   498  4625 W Codec2Client: query -- param skipped: index = 2415921170.
+10-13 06:07:20.756   498  4625 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] Created input block pool with allocatorID 16 => poolID 21 - OK (0)
+10-13 06:07:20.756   498  4625 I CCodecBufferChannel: [c2.android.vorbis.decoder#682] Created output block pool with allocatorID 16 => poolID 44 - OK
+10-13 06:07:20.756   498  4625 D CCodecBufferChannel: [c2.android.vorbis.decoder#682] Configured output block pool ids 44 => OK
+10-13 06:07:20.756   508   919 E Codec2-ComponentInterface: We have a failed config
+10-13 06:07:20.756   508  4626 D SimpleC2Component: Using output block pool with poolID 44 => got 44 - 0
+10-13 06:07:20.770   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:20.774   445  4415 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+10-13 06:07:20.776   445  4415 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-13 06:07:20.787   498  4623 D AudioTrack: getTimestamp_l(20): device stall time corrected using current time 158350175630
+10-13 06:07:20.844   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:20.845   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:20.921   921  1060 D EGL_emulation: app_time_stats: avg=380.99ms min=7.82ms max=854.79ms count=4
+10-13 06:07:20.957   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:20.957   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:20.991   445   555 D AudioFlinger: mixer(0x7defc21668e0) throttle end: throttle time(7)
+10-13 06:07:21.040   445   555 D AudioFlinger: mixer(0x7defc21668e0) throttle end: throttle time(23)
+10-13 06:07:21.061   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.062   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.165   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.165   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.269   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.269   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.373   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.373   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.461  4210  4236 D UiDevice: Opening notification.
+10-13 06:07:21.462  4210  4236 D UiDevice: Waiting 10000ms for SearchCondition[findObject=BySelector [TEXT='^\QQuestion-\E.*$']].
+10-13 06:07:21.462  4210  4236 D UiDevice: Retrieving node with selector: BySelector [TEXT='^\QQuestion-\E.*$'].
+10-13 06:07:21.467   921   921 D ZenModeController: Added callback class com.android.systemui.qs.tiles.DndTile$3
+10-13 06:07:21.469   921  1060 D EGL_emulation: app_time_stats: avg=146.29ms min=35.09ms max=507.58ms count=8
+10-13 06:07:21.477   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.477   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.492   508   918 D BufferPoolAccessor2.0: bufferpool2 0x7034a4fcde38 : 0(0 size) total buffers - 0(0 size) used buffers - 56/60 (recycle/alloc) - 4/59 (fetch/transfer)
+10-13 06:07:21.492   508   918 D BufferPoolAccessor2.0: evictor expired: 3, evicted: 1
+10-13 06:07:21.494   498  4500 D BufferPoolAccessor2.0: bufferpool2 0x7eef3bb97c28 : 0(0 size) total buffers - 0(0 size) used buffers - 55/63 (recycle/alloc) - 8/124 (fetch/transfer)
+10-13 06:07:21.494   498  4500 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 1
+10-13 06:07:21.498   498  2265 D NuPlayerDriver: stop(0x7eedfbb940d0)
+10-13 06:07:21.521   921  4627 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+10-13 06:07:21.521   921  4627 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+10-13 06:07:21.522   498  2265 D NuPlayerDriver: reset(0x7eedfbb940d0) at state 8
+10-13 06:07:21.534   498  4625 D CCodecBuffers: [c2.android.vorbis.decoder#682:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+10-13 06:07:21.534   921  4616 W MediaPlayer: mediaplayer went away with unhandled events
+10-13 06:07:21.534   921  4616 W MediaPlayer: mediaplayer went away with unhandled events
+10-13 06:07:21.552   498  4625 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:21.552   508  1000 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:21.552   508  1000 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:21.556   498  4618 D NuPlayerDriver: notifyResetComplete(0x7eedfbb940d0)
+10-13 06:07:21.557   508  1000 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7034a4fc9688 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+10-13 06:07:21.561   576  1007 I MediaFocusControl: abandonAudioFocus() from uid/pid 10181/921 clientId=android.media.AudioManager@63cc471
+10-13 06:07:21.562  1211  1529 D EGL_emulation: app_time_stats: avg=1207.68ms min=18.70ms max=3242.98ms count=3
+10-13 06:07:21.563   498  4624 W AMessage: failed to post message as target looper for handler 0 is gone.
+10-13 06:07:21.581   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.581   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.696   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.697   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.726   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:21.737   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:21.741  1211  1529 D EGL_emulation: app_time_stats: avg=768.21ms min=453.10ms max=1083.33ms count=2
+10-13 06:07:21.801   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.805   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:21.913   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:21.913   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.017   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.017   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.121   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.121   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.194   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.194   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.195   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.196   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.196   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.196   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.196   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:22.202  4210  4236 D UiObject2: Swiping right (bounds=Rect(250, 683 - 820, 726), percent=1.000000) at 13125px/s.
+10-13 06:07:22.229   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.229   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.340   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.340   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.396  4210  4236 W GestureController: Gestures took longer than expected (194ms >> 56ms), device might be in a busy state.
+10-13 06:07:22.471   921  1060 D EGL_emulation: app_time_stats: avg=142.04ms min=52.01ms max=381.01ms count=7
+10-13 06:07:22.513   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.513   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.613   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.613   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.717   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.717   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.821   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.821   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:22.925   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:22.925   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.029   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.029   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.133   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.133   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.237   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.237   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.341   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.341   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.445   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.445   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.549   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.549   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.653   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.653   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.757   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.757   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.761  1444  1690 I BistoHotwordHelper: (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+10-13 06:07:23.861   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.861   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.897  4210  4236 D UiDevice: Taking screenshot (scale=1.000000, quality=90) and storing at /sdcard/Download/notifystudy/08_after_swipe.png.
+10-13 06:07:23.938  1435  1756 W MediaProvider: isAppCloneUserPair for user 0: false
+10-13 06:07:23.965   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:23.965   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:23.967  1178  4629 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:9 exec_start_elapsed_seconds: 161 [CONTEXT service_id=218 ]
+10-13 06:07:23.968  1178  4629 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:9 result: 1 elapsed_millis: 6 uptime_millis: 6 exec_start_elapsed_seconds: 161 [CONTEXT service_id=218 ]
+10-13 06:07:23.979  1178  4632 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 161 [CONTEXT service_id=218 ]
+10-13 06:07:24.008  2294  2294 W binder:2294_4: type=1400 audit(0.0:67): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=318 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-13 06:07:24.017  2294  2608 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+10-13 06:07:24.017  2294  2608 W libc    : Access denied finding property "service.adb.tls.port"
+10-13 06:07:24.017   576  1796 D FileUtils: Rounded bytes from 3121676288 to 4000000000
+10-13 06:07:24.023   378  4635 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+10-13 06:07:24.023  2294  2608 D TrafficStats: tagSocket(117) with statsTag=0x1809, statsUid=-1
+10-13 06:07:24.025  4210  4236 D UiDevice: Waiting 10000ms for SearchCondition[hasObject=BySelector [TEXT='\QQuestion-2\E']].
+10-13 06:07:24.025  4210  4236 D UiDevice: Searching for node with selector: BySelector [TEXT='\QQuestion-2\E'].
+10-13 06:07:24.012  2294  2294 W binder:2294_4: type=1400 audit(0.0:68): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=63 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+10-13 06:07:24.032  1178  1841 W GmsUrlRequestImpl: Content-Type header is overwritten.
+10-13 06:07:24.036   378  4636 I resolv  : GetAddrInfoHandler::run: {100 786532 100 983140 10143 0}
+10-13 06:07:24.036   378  4638 I resolv  : res_nmkquery: (QUERY, IN, A)
+10-13 06:07:24.036   378  4637 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+10-13 06:07:24.036   378  4638 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x74723178b710
+10-13 06:07:24.036   378  4638 I resolv  : doQuery: rcode=0, ancount=8, return value=168
+10-13 06:07:24.036   378  4637 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x747171789a90
+10-13 06:07:24.036   378  4637 I resolv  : doQuery: rcode=0, ancount=8, return value=264
+10-13 06:07:24.038  1178  2517 D TrafficStats: tagSocket(115) with statsTag=0x401, statsUid=10143
+10-13 06:07:24.045  4210  4236 D UiDevice: Executing shell command: cmd notification set_dnd off
+10-13 06:07:24.054   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.055  4210  4236 D UiDevice: Executing shell command: cmd statusbar collapse
+10-13 06:07:24.055   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.055   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.055   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.055   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445   856 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.056   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.057   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.057   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.057   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.057   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.057   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:24.062  4210  4236 D UiDevice: Pressing home button.
+10-13 06:07:24.072   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:24.072   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:24.078  1211  1529 D EGL_emulation: app_time_stats: avg=1257.62ms min=364.13ms max=2151.11ms count=2
+10-13 06:07:24.082   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:24.112   921  1060 D EGL_emulation: app_time_stats: avg=544.85ms min=42.56ms max=1541.00ms count=3
+10-13 06:07:24.141   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:134d4926: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+10-13 06:07:24.141   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:134d4926: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:24.160  1211  1529 D EGL_emulation: app_time_stats: avg=1208.92ms min=158.28ms max=2259.57ms count=2
+10-13 06:07:24.162  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:24.207   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:24.207   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:24.215   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.215   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.215   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.215   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.215   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.216   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.216   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.216   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.216   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.216   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:24.237  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:24.237  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:24.239  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:24.239  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:24.249  1178  1841 W GLSUser : [AppCertManager] Exception while requesting key: 
+10-13 06:07:24.249  1178  1841 W GLSUser : java.util.concurrent.ExecutionException: bpcw: Parse Proto Exception with response code 400
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at etvr.s(:com.google.android.gms@242335041@24.23.35 (190800-646585959):21)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at etvr.get(:com.google.android.gms@242335041@24.23.35 (190800-646585959):10)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at yfw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):477)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at yfu.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):31)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at yfp.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at yfs.a(:com.google.android.gms@242335041@24.23.35 (190800-646585959):58)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at uou.call(:com.google.android.gms@242335041@24.23.35 (190800-646585959):56)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at angs.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):50)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at angs.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):76)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at anmg.run(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:24.249  1178  1841 W GLSUser : Caused by: bpcw: Parse Proto Exception with response code 400
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):80)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at bpgb.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):17)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at bpgp.onSucceeded(:com.google.android.gms@242335041@24.23.35 (190800-646585959):7)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at m.mw.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):3)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at m.lt.run(:com.google.android.gms.dynamite_cronetdynamite@242335041@24.23.35 (190800-0):25)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	... 6 more
+10-13 06:07:24.249  1178  1841 W GLSUser : Caused by: fkhe: Protocol message contained an invalid tag (zero).
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkea.k(:com.google.android.gms@242335041@24.23.35 (190800-646585959):39)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkid.c(:com.google.android.gms@242335041@24.23.35 (190800-646585959):309)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkid.i(:com.google.android.gms@242335041@24.23.35 (190800-646585959):8)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkgi.fe(:com.google.android.gms@242335041@24.23.35 (190800-646585959):25)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkgc.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkdw.e(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkdw.d(:com.google.android.gms@242335041@24.23.35 (190800-646585959):3)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at fkdw.p(:com.google.android.gms@242335041@24.23.35 (190800-646585959):1)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at bpdw.g(:com.google.android.gms@242335041@24.23.35 (190800-646585959):68)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	at bpdw.b(:com.google.android.gms@242335041@24.23.35 (190800-646585959):11)
+10-13 06:07:24.249  1178  1841 W GLSUser : 	... 10 more
+10-13 06:07:24.309   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:24.309   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:24.310   576   596 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10180, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:24.311   921  2443 D KeyguardService: setOccluded(false)
+10-13 06:07:24.312   921  2443 D KeyguardViewMediator: setOccluded(false)
+10-13 06:07:24.315  1211  1211 W SplitSelectStateCtor: Missing session instanceIds
+10-13 06:07:24.315  1211  1211 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-13 06:07:24.315  1211  1211 D OverviewCommandHelper: clearing pending commands - size: 0
+10-13 06:07:24.317  1211  1211 D StatsLog: LAUNCHER_ONRESUME
+10-13 06:07:24.327  1414  1764 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+10-13 06:07:24.327  1414  1764 I AiAiEcho: EchoTargets: 
+10-13 06:07:24.327  1414  1764 I AiAiEcho: Filtered by AiAi flag check: 
+10-13 06:07:24.327  1414  1764 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:24.327  1414  1764 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:24.328  1414  1764 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+10-13 06:07:24.328  1414  1764 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-13 06:07:24.329  1211  1254 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+10-13 06:07:24.330  1211  1211 D SsBaseTemplateCard: No text view can be set up
+10-13 06:07:24.330  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:24.330  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:24.330  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:24.330  1211  1211 I SsBaseTemplateCard: Secondary card pane is null
+10-13 06:07:24.385   576  1469 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+10-13 06:07:24.388   921  1060 D EGL_emulation: app_time_stats: avg=1155.06ms min=108.72ms max=2700.88ms count=3
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: 	... 8 more
+10-13 06:07:24.389  1211  1914 D OneSearchSuggestProvider: Established or reuse existing binder channel authority=com.google.android.googlequicksearchbox
+10-13 06:07:24.392  1178  4629 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 279 uptime_millis: 279 exec_start_elapsed_seconds: 161 [CONTEXT service_id=218 ]
+10-13 06:07:24.435   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:24.435   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:24.449  4210  4236 I InstrumentedTest: closeCollection: InstrumentedTest: End
+10-13 06:07:24.489   378   378 I netd    : tetherGetStats() -> {[]} <0.39ms>
+10-13 06:07:24.503   498  4500 D BufferPoolAccessor2.0: bufferpool2 0x7eef3bb954d8 : 0(0 size) total buffers - 0(0 size) used buffers - 81/89 (recycle/alloc) - 8/176 (fetch/transfer)
+10-13 06:07:24.503   498  4500 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+10-13 06:07:24.510   508   918 D BufferPoolAccessor2.0: bufferpool2 0x7034a4fc47e8 : 0(0 size) total buffers - 0(0 size) used buffers - 82/86 (recycle/alloc) - 4/85 (fetch/transfer)
+10-13 06:07:24.510   508   918 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 1
+10-13 06:07:24.521   387  4383 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 1089088
+10-13 06:07:24.533   921   921 D KeyguardViewMediator: handleSetOccluded(false)
+10-13 06:07:24.533   921   921 D KeyguardViewMediator: KeyguardViewMediator queue processing message: SET_OCCLUDED
+10-13 06:07:24.543   387  4580 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:24.543   387  4580 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:24.594  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16/DevicePersonalizationPrebuiltPixel2021-aiai_20240329.00_RC16.apk' with 1 weak references
+10-13 06:07:24.595  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/GoogleTTS/GoogleTTS.apk' with 1 weak references
+10-13 06:07:24.596  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk' with 1 weak references
+10-13 06:07:24.612  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk' with 1 weak references
+10-13 06:07:24.612  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk' with 1 weak references
+10-13 06:07:24.613  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk' with 1 weak references
+10-13 06:07:24.614  1096  1102 W ndroid.settings: ApkAssets: Deleting an ApkAssets object '<empty> and /apex/com.android.extservices/priv-app/GoogleExtServices@350820300/GoogleExtServices.apk' with 1 weak references
+10-13 06:07:24.632  4210  4239 I Collection: Collection closed
+10-13 06:07:24.633  4210  4239 D Backend : Closing rust backend
+10-13 06:07:24.637  4210  4236 I TestRunner: finished: swipedAwayCardComesBackImmediately(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)

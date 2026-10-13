@@ -1,0 +1,760 @@
+10-13 06:07:13.926  4210  4236 I TestRunner: started: skipFromTheNotificationShowsTheSameCardsNextRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
+10-13 06:07:13.932  4210  4236 I UiAutomationPermGranter: Permission: android.permission.POST_NOTIFICATIONS is already granted!
+10-13 06:07:13.932  4210  4236 D UiObject: Waiting 0ms for UiSelector[CONTAINS_TEXT=Wait].
+10-13 06:07:13.938  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2696_fe0f/lottie.json
+10-13 06:07:13.938  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2696_fe0f/lottie.json)
+10-13 06:07:14.007  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563854
+10-13 06:07:14.007  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563855
+10-13 06:07:14.011  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4a1/lottie.json
+10-13 06:07:14.011  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4a1/lottie.json)
+10-13 06:07:14.016  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f393/lottie.json
+10-13 06:07:14.016  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f393/lottie.json)
+10-13 06:07:14.031   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.031   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.032  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563856
+10-13 06:07:14.034   921  1060 D EGL_emulation: app_time_stats: avg=549.40ms min=68.04ms max=1497.76ms count=4
+10-13 06:07:14.037  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563857
+10-13 06:07:14.039  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2602_fe0f/lottie.json
+10-13 06:07:14.039  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2602_fe0f/lottie.json)
+10-13 06:07:14.048  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2699_fe0f/lottie.json
+10-13 06:07:14.048  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2699_fe0f/lottie.json)
+10-13 06:07:14.143   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.143   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.150  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563858
+10-13 06:07:14.150  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563859
+10-13 06:07:14.157  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/270f_fe0f/lottie.json
+10-13 06:07:14.157  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/270f_fe0f/lottie.json)
+10-13 06:07:14.164  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/23f0/lottie.json
+10-13 06:07:14.164  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/23f0/lottie.json)
+10-13 06:07:14.206  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563861
+10-13 06:07:14.207   378   378 I netd    : tetherGetStats() -> {[]} <16.96ms>
+10-13 06:07:14.209   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@2820e66
+10-13 06:07:14.209   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@3a0dd16
+10-13 06:07:14.210   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@3df0697
+10-13 06:07:14.210   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@9c20084
+10-13 06:07:14.211   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@9247025
+10-13 06:07:14.211   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@4d35fa
+10-13 06:07:14.218  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563860
+10-13 06:07:14.227   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:14.227   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:14.227   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:14.248  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6ce_fe0f/lottie.json
+10-13 06:07:14.248  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6ce_fe0f/lottie.json)
+10-13 06:07:14.253  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f514/lottie.json
+10-13 06:07:14.253  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f514/lottie.json)
+10-13 06:07:14.257   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.257   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.280  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563862
+10-13 06:07:14.283  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f52e/lottie.json
+10-13 06:07:14.283  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f52e/lottie.json)
+10-13 06:07:14.285  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563863
+10-13 06:07:14.292  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2648/lottie.json
+10-13 06:07:14.292  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2648/lottie.json)
+10-13 06:07:14.357   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.357   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.449   508   918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-13 06:07:14.461   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.461   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.469   498  4500 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-13 06:07:14.507  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563865
+10-13 06:07:14.507  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563864
+10-13 06:07:14.510  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2649/lottie.json
+10-13 06:07:14.510  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2649/lottie.json)
+10-13 06:07:14.512  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264a/lottie.json
+10-13 06:07:14.512  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264a/lottie.json)
+10-13 06:07:14.526  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563866
+10-13 06:07:14.529  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264b/lottie.json
+10-13 06:07:14.529  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264b/lottie.json)
+10-13 06:07:14.532  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563867
+10-13 06:07:14.535  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264c/lottie.json
+10-13 06:07:14.535  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264c/lottie.json)
+10-13 06:07:14.543  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563868
+10-13 06:07:14.545  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264d/lottie.json
+10-13 06:07:14.545  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264d/lottie.json)
+10-13 06:07:14.548  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563869
+10-13 06:07:14.550  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264e/lottie.json
+10-13 06:07:14.550  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264e/lottie.json)
+10-13 06:07:14.558  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563870
+10-13 06:07:14.561  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/264f/lottie.json
+10-13 06:07:14.561  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/264f/lottie.json)
+10-13 06:07:14.564  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563871
+10-13 06:07:14.565   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.565   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.566  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2650/lottie.json
+10-13 06:07:14.566  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2650/lottie.json)
+10-13 06:07:14.573  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563872
+10-13 06:07:14.576  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2651/lottie.json
+10-13 06:07:14.576  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2651/lottie.json)
+10-13 06:07:14.580  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563873
+10-13 06:07:14.583  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2652/lottie.json
+10-13 06:07:14.583  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2652/lottie.json)
+10-13 06:07:14.593  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563874
+10-13 06:07:14.596  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2653/lottie.json
+10-13 06:07:14.596  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2653/lottie.json)
+10-13 06:07:14.610  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563875
+10-13 06:07:14.612  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/26ce/lottie.json
+10-13 06:07:14.612  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/26ce/lottie.json)
+10-13 06:07:14.628  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563876
+10-13 06:07:14.630  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2757/lottie.json
+10-13 06:07:14.630  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2757/lottie.json)
+10-13 06:07:14.642  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563877
+10-13 06:07:14.645  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2753/lottie.json
+10-13 06:07:14.645  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2753/lottie.json)
+10-13 06:07:14.659  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563878
+10-13 06:07:14.661  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2049_fe0f/lottie.json
+10-13 06:07:14.661  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2049_fe0f/lottie.json)
+10-13 06:07:14.661   387  4383 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 701760
+10-13 06:07:14.669   387  4543 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+10-13 06:07:14.669   387  4543 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+10-13 06:07:14.671  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563879
+10-13 06:07:14.672  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/203c_fe0f/lottie.json
+10-13 06:07:14.672  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/203c_fe0f/lottie.json)
+10-13 06:07:14.682  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563880
+10-13 06:07:14.685  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/274c/lottie.json
+10-13 06:07:14.685  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/274c/lottie.json)
+10-13 06:07:14.687   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+10-13 06:07:14.688   576   838 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+10-13 06:07:14.688   576   838 D InetDiagMessage: Destroyed live tcp sockets for uids={10205} in 1ms
+10-13 06:07:14.699  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563881
+10-13 06:07:14.701  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f198/lottie.json
+10-13 06:07:14.701  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f198/lottie.json)
+10-13 06:07:14.712  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563882
+10-13 06:07:14.714  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4f4/lottie.json
+10-13 06:07:14.714  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4f4/lottie.json)
+10-13 06:07:14.724  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563883
+10-13 06:07:14.725  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2705/lottie.json
+10-13 06:07:14.725  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2705/lottie.json)
+10-13 06:07:14.736  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563884
+10-13 06:07:14.738  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f195/lottie.json
+10-13 06:07:14.738  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f195/lottie.json)
+10-13 06:07:14.752  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563885
+10-13 06:07:14.753  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f193/lottie.json
+10-13 06:07:14.754  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f193/lottie.json)
+10-13 06:07:14.769  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563886
+10-13 06:07:14.771  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f199/lottie.json
+10-13 06:07:14.771  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f199/lottie.json)
+10-13 06:07:14.775  4210  4236 D UiDevice: Executing shell command: cmd notification set_dnd off
+10-13 06:07:14.782  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563887
+10-13 06:07:14.783   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.784   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.784  4210  4239 D Backend : Opening rust backend with lang=[en-US]
+10-13 06:07:14.786   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.786   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.786   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.786   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.787   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.787   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f192/lottie.json
+10-13 06:07:14.788  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f192/lottie.json)
+10-13 06:07:14.788   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445  4415 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445  4415 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445  4415 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.788   445   657 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:14.791  4210  4239 V Media   : dir /storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.media
+10-13 06:07:14.791  4210  4239 I Collection: (Re)opening Database: Path(path=/storage/emulated/0/Android/data/com.ichi2.anki.debug/files/AnkiDroid/androidTest/collection.anki2)
+10-13 06:07:14.806  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563888
+10-13 06:07:14.808  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6ae/lottie.json
+10-13 06:07:14.808  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6ae/lottie.json)
+10-13 06:07:14.825  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563889
+10-13 06:07:14.826  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3b6/lottie.json
+10-13 06:07:14.826  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3b6/lottie.json)
+10-13 06:07:14.840  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563890
+10-13 06:07:14.845  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/2795/lottie.json
+10-13 06:07:14.845  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/2795/lottie.json)
+10-13 06:07:14.855  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563891
+10-13 06:07:14.857  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3c1/lottie.json
+10-13 06:07:14.857  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3c1/lottie.json)
+10-13 06:07:14.870  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563892
+10-13 06:07:14.871  3247  3364 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6a9/lottie.json
+10-13 06:07:14.871  3247  3364 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6a9/lottie.json)
+10-13 06:07:14.882  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563893
+10-13 06:07:14.889  3247  3392 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3f4/lottie.json
+10-13 06:07:14.889  3247  3392 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3f4/lottie.json)
+10-13 06:07:14.893  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563894
+10-13 06:07:14.897  3247  3367 D dasx    : Starting download: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3f3_fe0f/lottie.json
+10-13 06:07:14.898  3247  3367 V dasx    : Is http uri, downloading (uri: https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3f3_fe0f/lottie.json)
+10-13 06:07:14.903  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563895
+10-13 06:07:14.908  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/emoji/animated_emoji/animated_emojis_mapping.json_1742470951863
+10-13 06:07:14.908  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/emoji/animated_emoji/animated_emojis_mapping.json_1742470951863)
+10-13 06:07:14.910  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563896
+10-13 06:07:14.916  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/laugh_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.916  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/laugh_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.929  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563897
+10-13 06:07:14.930  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/poop_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.930  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/poop_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.937  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563904
+10-13 06:07:14.942  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/thumbs_down_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.942  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/thumbs_down_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.950  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563905
+10-13 06:07:14.952  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/thumbs_up_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.953  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/thumbs_up_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.963  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563906
+10-13 06:07:14.963  1545  1545 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+10-13 06:07:14.967  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/anger_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.967  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/anger_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.971  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563910
+10-13 06:07:14.973  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/surprise_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.973  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/surprise_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.986  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563915
+10-13 06:07:14.989  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/celebrate_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.989  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/celebrate_reaction_effect.binarypb_1698178504983)
+10-13 06:07:14.992  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563917
+10-13 06:07:14.993  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/love_reaction_effect.binarypb_1698178504983
+10-13 06:07:14.993  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/love_reaction_effect.binarypb_1698178504983)
+10-13 06:07:15.009  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563923
+10-13 06:07:15.012  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563925
+10-13 06:07:15.014  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/effects/screen_effects/sad_reaction_effect.binarypb_1698178504983
+10-13 06:07:15.014  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/effects/screen_effects/sad_reaction_effect.binarypb_1698178504983)
+10-13 06:07:15.014  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/smart_suggestion_reranker_models/smart_suggestion_reranker_models/tff_suggestion_triggering_2022_03_30d_train_s1.0c1.0.10_examples_optimized_checkpoint_03570.tflite_1651164981810
+10-13 06:07:15.014  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/smart_suggestion_reranker_models/smart_suggestion_reranker_models/tff_suggestion_triggering_2022_03_30d_train_s1.0c1.0.10_examples_optimized_checkpoint_03570.tflite_1651164981810)
+10-13 06:07:15.033  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563927
+10-13 06:07:15.035  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563463_db989a6348a79f88359bcaf1740203754be6f8d3
+10-13 06:07:15.040   576   576 D FlashNotifController: requestStartFlashNotification
+10-13 06:07:15.040   576   576 I FlashNotifController: startFlashNotification: type=1, tag=android
+10-13 06:07:15.040   576   576 D FlashNotifController: Flash notification is disabled
+10-13 06:07:15.050  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:15.054  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/birthday_suggestion/CuratedBirthdaySuggestionList.pb_1644248717638
+10-13 06:07:15.054  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/birthday_suggestion/CuratedBirthdaySuggestionList.pb_1644248717638)
+10-13 06:07:15.057  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:15.057  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:15.063   498  2251 D NuPlayerDriver: NuPlayerDriver(0x7eedfbb93110) created, clientPid(921)
+10-13 06:07:15.064   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+10-13 06:07:15.064   498  2251 D MediaPlayerService: OMX service is not available
+10-13 06:07:15.071   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:15.072  1211  1529 D EGL_emulation: app_time_stats: avg=422.25ms min=30.31ms max=1217.60ms count=4
+10-13 06:07:15.073   498  4572 D GenericSource: FileSource remote
+10-13 06:07:15.075   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:15.086  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563481_8c4f9a5469b22fd2c9db484174d189afb553cac4
+10-13 06:07:15.090   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:15.095   921   921 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+10-13 06:07:15.099   921   921 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+10-13 06:07:15.099   921   921 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+10-13 06:07:15.110   576  1175 I MediaFocusControl: requestAudioFocus() from uid/pid 10181/921 AA=USAGE_NOTIFICATION/CONTENT_TYPE_SONIFICATION clientId=android.media.AudioManager@5dfc4ae callingPack=com.android.systemui req=3 flags=0x0 sdk=35
+10-13 06:07:15.111  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/birthday_suggestion/BirthdaySuggestionsConfig.pb_1644437564314
+10-13 06:07:15.111  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/birthday_suggestion/BirthdaySuggestionsConfig.pb_1644437564314)
+10-13 06:07:15.125  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/scripted_reply/model_based_provider_configs_pumpkin_model_config_scripted_reply_2020021300.pb_1581713444820
+10-13 06:07:15.125  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/scripted_reply/model_based_provider_configs_pumpkin_model_config_scripted_reply_2020021300.pb_1581713444820)
+10-13 06:07:15.150   921  1060 D EGL_emulation: app_time_stats: avg=558.25ms min=122.17ms max=994.33ms count=2
+10-13 06:07:15.306  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:15.306  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.306   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.307   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:15.315  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563482
+10-13 06:07:15.316  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563450
+10-13 06:07:15.316  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/scripted_reply/ScriptedReply_android.far_1674236595521
+10-13 06:07:15.316  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/scripted_reply/ScriptedReply_android.far_1674236595521)
+10-13 06:07:15.339  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/scripted_reply/regex_patterns.pb_1623954250394
+10-13 06:07:15.339  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/scripted_reply/regex_patterns.pb_1623954250394)
+10-13 06:07:15.450   508   918 D BufferPoolAccessor2.0: bufferpool2 0x7034a4fcde38 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+10-13 06:07:15.450   508   918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+10-13 06:07:15.492   498  4500 D BufferPoolAccessor2.0: bufferpool2 0x7eef3bb972e8 : 0(0 size) total buffers - 0(0 size) used buffers - 94/102 (recycle/alloc) - 8/198 (fetch/transfer)
+10-13 06:07:15.492   498  4500 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+10-13 06:07:15.558   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@f8e9949
+10-13 06:07:15.558   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@9e1b24e
+10-13 06:07:15.558   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.558   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.562   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:15.562   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@7aaa55a
+10-13 06:07:15.562   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@fa6038b
+10-13 06:07:15.562   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@7460c68
+10-13 06:07:15.562   921   921 D DLObserver: add listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@10b2881
+10-13 06:07:15.562   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.562   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.562   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.562   921   921 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+10-13 06:07:15.565   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:15.566   921  1043 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+10-13 06:07:15.579   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:15.579   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:15.579   921  1043 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+10-13 06:07:15.581   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.581   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.581   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.581   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.581   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.582   921   921 D DLObserver: onDockEvent mDockState = 0
+10-13 06:07:15.632  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563452
+10-13 06:07:15.633   498  4571 I GenericSource: start
+10-13 06:07:15.634  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563451
+10-13 06:07:15.642   498  4578 D CCodec  : allocate(c2.android.vorbis.decoder)
+10-13 06:07:15.645   921   921 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:15.645   921   921 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:15.660   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:15.664   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:15.683  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/scripted_reply/pumpkin_model_config_scripted_reply_2020021300.pb_1581713444820
+10-13 06:07:15.683  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/scripted_reply/pumpkin_model_config_scripted_reply_2020021300.pb_1581713444820)
+10-13 06:07:15.698   498  4578 I CCodec  : setting up 'default' as default (vendor) store
+10-13 06:07:15.704  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563453
+10-13 06:07:15.707  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/scripted_reply/scripted_reply_templates.pb_1594412191210
+10-13 06:07:15.707  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/scripted_reply/scripted_reply_templates.pb_1594412191210)
+10-13 06:07:15.717   498  4578 I CCodec  : Created component [c2.android.vorbis.decoder]
+10-13 06:07:15.718   498  4578 D CCodecConfig: read media type: audio/vorbis
+10-13 06:07:15.722   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-13 06:07:15.722   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-13 06:07:15.722   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-13 06:07:15.723   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-13 06:07:15.723   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-13 06:07:15.723   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-13 06:07:15.723   498  4578 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-13 06:07:15.764  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563454
+10-13 06:07:15.800  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/Selfie_Gif_android.far_1721865243584
+10-13 06:07:15.800   498  4578 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:15.800  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/Selfie_Gif_android.far_1721865243584)
+10-13 06:07:15.800   498  4578 D CCodecConfig: c2 config diff is Dict {
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-13 06:07:15.800   498  4578 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-13 06:07:15.800   498  4578 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-13 06:07:15.800   498  4578 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-13 06:07:15.800   498  4578 D CCodecConfig: }
+10-13 06:07:15.846  3247  3367 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/selfie_gif_templates.pb_1721865243584
+10-13 06:07:15.846  3247  3367 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/selfie_gif_templates.pb_1721865243584)
+10-13 06:07:15.865  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563969
+10-13 06:07:15.867  3247  3392 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/pumpkin_model_config_selfie_gif.pb_1721865243584
+10-13 06:07:15.867  3247  3392 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/pumpkin_model_config_selfie_gif.pb_1721865243584)
+10-13 06:07:15.869   498  4578 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+10-13 06:07:15.869   498  4578 D CCodecConfig: no c2 equivalents for durationUs
+10-13 06:07:15.869   498  4578 D CCodecConfig: no c2 equivalents for csd-1
+10-13 06:07:15.869   498  4578 D CCodecConfig: no c2 equivalents for flags
+10-13 06:07:15.869   498  4578 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+10-13 06:07:15.870   498  4578 W Codec2Client: query -- param skipped: index = 1107298332.
+10-13 06:07:15.870   498  4578 D CCodec  : encoding statistics level = 0
+10-13 06:07:15.870   498  4578 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t bitrate = 70000
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t max-input-size = 32768
+10-13 06:07:15.870   498  4578 D CCodec  :   string mime = "audio/vorbis"
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:15.870   498  4578 D CCodec  : }
+10-13 06:07:15.870   498  4578 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:15.870   498  4578 D CCodec  :   string mime = "audio/raw"
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t channel-mask = 1
+10-13 06:07:15.870   498  4578 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-13 06:07:15.870   498  4578 D CCodec  : }
+10-13 06:07:15.870   498  4578 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:15.947  3247  3367 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563970
+10-13 06:07:15.948  3247  3364 D dasx    : Starting download: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/model_based_provider_configs_pumpkin_selfie_gif.pb_1721865243584
+10-13 06:07:15.948  3247  3364 V dasx    : Is http uri, downloading (uri: https://www.gstatic.com/messages/smarts/selfie_gif_grammars/model_based_provider_configs_pumpkin_selfie_gif.pb_1721865243584)
+10-13 06:07:15.953  3247  3392 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563971
+10-13 06:07:15.971   498  4578 I MediaCodec: MediaCodec will operate in async mode
+10-13 06:07:15.971   498  4577 D MediaCodec: keep callback message for reclaim
+10-13 06:07:15.997  3247  3364 E MDD     : DownloadProgressMonitor: Can't find file group for uri: android://com.google.android.apps.messaging/files/datadownload/shared/public/datadownloadfile_1791871563972
+10-13 06:07:16.001   498  4578 W Codec2Client: query -- param skipped: index = 1342179345.
+10-13 06:07:16.001   498  4578 W Codec2Client: query -- param skipped: index = 2415921170.
+10-13 06:07:16.002   498  4578 D CCodecBufferChannel: [c2.android.vorbis.decoder#830] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+10-13 06:07:16.003   508   916 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7034a4fcde38 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 96% unfetched
+10-13 06:07:16.004   498  4503 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7eef3bb972e8 cached: 0/0M, 0/0% in use; allocs: 102, 92% recycled; transfers: 198, 96% unfetched
+10-13 06:07:16.004   498  4578 I CCodecBufferChannel: [c2.android.vorbis.decoder#830] Created output block pool with allocatorID 16 => poolID 40 - OK
+10-13 06:07:16.005   498  4578 D CCodecBufferChannel: [c2.android.vorbis.decoder#830] Configured output block pool ids 40 => OK
+10-13 06:07:16.006   508  4540 E Codec2-ComponentInterface: We have a failed config
+10-13 06:07:16.009   508  4579 D SimpleC2Component: Using output block pool with poolID 40 => got 40 - 0
+10-13 06:07:16.023   445   468 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+10-13 06:07:16.025  3247  3364 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=65d123f6-62c8-481a-949d-41ecd6ff6e32, tags={ com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker,MDD.CELLULAR.CHARGING.PERIODIC.TASK } ]
+10-13 06:07:16.032   445  3332 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-13 06:07:16.035  3247  3258 I .apps.messaging: Background concurrent mark compact GC freed 7626KB AllocSpace bytes, 173(9136KB) LOS objects, 49% free, 15MB/30MB, paused 386us,1.066ms total 221.467ms
+10-13 06:07:16.046   498  4576 D AudioTrack: getTimestamp_l(18): device stall time corrected using current time 153608886273
+10-13 06:07:16.086  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.087  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.087  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.088  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.089  3247  3367 E PhFileGroupPop: Failed to add file group 
+10-13 06:07:16.089  3247  3367 E dqod    : RuntimeException while executing runnable dqra{dkqj@be8af1e} with executor MoreExecutors.directExecutor()
+10-13 06:07:16.089  3247  3367 E dqod    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String cwru.b' on a null object reference in method 'void cyar.b(java.lang.Object)'
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cyar.b(PG:11)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dkqj.b(PG:13)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqra.run(PG:30)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqqd.execute(PG:1)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqod.o(PG:1)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqod.b(PG:41)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqrh.s(PG:9)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dksz.l(PG:5)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cyat.a(PG:138)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at bilp.a(PG:29)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cwzc.r(PG:24)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cwws.a(PG:5)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dkqe.a(PG:13)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqoh.d(PG:3)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqoj.run(PG:42)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqso.run(PG:76)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at crzm.run(PG:3)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cryq.run(PG:6)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at csaw.run(PG:64)
+10-13 06:07:16.089  3247  3367 E dqod    : RuntimeException while executing runnable dqra{dkqj@c9ff5cc} with executor MoreExecutors.directExecutor()
+10-13 06:07:16.089  3247  3367 E dqod    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String cwru.b' on a null object reference in method 'void cyar.b(java.lang.Object)'
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cyar.b(PG:11)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dkqj.b(PG:13)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqra.run(PG:30)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqqd.execute(PG:1)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqod.o(PG:1)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqod.b(PG:41)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqrh.s(PG:9)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dksz.l(PG:5)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cyat.a(PG:138)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at bilp.a(PG:29)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cwzc.r(PG:24)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cwws.a(PG:5)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dkqe.a(PG:13)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqoh.d(PG:3)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqoj.run(PG:42)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at dqso.run(PG:76)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at crzm.run(PG:3)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at cryq.run(PG:6)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:16.089  3247  3367 E dqod    : 	at csaw.run(PG:64)
+10-13 06:07:16.093  3247  3367 E dqod    : RuntimeException while executing runnable dqra{dkqj@e6c9f2a} with executor MoreExecutors.directExecutor()
+10-13 06:07:16.093  3247  3367 E dqod    : java.lang.NullPointerException: Attempt to read from field 'java.lang.String cwru.b' on a null object reference in method 'void cyar.b(java.lang.Object)'
+10-13 06:07:16.093  3247  3367 E dqod    : 	at cyar.b(PG:11)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dkqj.b(PG:13)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqra.run(PG:30)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqqd.execute(PG:1)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqod.o(PG:1)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqod.b(PG:41)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqrh.s(PG:9)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dksz.l(PG:5)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at cyat.a(PG:138)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at bilp.a(PG:29)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at cwzc.r(PG:24)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at cwws.a(PG:5)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dkqe.a(PG:13)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqoh.d(PG:3)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqoj.run(PG:42)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at dqso.run(PG:76)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at crzm.run(PG:3)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at cryq.run(PG:6)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:16.093  3247  3367 E dqod    : 	at csaw.run(PG:64)
+10-13 06:07:16.094  3247  3367 E MDD     : FileGroupManager: Trying to add expired group webref-model-local-index.
+10-13 06:07:16.094  3247  3367 W MDD     : MDDManager class cxev
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: Failed to add file group
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: cxev
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at cxns.a(PG:941)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at dkqe.a(PG:13)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at dqoh.d(PG:3)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at dqoj.run(PG:42)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at dqso.run(PG:76)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at crzm.run(PG:3)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at cryq.run(PG:6)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at java.lang.Thread.run(Thread.java:1012)
+10-13 06:07:16.094  3247  3367 E PhFileGroupPop: 	at csaw.run(PG:64)
+10-13 06:07:16.094  3247  3367 D PhFileGroupPop: Added file groups smart_actions_grammars
+10-13 06:07:16.094  3247  3367 D PhFileGroupPop: Added file groups smart_actions_ml_models
+10-13 06:07:16.094  3247  3367 D PhFileGroupPop: Added file groups text_classifier
+10-13 06:07:16.095  3247  3367 D PhFileGroupPop: Added file groups smart_actions_emotive_models
+10-13 06:07:16.100  3247  3363 W MDD     : GddFileGroupPopulator: Account was not provided, skipping private sync for corpus: GDD_BUGLE_EMOJIFY, configuration: GddBugleEmojify
+10-13 06:07:16.100  3247  3363 W GellerSyncSchedulerImpl: Corpus: GDD_BUGLE_EMOJIFY is disabled
+10-13 06:07:16.104   445   555 D AudioFlinger: mixer(0x7defc21668e0) throttle end: throttle time(16)
+10-13 06:07:16.111  3247  3367 D PhFileGroupPop: Added file groups smarts_expressive_content_scoped_v1
+10-13 06:07:16.111  3247  3367 D PhFileGroupPop: Added file groups smart_actions_sensitive_classifier_models
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups scripted_reply
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups multitask_experiment
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups spam_verdict_enforcement_policy_config
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups smart_suggestion_reranker_models
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups supersort_us_grammars
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups nudge
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups calendar_appointment_grammar
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups birthday_suggestion
+10-13 06:07:16.112  3247  3367 D PhFileGroupPop: Added file groups birthday_grammars
+10-13 06:07:16.120  3247  3367 D PhFileGroupPop: Added file groups animated_emoji
+10-13 06:07:16.120  3247  3367 D PhFileGroupPop: Added file groups voice_moods
+10-13 06:07:16.120  3247  3367 D PhFileGroupPop: Added file groups screen_effects
+10-13 06:07:16.121  3247  3367 D PhFileGroupPop: Added file groups screen_effect_suggestions
+10-13 06:07:16.121  3247  3367 D PhFileGroupPop: Added file groups selfie_gif_grammars
+10-13 06:07:16.121  3247  3367 D PhFileGroupPop: Added file groups spam_fm_templates
+10-13 06:07:16.124  3247  3364 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4f4ec646-c2ae-4676-96f4-24675bee7af7, tags={ com.google.android.libraries.mdi.download.workmanager.workers.PeriodicWorker,MDD.WIFI.CHARGING.PERIODIC.TASK } ]
+10-13 06:07:16.372  4210  4236 D UiDevice: Opening notification.
+10-13 06:07:16.374  4210  4236 D UiDevice: Waiting 10000ms for SearchCondition[findObject=BySelector [TEXT='\Q넘기기\E']].
+10-13 06:07:16.374  4210  4236 D UiDevice: Retrieving node with selector: BySelector [TEXT='\Q넘기기\E'].
+10-13 06:07:16.384   921   921 D ZenModeController: Added callback class com.android.systemui.qs.tiles.DndTile$3
+10-13 06:07:16.386   921  1060 D EGL_emulation: app_time_stats: avg=150.41ms min=48.76ms max=495.08ms count=8
+10-13 06:07:16.422   498  2265 D NuPlayerDriver: stop(0x7eedfbb93110)
+10-13 06:07:16.453   508   918 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+10-13 06:07:16.473   498  4576 W AudioTrack: pauseAndWait: timeout expired state:7 still pausing:7 after 51 ms
+10-13 06:07:16.475   921  4581 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+10-13 06:07:16.478   921  4581 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+10-13 06:07:16.478   498  2265 D NuPlayerDriver: reset(0x7eedfbb93110) at state 8
+10-13 06:07:16.482   921  1060 D EGL_emulation: app_time_stats: avg=444.08ms min=90.30ms max=630.30ms count=3
+10-13 06:07:16.522   498  4578 D CCodecBuffers: [c2.android.vorbis.decoder#830:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+10-13 06:07:16.522   498  4578 D CCodecBuffers: [c2.android.vorbis.decoder#830:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+10-13 06:07:16.522  4210  4236 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006cc0; boundsInParent: Rect(0, 0 - 1080, 2400); boundsInScreen: Rect(0, 0 - 1080, 2400); boundsInWindow: Rect(0, 0 - 1080, 2400); packageName: com.google.android.apps.nexuslauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-13 06:07:16.522  4210  4236 W ByMatcher: Skipping null child (0 of 1)
+10-13 06:07:16.527  4210  4236 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006cc0; boundsInParent: Rect(0, 0 - 1080, 2400); boundsInScreen: Rect(0, 0 - 1080, 2400); boundsInWindow: Rect(0, 0 - 1080, 2400); packageName: com.google.android.apps.nexuslauncher; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; containerTitle: null; viewIdResName: null; uniqueId: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; granularScrollingSupported: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false
+10-13 06:07:16.527  4210  4236 W ByMatcher: Skipping null child (0 of 1)
+10-13 06:07:16.536  1211  1529 D EGL_emulation: app_time_stats: avg=1503.80ms min=35.63ms max=4004.85ms count=3
+10-13 06:07:16.586   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:16.588   498  4578 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:16.591   508  4540 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:16.591   508  4540 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+10-13 06:07:16.595   498  4571 D NuPlayerDriver: notifyResetComplete(0x7eedfbb93110)
+10-13 06:07:16.595   498  2265 W AMessage: failed to post message as target looper for handler 0 is gone.
+10-13 06:07:16.600   508  4540 D BufferPoolAccessor2.0: Destruction - bufferpool2 0x7034a4fc1068 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+10-13 06:07:16.613   576  1212 I MediaFocusControl: abandonAudioFocus() from uid/pid 10181/921 clientId=android.media.AudioManager@5dfc4ae
+10-13 06:07:16.613  1211  1529 D EGL_emulation: app_time_stats: avg=770.32ms min=320.39ms max=1220.25ms count=2
+10-13 06:07:16.619   445   468 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:16.754   921   921 W FrameTracker: Missed App frame:UNKNOWN: 10, 14110, 84648359, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+10-13 06:07:16.755   921   921 W FrameTracker: Missed SF frame:UNKNOWN: 10, 14110, 84648359, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+10-13 06:07:16.755   921   921 W FrameTracker: Missed App frame:UNKNOWN: 74, 14124, 124265731, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+10-13 06:07:16.756   921   921 W FrameTracker: Missed SF frame:UNKNOWN: 74, 14124, 124265731, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+10-13 06:07:16.824  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:16.824  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:16.824  1211  1218 W System  : A resource failed to call release. 
+10-13 06:07:17.108  4210  4236 D UiObject2: Clicking on (588, 814).
+10-13 06:07:17.137   445   468 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-13 06:07:17.137   576  1007 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 15
+10-13 06:07:17.142  4210  4210 I NotifyStudyReceiver: notify study: received com.ichi2.anki.notifystudy.SKIP for card 1791871612723
+10-13 06:07:17.142  4210  4236 W GestureController: Gestures took longer than expected (34ms >> 16ms), device might be in a busy state.
+10-13 06:07:17.148   445   555 D AudioFlinger: mixer(0x7defc21668e0) throttle end: throttle time(9)
+10-13 06:07:17.148  4210  4210 I NotifyStudyEngine: notify study: round skipped
+10-13 06:07:17.180   921   921 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+10-13 06:07:17.272   445   555 D AudioFlinger: mixer(0x7defc21668e0) throttle end: throttle time(6)
+10-13 06:07:17.389   445   555 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+10-13 06:07:17.413   921  1060 D EGL_emulation: app_time_stats: avg=106.92ms min=18.70ms max=412.88ms count=9
+10-13 06:07:17.646   576   576 D FlashNotifController: requestStartFlashNotification
+10-13 06:07:17.646   576   576 I FlashNotifController: startFlashNotification: type=1, tag=android
+10-13 06:07:17.646   576   576 D FlashNotifController: Flash notification is disabled
+10-13 06:07:17.649  4210  4236 I NotifyStudyEngine: notify study: showing 2 card(s)
+10-13 06:07:17.652  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:17.652  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:17.654   498  2265 D NuPlayerDriver: NuPlayerDriver(0x7eedfbb95090) created, clientPid(921)
+10-13 06:07:17.655   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+10-13 06:07:17.655   498  2265 D MediaPlayerService: OMX service is not available
+10-13 06:07:17.657   498  4588 D GenericSource: FileSource remote
+10-13 06:07:17.660   576  1995 I MediaFocusControl: requestAudioFocus() from uid/pid 10181/921 AA=USAGE_NOTIFICATION/CONTENT_TYPE_SONIFICATION clientId=android.media.AudioManager@c6f880e callingPack=com.android.systemui req=3 flags=0x0 sdk=35
+10-13 06:07:17.673  1211  1529 D EGL_emulation: app_time_stats: avg=265.03ms min=88.42ms max=474.39ms count=4
+10-13 06:07:17.677   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:17.686   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:17.705   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:17.719   921   921 E StackScroll: Heads up view appearing 0|com.ichi2.anki.debug|4501|com.ichi2.anki.notify_study:1791871612723|10209 for ANIMATION_TYPE_ADD
+10-13 06:07:17.802   921  1060 D EGL_emulation: app_time_stats: avg=439.78ms min=102.72ms max=846.83ms count=3
+10-13 06:07:17.852  4210  4236 D UiDevice: Executing shell command: cmd notification set_dnd off
+10-13 06:07:17.855   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.855   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.855   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.855   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.856   576   576 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:17.861  1414  1982 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+10-13 06:07:17.861  1414  1982 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+10-13 06:07:17.865   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.865   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.866   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.867   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.867  4210  4236 D UiDevice: Executing shell command: cmd statusbar collapse
+10-13 06:07:17.868   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.870   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.874   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.874   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.875   445  3332 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.876   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.876   445   468 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+10-13 06:07:17.908   449   449 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+10-13 06:07:17.936  1211  1529 D EGL_emulation: app_time_stats: avg=699.39ms min=248.75ms max=1150.02ms count=2
+10-13 06:07:17.953   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:6fbde1f0: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+10-13 06:07:17.958   576   694 I ImeTracker: com.google.android.apps.nexuslauncher:6fbde1f0: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-13 06:07:17.960  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3157 
+10-13 06:07:17.963  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 0, locked = false
+10-13 06:07:17.963  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1986 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-13 06:07:17.963  1343  1343 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2248 repeatCheckTimes = 1, locked = false
+10-13 06:07:17.963  1343  1343 I AndroidIME: InputBundleManager.loadActiveInputBundleId():450 loadActiveInputBundleId: und-Latn-x-password, password
+10-13 06:07:18.147   378   378 I netd    : tetherGetStats() -> {[]} <0.34ms>
+10-13 06:07:18.159   921   921 D ZenModeController: Removed callback class com.android.systemui.qs.tiles.DndTile$3
+10-13 06:07:18.160   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@9e1b24e
+10-13 06:07:18.160   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@f8e9949
+10-13 06:07:18.163   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@7aaa55a
+10-13 06:07:18.163   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@fa6038b
+10-13 06:07:18.164   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@7460c68
+10-13 06:07:18.164   921   921 D DLObserver: remove listener: com.android.systemui.dock.DockManagerExtensionsKt$retrieveIsDocked$1$callback$1@10b2881
+10-13 06:07:18.172   921   921 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:18.172   921   921 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+10-13 06:07:18.172   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:18.172   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:18.172   921  1043 D ControlsListingControllerImpl: Unsubscribing callback
+10-13 06:07:18.174   498  4587 I GenericSource: start
+10-13 06:07:18.179   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:18.190   921  1282 D LocalImageResolver: Couldn't use ImageDecoder for drawable, falling back to non-resized load.
+10-13 06:07:18.214   498  4604 D CCodec  : allocate(c2.android.vorbis.decoder)
+10-13 06:07:18.215   498  4604 I CCodec  : setting up 'default' as default (vendor) store
+10-13 06:07:18.218   498  4604 I CCodec  : Created component [c2.android.vorbis.decoder]
+10-13 06:07:18.219   498  4604 D CCodecConfig: read media type: audio/vorbis
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+10-13 06:07:18.219   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+10-13 06:07:18.220   498  4604 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+10-13 06:07:18.220   498  4604 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:18.220   498  4604 D CCodecConfig: c2 config diff is Dict {
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 input.delay.value = 0
+10-13 06:07:18.220   498  4604 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+10-13 06:07:18.220   498  4604 D CCodecConfig:   string output.media-type.value = "audio/raw"
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+10-13 06:07:18.220   498  4604 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+10-13 06:07:18.220   498  4604 D CCodecConfig: }
+10-13 06:07:18.222   498  4604 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+10-13 06:07:18.222   498  4604 D CCodecConfig: no c2 equivalents for durationUs
+10-13 06:07:18.222   498  4604 D CCodecConfig: no c2 equivalents for csd-1
+10-13 06:07:18.222   498  4604 D CCodecConfig: no c2 equivalents for flags
+10-13 06:07:18.222   498  4604 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+10-13 06:07:18.223   498  4604 W Codec2Client: query -- param skipped: index = 1107298332.
+10-13 06:07:18.223   498  4604 D CCodec  : encoding statistics level = 0
+10-13 06:07:18.223   498  4604 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t bitrate = 70000
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t max-input-size = 32768
+10-13 06:07:18.223   498  4604 D CCodec  :   string mime = "audio/vorbis"
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:18.223   498  4604 D CCodec  : }
+10-13 06:07:18.223   498  4604 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t channel-count = 1
+10-13 06:07:18.223   498  4604 D CCodec  :   string mime = "audio/raw"
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t sample-rate = 48000
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t channel-mask = 1
+10-13 06:07:18.223   498  4604 D CCodec  :   int32_t android._config-pcm-encoding = 2
+10-13 06:07:18.223   498  4604 D CCodec  : }
+10-13 06:07:18.223   498  4604 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+10-13 06:07:18.224   498  4604 I MediaCodec: MediaCodec will operate in async mode
+10-13 06:07:18.224   498  4603 D MediaCodec: keep callback message for reclaim
+10-13 06:07:18.224   498  4604 W Codec2Client: query -- param skipped: index = 1342179345.
+10-13 06:07:18.224   498  4604 W Codec2Client: query -- param skipped: index = 2415921170.
+10-13 06:07:18.224   498  4604 D CCodecBufferChannel: [c2.android.vorbis.decoder#16] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+10-13 06:07:18.225   498  4604 I CCodecBufferChannel: [c2.android.vorbis.decoder#16] Created output block pool with allocatorID 16 => poolID 42 - OK
+10-13 06:07:18.225   498  4604 D CCodecBufferChannel: [c2.android.vorbis.decoder#16] Configured output block pool ids 42 => OK
+10-13 06:07:18.225   508   919 E Codec2-ComponentInterface: We have a failed config
+10-13 06:07:18.228   508  4605 D SimpleC2Component: Using output block pool with poolID 42 => got 42 - 0
+10-13 06:07:18.297   445   468 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+10-13 06:07:18.323   445   468 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+10-13 06:07:18.328   498  4602 D AudioTrack: getTimestamp_l(19): device stall time corrected using current time 155890351604
+10-13 06:07:18.376  3247  3247 W JobService: onNetworkChanged() not implemented in androidx.work.impl.background.systemjob.SystemJobService. Must override in a subclass.
+10-13 06:07:18.380   576   838 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:18.380   576   838 W IPCThreadState: Sending oneway calls to frozen process.
+10-13 06:07:18.385  1178  2333 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-13 06:07:18.385  1178  2333 W .gms.persistent: Large reply transaction of 1056768 bytes, interface descriptor , code 1
+10-13 06:07:18.387  3490  3565 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[4a0a0139-4dbc]>Handler" thread_id=64 ]
+10-13 06:07:18.387  3490  3529 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=55 ]
+10-13 06:07:18.816  4210  4236 D UiDevice: Pressing home button.
+10-13 06:07:18.846   921   921 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+10-13 06:07:18.847   576   596 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10180, packageName = null, attributionTag = null, token = android.os.Binder@6f7cfa6, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-13 06:07:18.857   921  1196 D KeyguardService: setOccluded(false)
+10-13 06:07:18.857   921  1196 D KeyguardViewMediator: setOccluded(false)
+10-13 06:07:18.857   921   921 D KeyguardViewMediator: handleSetOccluded(false)
+10-13 06:07:18.857   921   921 D KeyguardViewMediator: KeyguardViewMediator queue processing message: SET_OCCLUDED
+10-13 06:07:18.858  1211  1211 W SplitSelectStateCtor: Missing session instanceIds
+10-13 06:07:18.858  1211  1211 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+10-13 06:07:18.858  1211  1211 D OverviewCommandHelper: clearing pending commands - size: 0
+10-13 06:07:18.858  1211  1211 D StatsLog: LAUNCHER_ONRESUME
+10-13 06:07:18.860   576  1469 W AppSearchIcing: icing-search-engine.cc:321: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: AppSearch 0-state cache not available, fallback to AGA
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: java.util.concurrent.CompletionException: java.util.NoSuchElementException: No value present
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:308)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:323)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:684)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:486)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2138)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:67)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.lambda$onResult$0(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:144)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1.$r8$lambda$CEk3q8sDAQVhU3rQwVueB8FAj_M(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:1)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.app.appsearch.SearchSessionUtil$1$$ExternalSyntheticLambda0.run(go/retraceme 64eee9e9f568ff45978879ad2ff83146f2618ee8a88278736fbdf5fae931976e:22)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.handleCallback(Handler.java:959)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loopOnce(Looper.java:232)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.os.Looper.loop(Looper.java:317)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: Caused by: java.util.NoSuchElementException: No value present
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at java.util.Optional.get(Optional.java:143)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	at com.google.android.apps.nexuslauncher.allapps.E0.onResult(go/retraceme 31f9979659277bb965985aff1272c33e3c3c9e755b77166d20a2465454178f2c:28)
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: 	... 8 more
+10-13 06:07:18.862  1211  1914 D OneSearchSuggestProvider: Established or reuse existing binder channel authority=com.google.android.googlequicksearchbox
+10-13 06:07:18.882  1414  1764 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+10-13 06:07:18.882  1414  1764 I AiAiEcho: EchoTargets: 
+10-13 06:07:18.882  1414  1764 I AiAiEcho: Filtered by AiAi flag check: 
+10-13 06:07:18.882  1414  1764 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:18.882  1414  1764 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:  [CONTEXT ratelimit_period="10 SECONDS" ]
+10-13 06:07:18.882  1414  1764 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+10-13 06:07:18.882  1414  1764 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+10-13 06:07:18.883  1211  1254 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+10-13 06:07:18.884  1211  1211 D SsBaseTemplateCard: No text view can be set up
+10-13 06:07:18.884  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:18.884  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:18.884  1211  1211 D SsBaseTemplateCard: Passed-in item info is null
+10-13 06:07:18.884  1211  1211 I SsBaseTemplateCard: Secondary card pane is null
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: query= size=15
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=pokémon pokopia quality of life changes,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=pokémon pokopia quality of life changes searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 2eef9649-5560-4529-b881-d1bd4ea4358c
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=cyber attack french supermarkets,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=cyber attack french supermarkets searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 1b8701ab-c80b-41be-9d87-810f7e06e004
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=florida eastern diamondback rattlesnake gulf cove,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=florida eastern diamondback rattlesnake gulf cove searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: e1f04545-7913-476c-a223-d3836be34223
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=birkenstock utti lace leather variants,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=birkenstock utti lace leather variants searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 828d9297-a605-46f9-a677-2a18c42ed56b
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/png;base64,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
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,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,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=other mommy horror movie,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=other mommy horror movie searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 9379af1e-27ae-4366-a250-4999b73c8bb3
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=7up shirley temple,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=7up shirley temple searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: d0f05f64-8271-4ee9-86bc-c8342fe53018
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=democratic presidential candidates 2028,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=democratic presidential candidates 2028 searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 672e7635-d309-46b7-acca-d2c50fbd49e8
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=fast radio burst,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=fast radio burst searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 09a36d34-c140-4674-82bc-4d0baf368cc2
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=tropical storm rachel flooding las vegas,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=tropical storm rachel flooding las vegas searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: cc1c4115-2d33-423a-bebc-5c6a189fbc15
+10-13 06:07:18.901  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=daniel johnson storage unit burglary,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=daniel johnson storage unit burglary searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: f2509d5d-f8d7-47f8-8389-7dab15d7b46e
+10-13 06:07:18.902  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=apple iphone duo,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=apple iphone duo searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 3df3e8bc-6014-45b9-a116-fe01d6a86178
+10-13 06:07:18.902  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=below netflix rotten tomatoes,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=below netflix rotten tomatoes searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 1fcc6041-6899-4baa-ad94-8471fd4dbecc
+10-13 06:07:18.902  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=amazon dewalt tool discounts,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=amazon dewalt tool discounts searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: 7a76a310-857b-4eb7-9599-354db7fd6a46
+10-13 06:07:18.902  1211  1211 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=tiger attack yorkshire wildlife park,input_query=android.app.search.Query@319641,group_id=web156420,response_id=a730a4ee-1b1d-464b-bd87-fb188423fe88,support_query_builder=false,} searchAction=tiger attack yorkshire wildlife park searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=true,suggestion_action_rpc=2,}ParentID: null targetID: e17cd50a-5213-4f6c-9bf5-f3b90c4cd2b5
+10-13 06:07:18.917  1211  1529 D EGL_emulation: app_time_stats: avg=308.86ms min=85.47ms max=768.15ms count=4
+10-13 06:07:19.311   498  2265 D NuPlayerDriver: stop(0x7eedfbb95090)
+10-13 06:07:19.313  4210  4236 I InstrumentedTest: closeCollection: InstrumentedTest: End
+10-13 06:07:19.323  4210  4239 I Collection: Collection closed
+10-13 06:07:19.325  4210  4239 D Backend : Closing rust backend
+10-13 06:07:19.328  4210  4236 I TestRunner: finished: skipFromTheNotificationShowsTheSameCardsNextRound(com.ichi2.anki.notifystudy.NotifyStudyDeviceTest)
