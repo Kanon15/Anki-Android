@@ -1,0 +1,3 @@
+package: name='com.ichi2.anki.notifystudy' versionCode='22600104' versionName='2.26.0alpha4-notifystudy' platformBuildVersionName='17' platformBuildVersionCode='37' compileSdkVersion='37' compileSdkVersionCodename='17'
+install-location:'auto'
+minSdkVersion:'24'

@@ -1,0 +1,449 @@
+Fetching distribution (retrying 3 times, with an initial back off of 1000 ms).
+Downloading https://services.gradle.org/distributions/gradle-9.8.0-bin.zip
+..............10%..............20%...............30%..............40%...............50%..............60%...............70%..............80%...............90%..............100%
+
+Welcome to Gradle 9.8.0!
+
+Here are the highlights of this release:
+ - Java 27 support
+ - Maven mirror settings reuse
+ - Linked problem locations in build output
+
+For more details see https://docs.gradle.org/9.8.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Parallel Configuration Cache is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: :AnkiDroid:assembleFullRelease
+> Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :buildSrc:generateExternalPluginSpecBuilders
+> Task :buildSrc:extractPrecompiledScriptPluginPlugins
+> Task :buildSrc:generateScriptPluginAdapters
+> Task :buildSrc:pluginDescriptors
+> Task :buildSrc:processResources
+> Task :buildSrc:compilePluginsBlocks
+> Task :buildSrc:generatePrecompiledScriptPluginAccessors
+
+> Task :buildSrc:compileKotlin
+w: file:///home/runner/work/Anki-Android/Anki-Android/buildSrc/src/main/kotlin/com/ichi2/anki/gradle/AndroidLint.kt:20:13 'var textReport: Boolean' is deprecated. Lint reports are now always generated. Use SingleArtifact.LINT_TEXT_REPORT or SingleArtifact.AGGREGATED_LINT_TEXT_REPORT to consume lint report artifacts.
+
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+
+> Configure project :
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:236:16: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:239:22: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:241:28: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:243:25: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:244:31: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+w: file:///home/runner/work/Anki-Android/Anki-Android/build.gradle.kts:274:35: 'fun <T> ExtraPropertiesExtension.invoke(initialValue: T): InitialValueExtraPropertyDelegateProvider<T>' is deprecated. Use 'extra.set(name, value)' instead. See the Gradle 9.6 upgrading guide.
+
+> Configure project :anki-common
+WARNING: The option setting 'android.experimental.enableTestFixturesKotlinSupport=true' is experimental.
+The current default is 'false'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Configure project :AnkiDroid
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+Add android.sync.suppressAgpWarnings=DEPRECATED_DSL to the gradle.properties file to suppress this warning.
+
+> Task :anki-common:preBuild UP-TO-DATE
+> Task :anki-common:preReleaseBuild UP-TO-DATE
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :common:processResources NO-SOURCE
+> Task :api:preBuild UP-TO-DATE
+> Task :api:preReleaseBuild UP-TO-DATE
+> Task :AnkiDroid:installGitHook
+> Task :AnkiDroid:preBuild
+> Task :AnkiDroid:preFullReleaseBuild
+> Task :api:mergeReleaseJniLibFolders
+> Task :anki-common:mergeReleaseJniLibFolders
+> Task :AnkiDroid:mergeFullReleaseJniLibFolders
+> Task :compat:preBuild UP-TO-DATE
+> Task :compat:preReleaseBuild UP-TO-DATE
+> Task :anki-common:mergeReleaseNativeLibs NO-SOURCE
+> Task :api:mergeReleaseNativeLibs NO-SOURCE
+> Task :compat:mergeReleaseJniLibFolders
+> Task :compat:mergeReleaseNativeLibs NO-SOURCE
+> Task :api:copyReleaseJniLibsProjectOnly
+> Task :libanki:preBuild UP-TO-DATE
+> Task :libanki:preReleaseBuild UP-TO-DATE
+> Task :anki-common:copyReleaseJniLibsProjectOnly
+> Task :vbpd:preBuild UP-TO-DATE
+> Task :vbpd:preReleaseBuild UP-TO-DATE
+> Task :libanki:mergeReleaseJniLibFolders
+> Task :libanki:mergeReleaseNativeLibs NO-SOURCE
+> Task :libanki:copyReleaseJniLibsProjectOnly
+> Task :widgets:preBuild UP-TO-DATE
+> Task :widgets:preReleaseBuild UP-TO-DATE
+> Task :widgets:mergeReleaseJniLibFolders
+> Task :widgets:mergeReleaseNativeLibs NO-SOURCE
+> Task :widgets:copyReleaseJniLibsProjectOnly
+> Task :common:android:preBuild UP-TO-DATE
+> Task :common:android:preReleaseBuild UP-TO-DATE
+> Task :compat:copyReleaseJniLibsProjectOnly
+> Task :common:android:mergeReleaseJniLibFolders
+> Task :vbpd:mergeReleaseJniLibFolders
+> Task :anki-common:prepareReleaseArtProfile
+> Task :common:android:mergeReleaseNativeLibs NO-SOURCE
+> Task :api:prepareReleaseArtProfile
+> Task :vbpd:mergeReleaseNativeLibs NO-SOURCE
+> Task :common:android:copyReleaseJniLibsProjectOnly
+> Task :compat:prepareReleaseArtProfile
+> Task :libanki:prepareReleaseArtProfile
+> Task :vbpd:copyReleaseJniLibsProjectOnly
+> Task :vbpd:prepareReleaseArtProfile
+> Task :widgets:prepareReleaseArtProfile
+> Task :common:android:prepareReleaseArtProfile
+> Task :api:generateReleaseBuildConfig
+> Task :api:generateReleaseResources
+> Task :api:processReleaseNavigationResources
+> Task :api:packageReleaseResources
+> Task :api:parseReleaseLocalResources
+> Task :api:javaPreCompileRelease
+> Task :anki-common:generateReleaseResources
+> Task :api:generateReleaseRFile
+> Task :anki-common:packageReleaseResources
+> Task :anki-common:processReleaseNavigationResources
+> Task :anki-common:parseReleaseLocalResources
+> Task :anki-common:generateReleaseRFile
+> Task :compat:generateReleaseResources
+> Task :compat:packageReleaseResources
+> Task :compat:processReleaseNavigationResources
+> Task :compat:parseReleaseLocalResources
+> Task :compat:generateReleaseRFile
+> Task :compat:javaPreCompileRelease FROM-CACHE
+> Task :libanki:generateReleaseResources FROM-CACHE
+> Task :libanki:packageReleaseResources
+> Task :libanki:processReleaseNavigationResources FROM-CACHE
+> Task :libanki:parseReleaseLocalResources FROM-CACHE
+> Task :libanki:generateReleaseRFile
+> Task :libanki:javaPreCompileRelease FROM-CACHE
+> Task :common:android:generateReleaseResources
+> Task :AnkiDroid:mergeFullReleaseArtProfile
+> Task :common:android:packageReleaseResources
+> Task :common:android:processReleaseNavigationResources
+> Task :common:android:parseReleaseLocalResources
+> Task :common:android:generateReleaseRFile
+> Task :common:android:javaPreCompileRelease FROM-CACHE
+> Task :anki-common:javaPreCompileRelease FROM-CACHE
+> Task :widgets:dataBindingMergeDependencyArtifactsRelease
+> Task :widgets:generateReleaseResources
+> Task :widgets:packageReleaseResources
+> Task :widgets:processReleaseNavigationResources
+> Task :widgets:parseReleaseLocalResources
+> Task :widgets:dataBindingGenBaseClassesRelease
+> Task :widgets:generateReleaseRFile
+> Task :widgets:javaPreCompileRelease FROM-CACHE
+> Task :vbpd:dataBindingMergeDependencyArtifactsRelease
+> Task :vbpd:generateReleaseResources FROM-CACHE
+> Task :vbpd:packageReleaseResources
+> Task :vbpd:processReleaseNavigationResources FROM-CACHE
+> Task :vbpd:parseReleaseLocalResources FROM-CACHE
+> Task :vbpd:dataBindingGenBaseClassesRelease
+> Task :vbpd:generateReleaseRFile
+> Task :AnkiDroid:expandFullReleaseL8ArtProfileWildcards
+> Task :vbpd:javaPreCompileRelease FROM-CACHE
+> Task :AnkiDroid:checkFullReleaseDuplicateClasses
+> Task :AnkiDroid:compileFullReleaseAidl
+> Task :AnkiDroid:dataBindingMergeDependencyArtifactsFullRelease
+> Task :AnkiDroid:generateFullReleaseResValues
+> Task :AnkiDroid:generateFullReleaseResources
+> Task :api:compileReleaseKotlin
+> Task :vbpd:compileReleaseKotlin
+> Task :vbpd:compileReleaseJavaWithJavac NO-SOURCE
+> Task :vbpd:mergeReleaseGeneratedProguardFiles
+> Task :vbpd:exportReleaseConsumerProguardFiles
+> Task :common:compileKotlin
+> Task :common:compileJava NO-SOURCE
+> Task :common:classes UP-TO-DATE
+> Task :common:jar
+> Task :AnkiDroid:mergeFullReleaseNativeLibs
+
+> Task :AnkiDroid:stripFullReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, librsdroid.so. Run with --info option to learn more.
+
+> Task :AnkiDroid:extractFullReleaseNativeSymbolTables
+> Task :AnkiDroid:mergeFullReleaseNativeDebugMetadata NO-SOURCE
+> Task :api:compileReleaseJavaWithJavac
+> Task :api:mergeReleaseGeneratedProguardFiles
+> Task :api:exportReleaseConsumerProguardFiles
+> Task :compat:compileReleaseKotlin
+> Task :compat:compileReleaseJavaWithJavac NO-SOURCE
+> Task :compat:bundleLibCompileToJarRelease
+> Task :AnkiDroid:packageFullReleaseResources
+> Task :compat:mergeReleaseGeneratedProguardFiles
+> Task :compat:exportReleaseConsumerProguardFiles
+> Task :AnkiDroid:processFullReleaseNavigationResources
+> Task :AnkiDroid:parseFullReleaseLocalResources
+> Task :AnkiDroid:generateFullReleaseBuildConfig
+> Task :AnkiDroid:generateFullReleaseRFile
+> Task :api:bundleLibCompileToJarRelease
+> Task :vbpd:bundleLibCompileToJarRelease
+> Task :AnkiDroid:javaPreCompileFullRelease
+> Task :anki-common:mapReleaseSourceSetPaths
+> Task :anki-common:compileReleaseLibraryResources
+> Task :anki-common:writeReleaseAarMetadata
+> Task :api:writeReleaseAarMetadata
+> Task :compat:writeReleaseAarMetadata
+> Task :libanki:writeReleaseAarMetadata
+> Task :vbpd:writeReleaseAarMetadata
+> Task :widgets:writeReleaseAarMetadata
+> Task :common:android:writeReleaseAarMetadata
+> Task :common:android:compileReleaseKotlin
+> Task :common:android:compileReleaseJavaWithJavac NO-SOURCE
+> Task :common:android:bundleLibCompileToJarRelease
+> Task :common:android:mergeReleaseGeneratedProguardFiles
+> Task :common:android:exportReleaseConsumerProguardFiles
+> Task :AnkiDroid:checkFullReleaseAarMetadata
+> Task :AnkiDroid:mapFullReleaseSourceSetPaths
+> Task :AnkiDroid:createFullReleaseCompatibleScreenManifests
+> Task :AnkiDroid:compileFullReleaseNavigationResources
+> Task :anki-common:extractDeepLinksRelease
+> Task :AnkiDroid:extractDeepLinksFullRelease
+> Task :api:extractDeepLinksRelease FROM-CACHE
+> Task :api:processReleaseManifest
+> Task :anki-common:processReleaseManifest
+> Task :compat:extractDeepLinksRelease FROM-CACHE
+> Task :libanki:extractDeepLinksRelease FROM-CACHE
+> Task :compat:processReleaseManifest
+> Task :vbpd:extractDeepLinksRelease FROM-CACHE
+> Task :libanki:processReleaseManifest
+> Task :widgets:extractDeepLinksRelease FROM-CACHE
+> Task :vbpd:processReleaseManifest
+> Task :common:android:extractDeepLinksRelease FROM-CACHE
+> Task :common:android:processReleaseManifest
+> Task :widgets:processReleaseManifest
+> Task :api:mapReleaseSourceSetPaths
+> Task :api:compileReleaseLibraryResources
+> Task :compat:mapReleaseSourceSetPaths
+> Task :compat:compileReleaseLibraryResources
+> Task :libanki:mapReleaseSourceSetPaths
+> Task :libanki:compileReleaseLibraryResources FROM-CACHE
+> Task :vbpd:mapReleaseSourceSetPaths
+> Task :vbpd:compileReleaseLibraryResources FROM-CACHE
+> Task :widgets:mapReleaseSourceSetPaths
+> Task :widgets:compileReleaseLibraryResources
+> Task :common:android:mapReleaseSourceSetPaths
+> Task :common:android:compileReleaseLibraryResources
+> Task :api:bundleLibRuntimeToJarRelease
+> Task :compat:bundleLibRuntimeToJarRelease
+> Task :vbpd:bundleLibRuntimeToJarRelease
+> Task :common:android:bundleLibRuntimeToJarRelease
+> Task :AnkiDroid:extractProguardFiles
+> Task :api:processReleaseJavaRes
+> Task :compat:processReleaseJavaRes
+> Task :vbpd:processReleaseJavaRes
+> Task :common:android:processReleaseJavaRes
+> Task :AnkiDroid:mergeFullReleaseStartupProfile
+> Task :anki-common:generateReleaseAssets UP-TO-DATE
+> Task :anki-common:mergeReleaseAssets
+> Task :AnkiDroid:generateFullReleaseAssets UP-TO-DATE
+> Task :api:generateReleaseAssets UP-TO-DATE
+> Task :api:mergeReleaseAssets
+> Task :compat:generateReleaseAssets UP-TO-DATE
+> Task :compat:mergeReleaseAssets
+> Task :libanki:generateReleaseAssets UP-TO-DATE
+> Task :libanki:mergeReleaseAssets
+> Task :vbpd:generateReleaseAssets UP-TO-DATE
+> Task :vbpd:mergeReleaseAssets
+> Task :widgets:generateReleaseAssets UP-TO-DATE
+> Task :widgets:mergeReleaseAssets
+> Task :common:android:generateReleaseAssets UP-TO-DATE
+> Task :common:android:mergeReleaseAssets
+
+> Task :AnkiDroid:processFullReleaseMainManifest
+/home/runner/work/Anki-Android/Anki-Android/AnkiDroid/src/main/AndroidManifest.xml Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :AnkiDroid:processFullReleaseManifest
+> Task :AnkiDroid:processFullReleaseManifestForPackage
+> Task :AnkiDroid:mergeFullReleaseAssets
+> Task :AnkiDroid:extractFullReleaseVersionControlInfo
+> Task :anki-common:extractProguardFiles
+> Task :common:generateJvmMainLintModel
+> Task :compat:createFullJarRelease
+> Task :compat:extractProguardFiles
+> Task :compat:generateReleaseLintModel
+> Task :AnkiDroid:compressFullReleaseAssets
+> Task :compat:prepareLintJarForPublish
+> Task :libanki:extractProguardFiles
+> Task :libanki:prepareLintJarForPublish
+> Task :common:android:createFullJarRelease
+> Task :common:android:prepareLintJarForPublish
+> Task :common:android:extractProguardFiles
+> Task :common:android:checkReleaseAarMetadata
+> Task :common:android:extractDeepLinksForAarRelease
+> Task :common:android:generateReleaseLintModel
+> Task :common:android:mergeReleaseConsumerProguardFiles
+> Task :common:android:mergeReleaseJavaResource
+> Task :AnkiDroid:mergeFullReleaseResources
+> Task :libanki:checkReleaseAarMetadata
+> Task :AnkiDroid:dataBindingGenBaseClassesFullRelease
+> Task :libanki:extractDeepLinksForAarRelease FROM-CACHE
+> Task :libanki:compileReleaseKotlin
+> Task :libanki:compileReleaseJavaWithJavac NO-SOURCE
+> Task :libanki:bundleLibCompileToJarRelease
+> Task :common:android:extractReleaseAnnotations
+> Task :libanki:mergeReleaseGeneratedProguardFiles
+> Task :libanki:exportReleaseConsumerProguardFiles
+> Task :libanki:bundleLibRuntimeToJarRelease
+> Task :libanki:processReleaseJavaRes
+> Task :libanki:createFullJarRelease
+> Task :libanki:generateReleaseLintModel
+> Task :common:android:syncReleaseLibJars
+> Task :common:android:bundleReleaseLocalLintAar
+> Task :libanki:mergeReleaseConsumerProguardFiles
+> Task :libanki:mergeReleaseJavaResource
+> Task :compat:checkReleaseAarMetadata
+> Task :compat:extractDeepLinksForAarRelease FROM-CACHE
+> Task :AnkiDroid:processFullReleaseResources
+> Task :compat:mergeReleaseConsumerProguardFiles
+> Task :compat:mergeReleaseJavaResource
+> Task :common:writeJvmLintModelMetadata
+> Task :compat:writeReleaseLintModelMetadata
+> Task :libanki:writeReleaseLintModelMetadata
+> Task :lint-rules:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :compat:extractReleaseAnnotations
+> Task :compat:syncReleaseLibJars
+> Task :compat:bundleReleaseLocalLintAar
+> Task :lint-rules:processResources
+> Task :common:android:writeReleaseLintModelMetadata
+> Task :anki-common:compileReleaseKotlin
+> Task :anki-common:compileReleaseJavaWithJavac NO-SOURCE
+> Task :anki-common:prepareLintJarForPublish
+> Task :anki-common:mergeReleaseGeneratedProguardFiles
+> Task :anki-common:bundleLibCompileToJarRelease
+> Task :anki-common:exportReleaseConsumerProguardFiles
+> Task :anki-common:bundleLibRuntimeToJarRelease
+> Task :anki-common:processReleaseJavaRes
+> Task :widgets:compileReleaseKotlin
+> Task :anki-common:generateReleaseLintVitalModel
+> Task :widgets:processReleaseJavaRes
+> Task :anki-common:createFullJarRelease
+> Task :anki-common:generateReleaseLintModel
+> Task :api:createFullJarRelease
+> Task :api:extractProguardFiles
+> Task :api:generateReleaseLintModel
+> Task :api:prepareLintJarForPublish
+> Task :vbpd:createFullJarRelease
+> Task :vbpd:extractProguardFiles
+> Task :widgets:compileReleaseJavaWithJavac
+> Task :widgets:mergeReleaseGeneratedProguardFiles
+> Task :widgets:exportReleaseConsumerProguardFiles
+> Task :widgets:bundleLibCompileToJarRelease
+> Task :vbpd:generateReleaseLintModel
+> Task :widgets:bundleLibRuntimeToJarRelease
+> Task :vbpd:prepareLintJarForPublish
+> Task :widgets:createFullJarRelease
+> Task :widgets:extractProguardFiles
+> Task :widgets:generateReleaseLintModel
+> Task :widgets:prepareLintJarForPublish
+> Task :api:checkReleaseAarMetadata
+> Task :api:extractDeepLinksForAarRelease FROM-CACHE
+> Task :api:extractReleaseAnnotations
+> Task :api:mergeReleaseConsumerProguardFiles
+> Task :api:mergeReleaseJavaResource
+> Task :api:syncReleaseLibJars
+> Task :api:bundleReleaseLocalLintAar
+> Task :widgets:checkReleaseAarMetadata
+> Task :widgets:extractDeepLinksForAarRelease FROM-CACHE
+> Task :widgets:extractReleaseAnnotations
+> Task :widgets:mergeReleaseConsumerProguardFiles
+> Task :widgets:mergeReleaseJavaResource
+> Task :widgets:syncReleaseLibJars
+> Task :widgets:bundleReleaseLocalLintAar
+> Task :anki-common:checkReleaseAarMetadata
+> Task :anki-common:extractDeepLinksForAarRelease FROM-CACHE
+> Task :libanki:extractReleaseAnnotations
+> Task :libanki:syncReleaseLibJars
+> Task :libanki:bundleReleaseLocalLintAar
+> Task :anki-common:mergeReleaseConsumerProguardFiles
+> Task :anki-common:mergeReleaseJavaResource
+> Task :anki-common:extractReleaseAnnotations
+> Task :anki-common:syncReleaseLibJars
+> Task :anki-common:bundleReleaseLocalLintAar
+> Task :vbpd:extractDeepLinksForAarRelease FROM-CACHE
+> Task :vbpd:extractReleaseAnnotations
+> Task :vbpd:mergeReleaseConsumerProguardFiles
+> Task :vbpd:checkReleaseAarMetadata
+> Task :anki-common:writeReleaseLintModelMetadata
+> Task :api:writeReleaseLintModelMetadata
+> Task :vbpd:mergeReleaseJavaResource
+> Task :vbpd:syncReleaseLibJars
+> Task :vbpd:bundleReleaseLocalLintAar
+> Task :vbpd:writeReleaseLintModelMetadata
+> Task :widgets:writeReleaseLintModelMetadata
+> Task :api:generateReleaseLintVitalModel
+> Task :common:generateLintVitalJvmMainLintModel
+> Task :compat:generateReleaseLintVitalModel
+> Task :libanki:generateReleaseLintVitalModel
+> Task :vbpd:generateReleaseLintVitalModel
+> Task :widgets:generateReleaseLintVitalModel
+> Task :common:android:generateReleaseLintVitalModel
+> Task :lint-rules:compileKotlin
+> Task :lint-rules:compileJava NO-SOURCE
+> Task :lint-rules:classes
+> Task :lint-rules:jar
+> Task :AnkiDroid:optimizeFullReleaseResources
+> Task :vbpd:lintVitalAnalyzeRelease
+> Task :api:lintVitalAnalyzeRelease
+> Task :AnkiDroid:compileFullReleaseKotlin
+> Task :common:lintVitalAnalyzeJvmMain
+> Task :anki-common:lintVitalAnalyzeRelease
+> Task :compat:lintVitalAnalyzeRelease
+> Task :widgets:lintVitalAnalyzeRelease
+> Task :AnkiDroid:collectFullReleaseDependencies
+> Task :AnkiDroid:sdkFullReleaseDependencyData
+> Task :AnkiDroid:validateSigningFullRelease
+> Task :AnkiDroid:writeFullReleaseAppMetadata
+> Task :AnkiDroid:writeFullReleaseSigningConfigVersions
+> Task :common:android:lintVitalAnalyzeRelease
+> Task :libanki:lintVitalAnalyzeRelease
+
+> Task :AnkiDroid:compileFullReleaseJavaWithJavac
+Note: /home/runner/work/Anki-Android/Anki-Android/AnkiDroid/build/generated/aidl_source_output_dir/fullRelease/out/android/content/pm/IPackageStatsObserver.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :AnkiDroid:mergeFullReleaseGeneratedProguardFiles
+> Task :AnkiDroid:processFullReleaseJavaRes
+> Task :AnkiDroid:generateFullReleaseLintVitalReportModel
+> Task :AnkiDroid:expandFullReleaseArtProfileWildcards
+> Task :AnkiDroid:mergeFullReleaseJavaResource
+> Task :AnkiDroid:produceFullReleaseComposeMapping
+> Task :AnkiDroid:reportFullReleaseComposeMappingErrors
+> Task :AnkiDroid:lintVitalAnalyzeFullRelease
+> Task :AnkiDroid:minifyFullReleaseWithR8
+> Task :AnkiDroid:l8DexDesugarLibFullRelease
+> Task :AnkiDroid:mergeFullReleaseComposeMapping
+> Task :AnkiDroid:compileFullReleaseArtProfile
+> Task :AnkiDroid:lintVitalReportFullRelease
+> Task :AnkiDroid:lintVitalFullRelease
+> Task :AnkiDroid:packageFullRelease
+> Task :AnkiDroid:assembleFullRelease
+> Task :AnkiDroid:createFullReleaseApkListingFileRedirect
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__nick-fields_retry-1791870996999.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/Anki-Android/Anki-Android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 12m 11s
+328 actionable tasks: 302 executed, 26 from cache
+Configuration cache entry stored.
