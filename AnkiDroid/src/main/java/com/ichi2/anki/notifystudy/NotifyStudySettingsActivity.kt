@@ -15,6 +15,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
@@ -87,8 +88,22 @@ class NotifyStudySettingsActivity : AnkiActivity(R.layout.activity_notify_study_
         val counts = (NotifyStudyPrefs.MIN_CARDS..NotifyStudyPrefs.MAX_CARDS).toList()
         binding.count.setChoices(
             counts.map { getString(R.string.notify_study_count_value, it) },
-            counts.indexOf(prefs.cardsPerRound),
-        ) { index -> prefs.cardsPerRound = counts[index] }
+            counts.indexOf(prefs.cardCount),
+        ) { index -> prefs.cardCount = counts[index] }
+
+        binding.countModeGroup.check(
+            when (prefs.countMode) {
+                CountMode.PER_DECK -> R.id.count_mode_per_deck
+                CountMode.TOTAL -> R.id.count_mode_total
+            },
+        )
+        binding.countModeGroup.setOnCheckedChangeListener { _, checkedId ->
+            prefs.countMode = if (checkedId == R.id.count_mode_per_deck) CountMode.PER_DECK else CountMode.TOTAL
+            updateCountLabel()
+        }
+        updateCountLabel()
+
+        binding.deck.setOnClickListener { showDeckSelection() }
 
         binding.showNow.setOnClickListener { showNow() }
         binding.batteryOptimization.setOnClickListener { requestIgnoreBatteryOptimizations() }
@@ -146,12 +161,54 @@ class NotifyStudySettingsActivity : AnkiActivity(R.layout.activity_notify_study_
                     binding.collectionWarning.isVisible = true
                     emptyList()
                 }
-            val labels = listOf(getString(R.string.notify_study_deck_current)) + decks.map { it.second }
-            val ids = listOf(NotifyStudyPrefs.CURRENT_DECK) + decks.map { it.first }
-            binding.deck.setChoices(labels, ids.indexOf(prefs.deckId).coerceAtLeast(0)) { index ->
-                prefs.deckId = ids[index]
-            }
+            updateDeckSummary()
         }
+    }
+
+    /** Selects several decks. Selecting none uses the deck currently selected in AnkiDroid. */
+    private fun showDeckSelection() {
+        if (decks.isEmpty()) return
+        val selected = prefs.deckIds.toMutableSet()
+        val checked = decks.map { it.first in selected }.toBooleanArray()
+        AlertDialog
+            .Builder(this)
+            .setTitle(R.string.notify_study_deck)
+            .setMultiChoiceItems(decks.map { it.second }.toTypedArray(), checked) { _, which, isChecked ->
+                checked[which] = isChecked
+            }.setPositiveButton(android.R.string.ok) { _, _ ->
+                prefs.deckIds = decks.filterIndexed { index, _ -> checked[index] }.map { it.first }
+                updateDeckSummary()
+            }.setNeutralButton(R.string.notify_study_deck_current) { _, _ ->
+                prefs.deckIds = emptyList()
+                updateDeckSummary()
+            }.setNegativeButton(android.R.string.cancel, null)
+            .show()
+    }
+
+    private fun updateDeckSummary() {
+        val names = decks.toMap()
+        val selected = prefs.deckIds.mapNotNull { names[it] }
+        binding.deck.text =
+            when {
+                selected.isEmpty() -> getString(R.string.notify_study_deck_current)
+                selected.size == 1 -> selected.single()
+                else -> getString(R.string.notify_study_deck_count, selected.size, selected.joinToString(", "))
+            }
+        binding.countModeGroup.isVisible = selected.size > 1
+        updateCountLabel()
+    }
+
+    private fun updateCountLabel() {
+        val multipleDecks = prefs.deckIds.size > 1
+        binding.countLabel.setText(
+            if (multipleDecks &&
+                prefs.countMode == CountMode.PER_DECK
+            ) {
+                R.string.notify_study_count_per_deck
+            } else {
+                R.string.notify_study_count
+            },
+        )
     }
 
     private fun updateStatus() {

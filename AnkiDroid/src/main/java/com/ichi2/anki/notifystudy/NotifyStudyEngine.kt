@@ -12,6 +12,10 @@ import anki.scheduler.SchedulingStates
 import anki.scheduler.cardAnswer
 import com.ichi2.anki.CollectionManager.withCol
 import com.ichi2.anki.NOTIFICATION_MIN_DELAY
+import com.ichi2.anki.cardviewer.AndroidCardRenderContext
+import com.ichi2.anki.cardviewer.SingleCardSide
+import com.ichi2.anki.cardviewer.TypeAnswer
+import com.ichi2.anki.common.preferences.sharedPrefs
 import com.ichi2.anki.common.time.TimeManager
 import com.ichi2.anki.libanki.Card
 import com.ichi2.anki.libanki.CardId
@@ -41,14 +45,15 @@ data class RevealedCard(
     val intervals: List<String>,
 )
 
-/** The card HTML, for the practice pad */
+/**
+ * The card pages for the practice pad, rendered like the reviewer renders them:
+ * AnkiDroid's card template and stylesheets, theme classes (night mode), card CSS, media.
+ */
 data class CardHtml(
     val cardId: CardId,
     val deckName: String,
-    val questionHtml: String,
-    val answerHtml: String,
-    val css: String,
-    val ord: Int,
+    val questionPage: String,
+    val answerPage: String,
     val mediaDir: String,
 )
 
@@ -105,16 +110,21 @@ object NotifyStudyEngine {
                 return@withLock RoundResult.NOTIFICATIONS_BLOCKED
             }
 
-            val limit = prefs.cardsPerRound
             val previous = prefs.pending
-            val cards =
+            val planned =
                 try {
                     withCol {
-                        val stillPending = previous.filter { isStillPending(it) }.map { it.cardId }
-                        val queue = queuedCardIds(prefs.deckId, fetchLimit = limit + stillPending.size)
+                        val stillPending =
+                            previous
+                                .filter { isStillPending(it) }
+                                .map { PlannedCard(it.cardId, it.sourceDeckId) }
+                        val decks = selectedDecks(prefs.deckIds)
+                        // enough to replace carried over cards, and cards found in several decks
+                        val fetchLimit = (prefs.cardCount + stillPending.size + NotifyStudyPrefs.MAX_NOTIFICATIONS).coerceAtMost(100)
+                        val queues = queuedCardIds(decks, fetchLimit)
                         RoundPlanner
-                            .plan(stillPending, queue, limit)
-                            .mapNotNull { cid -> runCatching { studyCard(getCard(cid)) }.getOrNull() }
+                            .plan(stillPending, queues, prefs.countMode, prefs.cardCount)
+                            .mapNotNull { planned -> runCatching { studyCard(getCard(planned.cardId)) to planned }.getOrNull() }
                     }
                 } catch (e: CancellationException) {
                     throw e
@@ -122,6 +132,7 @@ object NotifyStudyEngine {
                     Timber.w(e, "notify study: failed to build round")
                     return@withLock RoundResult.FAILED
                 }
+            val cards = planned.map { it.first }
 
             val now = TimeManager.time.intTimeMS()
             val newIds = cards.map { it.cardId }.toSet()
@@ -131,9 +142,9 @@ object NotifyStudyEngine {
             // cards which are still on screen keep their original time, so 'time taken' stays meaningful
             val shownAt = previous.associate { it.cardId to it.shownAtMs }
             prefs.pending =
-                cards.map { card ->
+                planned.map { (card, plan) ->
                     val keepTime = shownAt[card.cardId]?.takeIf { isOnScreen(context, card.cardId) }
-                    PendingCard(card.cardId, card.reps, keepTime ?: now)
+                    PendingCard(card.cardId, card.reps, keepTime ?: now, plan.sourceDeckId)
                 }
 
             cards.forEachIndexed { index, card ->
@@ -251,17 +262,26 @@ object NotifyStudyEngine {
             prefs.pending = emptyList()
         }
 
-    suspend fun cardHtml(cardId: CardId): CardHtml =
+    /**
+     * @param context a themed context: the page follows the current day/night theme
+     */
+    suspend fun cardHtml(
+        context: Context,
+        cardId: CardId,
+    ): CardHtml =
         withCol {
             val card = getCard(cardId)
-            val output = card.renderOutput(this, reload = true)
+            val renderer =
+                AndroidCardRenderContext.createInstance(
+                    context,
+                    this,
+                    TypeAnswer.createInstance(context.sharedPrefs()),
+                )
             CardHtml(
                 cardId = cardId,
                 deckName = deckName(card),
-                questionHtml = output.questionText,
-                answerHtml = output.answerText,
-                css = output.css,
-                ord = card.ord,
+                questionPage = renderer.renderCard(this, card, SingleCardSide.FRONT).html,
+                answerPage = renderer.renderCard(this, card, SingleCardSide.BACK).html,
                 mediaDir = media.dir.absolutePath,
             )
         }
@@ -306,22 +326,40 @@ object NotifyStudyEngine {
         db.execute("update cards set mod = mod where id = ?", cardId)
     }
 
+    /** The selected decks which still exist, or [NotifyStudyPrefs.CURRENT_DECK] if there are none */
+    private fun Collection.selectedDecks(deckIds: List<DeckId>): List<DeckId> =
+        deckIds
+            .filter { decks.get(it, default = false) != null }
+            .ifEmpty { listOf(NotifyStudyPrefs.CURRENT_DECK) }
+
+    /**
+     * The top of the study queue of each deck, in the order the reviewer would show them
+     * (including daily limits, learning cards and subdecks).
+     *
+     * The backend only builds the queue of the current deck, so each deck is selected in turn,
+     * then the user's deck is selected again.
+     */
     @VisibleForTesting
     internal fun Collection.queuedCardIds(
-        deckId: DeckId,
+        deckIds: List<DeckId>,
         fetchLimit: Int,
-    ): List<CardId> {
+    ): Map<DeckId, List<CardId>> {
         val previous = decks.selected()
-        val switch = deckId != NotifyStudyPrefs.CURRENT_DECK && deckId != previous && decks.get(deckId, default = false) != null
-        if (switch) decks.select(deckId)
+        val result = LinkedHashMap<DeckId, List<CardId>>()
         try {
-            return backend
-                .getQueuedCards(fetchLimit = fetchLimit, intradayLearningOnly = false)
-                .cardsList
-                .map { it.card.id }
+            for (deckId in deckIds) {
+                val target = if (deckId == NotifyStudyPrefs.CURRENT_DECK) previous else deckId
+                if (decks.selected() != target) decks.select(target)
+                result[deckId] =
+                    backend
+                        .getQueuedCards(fetchLimit = fetchLimit, intradayLearningOnly = false)
+                        .cardsList
+                        .map { it.card.id }
+            }
         } finally {
-            if (switch) decks.select(previous)
+            if (decks.selected() != previous) decks.select(previous)
         }
+        return result
     }
 
     private fun Collection.deckName(card: Card): String = Decks.basename(decks.name(card.currentDeckId()))

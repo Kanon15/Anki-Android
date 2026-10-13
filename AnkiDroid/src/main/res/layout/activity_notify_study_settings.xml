@@ -61,23 +61,52 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/notify_study_deck"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <Button
+            android:id="@+id/deck"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:gravity="start|center_vertical"
+            android:maxLines="2"
+            android:text="@string/notify_study_deck_current" />
+
+        <RadioGroup
+            android:id="@+id/count_mode_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/count_mode_per_deck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/notify_study_count_mode_per_deck" />
+
+            <RadioButton
+                android:id="@+id/count_mode_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/notify_study_count_mode_total" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/count_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/notify_study_count"
             android:textAppearance="?attr/textAppearanceLabelLarge" />
 
         <Spinner
             android:id="@+id/count"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginBottom="16dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/notify_study_deck"
-            android:textAppearance="?attr/textAppearanceLabelLarge" />
-
-        <Spinner
-            android:id="@+id/deck"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp" />

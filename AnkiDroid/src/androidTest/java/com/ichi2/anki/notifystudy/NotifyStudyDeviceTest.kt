@@ -64,8 +64,9 @@ class NotifyStudyDeviceTest : InstrumentedTest() {
         prefs.apply {
             enabled = true
             intervalMinutes = 60
-            cardsPerRound = 2
-            this.deckId = this@NotifyStudyDeviceTest.deckId
+            cardCount = 2
+            countMode = CountMode.TOTAL
+            deckIds = listOf(this@NotifyStudyDeviceTest.deckId)
             pending = emptyList()
         }
         File(SCREENSHOT_DIR).mkdirs()

@@ -6,7 +6,9 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.webkit.WebResourceRequest
 import android.webkit.WebView
+import android.webkit.WebViewClient
 import androidx.core.net.toUri
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -21,9 +23,7 @@ import com.ichi2.anki.common.time.TimeManager
 import com.ichi2.anki.common.utils.android.showThemedToast
 import com.ichi2.anki.databinding.ActivityPracticePadBinding
 import com.ichi2.anki.libanki.CardId
-import com.ichi2.anki.settings.enums.NightTheme
 import com.ichi2.anki.ui.windows.reviewer.whiteboard.WhiteboardFragment
-import com.ichi2.themes.Themes.currentTheme
 import dev.androidbroadcast.vbpd.viewBinding
 import kotlinx.coroutines.launch
 import timber.log.Timber
@@ -82,7 +82,7 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
         lifecycleScope.launch {
             card =
                 try {
-                    NotifyStudyEngine.cardHtml(cardId)
+                    NotifyStudyEngine.cardHtml(this@PracticePadActivity, cardId)
                 } catch (e: Exception) {
                     Timber.w(e, "notify study: failed to load card %d", cardId)
                     showThemedToast(this@PracticePadActivity, R.string.notify_study_card_missing, false)
@@ -118,6 +118,25 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
             displayZoomControls = false
         }
         webView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
+        webView.webViewClient =
+            object : WebViewClient() {
+                override fun onPageFinished(
+                    view: WebView,
+                    url: String?,
+                ) {
+                    // like the reviewer: resizes images and renders MathJax (content stays hidden until then)
+                    view.loadUrl("javascript:onPageFinished();")
+                }
+
+                override fun shouldOverrideUrlLoading(
+                    view: WebView,
+                    request: WebResourceRequest,
+                ): Boolean {
+                    // the card template signals the reviewer through URLs ("signal:show_answer", ...),
+                    // which the practice pad handles with its own buttons: only allow local pages
+                    return request.url.scheme != "file"
+                }
+            }
     }
 
     private fun render() {
@@ -125,33 +144,17 @@ class PracticePadActivity : AnkiActivity(R.layout.activity_practice_pad) {
         binding.title.text = getString(R.string.notify_study_practice_title, card.deckName)
         binding.revealRow.isVisible = !answerShown
         binding.answerRow.isVisible = answerShown
-        val body = if (answerShown) card.answerHtml else card.questionHtml
+        val page = if (answerShown) card.answerPage else card.questionPage
         binding.cardView.loadDataWithBaseURL(
             java.io
                 .File(card.mediaDir)
                 .toUri()
                 .toString() + "/",
-            buildPage(card, body),
+            page,
             "text/html",
             "utf-8",
             null,
         )
-    }
-
-    private fun buildPage(
-        card: CardHtml,
-        body: String,
-    ): String {
-        val night = currentTheme is NightTheme
-        val classes = "card card${card.ord + 1}" + if (night) " night_mode nightMode" else ""
-        val baseColors = if (night) "background:transparent;color:#e8e8e8;" else "background:transparent;color:#111;"
-        return """
-            <!doctype html><html><head><meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <style>body{margin:12px;$baseColors} img{max-width:100%;height:auto}</style>
-            <style>${card.css}</style>
-            </head><body class="$classes">$body</body></html>
-            """.trimIndent()
     }
 
     private fun answer(rating: Rating) {

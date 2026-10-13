@@ -40,8 +40,9 @@ class NotifyStudyEngineTest : RobolectricTest() {
         notificationManager.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_ALL)
         prefs.apply {
             enabled = true
-            cardsPerRound = 2
-            deckId = NotifyStudyPrefs.CURRENT_DECK
+            cardCount = 2
+            countMode = CountMode.TOTAL
+            deckIds = emptyList()
             pending = emptyList()
         }
     }
@@ -270,13 +271,87 @@ class NotifyStudyEngineTest : RobolectricTest() {
         runTest {
             val selected = addDeck("Selected", setAsSelected = true).withNotes(count = 2)
             val other = addDeck("Other").withNotes(count = 2)
-            prefs.deckId = other
+            prefs.deckIds = listOf(other)
 
             NotifyStudyEngine.runRound(targetContext)
 
             val decks = shownCards().map { col.getCard(it).did }
             assertThat(decks, equalTo(listOf(other, other)))
             assertThat(col.decks.selected(), equalTo(selected))
+        }
+
+    @Test
+    fun `several decks - per deck count`() =
+        runTest {
+            val selected = addDeck("Selected", setAsSelected = true).withNotes(count = 1)
+            val first = addDeck("First").withNotes(count = 4)
+            val second = addDeck("Second").withNotes(count = 4)
+            val third = addDeck("Third").withNotes(count = 1)
+            prefs.deckIds = listOf(first, second, third)
+            prefs.countMode = CountMode.PER_DECK
+            prefs.cardCount = 2
+
+            NotifyStudyEngine.runRound(targetContext)
+
+            val decks = shownCards().map { col.getCard(it).did }
+            assertThat(decks.count { it == first }, equalTo(2))
+            assertThat(decks.count { it == second }, equalTo(2))
+            assertThat(decks.count { it == third }, equalTo(1))
+            assertThat(decks, hasSize(5))
+            assertThat("user's deck is unchanged", col.decks.selected(), equalTo(selected))
+        }
+
+    @Test
+    fun `several decks - total count shared between the decks`() =
+        runTest {
+            addDeck("Selected", setAsSelected = true).withNotes(count = 1)
+            val first = addDeck("First").withNotes(count = 4)
+            val second = addDeck("Second").withNotes(count = 4)
+            prefs.deckIds = listOf(first, second)
+            prefs.countMode = CountMode.TOTAL
+            prefs.cardCount = 3
+
+            NotifyStudyEngine.runRound(targetContext)
+
+            val decks = shownCards().map { col.getCard(it).did }
+            assertThat(decks, hasSize(3))
+            assertThat(decks.count { it == first }, equalTo(2))
+            assertThat(decks.count { it == second }, equalTo(1))
+        }
+
+    @Test
+    fun `several decks - unanswered cards are carried over per deck without piling up`() =
+        runTest {
+            addDeck("Selected", setAsSelected = true)
+            val first = addDeck("First").withNotes(count = 4)
+            val second = addDeck("Second").withNotes(count = 4)
+            prefs.deckIds = listOf(first, second)
+            prefs.countMode = CountMode.PER_DECK
+            prefs.cardCount = 2
+            NotifyStudyEngine.runRound(targetContext)
+            val firstRound = shownCards()
+            val answered = firstRound.first { col.getCard(it).did == first }
+
+            NotifyStudyEngine.answer(targetContext, answered, Rating.EASY)
+            NotifyStudyEngine.runRound(targetContext)
+
+            val second2 = shownCards()
+            assertThat(second2, hasSize(4))
+            assertThat("unanswered cards shown again", second2.containsAll(firstRound - answered), equalTo(true))
+            assertThat(second2.count { col.getCard(it).did == first }, equalTo(2))
+            assertThat(second2.count { col.getCard(it).did == second }, equalTo(2))
+        }
+
+    @Test
+    fun `a deleted deck falls back to the current deck`() =
+        runTest {
+            addDeck("Selected", setAsSelected = true).withNotes(count = 2)
+            val removed = addDeck("Removed").withNotes(count = 2)
+            prefs.deckIds = listOf(removed)
+            col.decks.remove(listOf(removed))
+
+            assertThat(NotifyStudyEngine.runRound(targetContext), equalTo(RoundResult.SHOWN))
+            assertThat(shownCards(), hasSize(2))
         }
 
     @Test
